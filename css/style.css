@@ -95,7 +95,7 @@ button{font:inherit}
   .nav a{padding:18px;border-bottom:1px solid var(--line)}
   .menu-toggle{display:block}
   .home{min-height:640px}
-  .home::before{background-size:auto 10%;background-position:center;transform:scale(1)}
+  .home::before{background-size:auto 100%;background-position:center;transform:scale(1)}
   .home::after{background:radial-gradient(circle at 50% 32%,rgba(184,246,216,.20) 0 5%,rgba(127,211,170,.08) 6% 13%,transparent 22%),radial-gradient(circle at 50% 56%,transparent 0 30%,rgba(0,0,0,.10) 46%,rgba(0,0,0,.62) 100%)}
   .view-btn{left:50%;transform:translateX(-50%);top:auto;bottom:105px;white-space:nowrap}
   .view-btn:hover{transform:translateX(-50%) translateY(-2px)}
