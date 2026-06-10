@@ -706,7 +706,8 @@ button{font:inherit}
 .brand-zh{
   display:block !important;
   font-size:30px !important;
-  font-weight:500 !important;
+  font-weight:700 !important;
+  transform:scaleY(0.8);
   letter-spacing:.05em !important;
   color:var(--green) !important;
 }
