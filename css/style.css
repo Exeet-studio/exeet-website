@@ -10,3 +10,7 @@
   background-repeat:no-repeat;
   filter:saturate(.96) contrast(1.02);
 }
+.view-btn::before,
+.view-btn::after{
+  content:none !important;
+  display:none !important;
