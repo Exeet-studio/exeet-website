@@ -695,36 +695,14 @@ button{font:inherit}
   }
 }
 /* EXEET LOGO */
-
-.brand{
-  display:flex;
-  flex-direction:column;
-  align-items:flex-start;
-  line-height:1;
-}
-
-.brand-zh{
-  font-size:30px;
-  font-weight:700;
-  letter-spacing:.08em;
-  color:var(--green);
-}
-
 .brand-en{
-  margin-top:3px;
-  font-size:11px;
-  letter-spacing:.45em;
+  margin-top:8px;
+
+  font-size:10px;
+
+  letter-spacing:1em;
+
+  padding-left:2px;
+
   color:rgba(184,246,216,.85);
-}
-
-@media(max-width:900px){
-
-  .brand-zh{
-    font-size:22px;
-  }
-
-  .brand-en{
-    font-size:9px;
-  }
-
 }
