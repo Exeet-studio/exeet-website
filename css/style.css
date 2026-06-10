@@ -88,24 +88,15 @@ button{font:inherit}
 .contact-item:hover{border-color:var(--green2);box-shadow:0 0 28px rgba(127,211,170,.12)}
 
 @media(max-width:900px){
+  .header{
+    height:72px;
+    padding:0 22px;
+  }
 
   .brand{
-    align-items:center !important;
+    font-size:18px;
+    letter-spacing:.99em;
   }
-
-  .brand-zh{
-    font-size:22px !important;
-  }
-
-  .brand-en{
-    display:block !important;
-    width:100% !important;
-    text-align:center !important;
-    padding-left:0 !important;
-    font-size:8px !important;
-    letter-spacing:.68em !important;
-}
-}
 
   .nav{
     position:fixed;
