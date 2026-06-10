@@ -57,15 +57,15 @@ const PROJECTS = [
     credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name']
   },
   {
-    slug: 'project-03',
-    title: 'PROJECT 03',
+    slug: '',
+    title: '走進·重生校舍',
     category: 'documentary',
     year: '2026',
-    client: 'Client Name',
+    client: '新北市教育局',
     cover: 'assets/projects/project-03.jpg',
-    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
-    description: 'Documentary project description goes here.',
-    credits: ['Director｜Name', 'Producer｜Name', 'Camera｜Name']
+    video: 'https://www.youtube.com/embed/ZL73vfTy1e4',
+    description: '走進·重生校舍.',
+    credits: ['Director｜KSW', 'Producer｜CHUN KAI', 'Camera｜CHUN KAI']
   },
   {
     slug: 'project-04',
