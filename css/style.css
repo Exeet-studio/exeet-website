@@ -93,11 +93,6 @@ button{font:inherit}
     padding:0 22px;
   }
 
-  .brand{
-    font-size:18px;
-    letter-spacing:.42em;
-  }
-
   .nav{
     position:fixed;
     right:18px;
