@@ -6,7 +6,7 @@ const SITE = {
   instagram: 'https://www.instagram.com/exeet.studio?igsh=MXRycHR4bmkwanNkaA==',
   youtube: 'https://www.youtube.com/@ExEeT-wc4mg',
   email: 'exeet4711@gmail.tw',
-  lineId: '@exeet',
+  lineId: '',
   showreelUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
   showreelTitle: 'SHOWREEL',
   showreelDescription: 'A selected collection of EXEET works.'
