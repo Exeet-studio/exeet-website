@@ -695,14 +695,32 @@ button{font:inherit}
   }
 }
 /* EXEET LOGO */
+.brand{
+  display:grid !important;
+  grid-template-columns:max-content !important;
+  gap:6px !important;
+  align-items:start !important;
+  line-height:1 !important;
+}
+
+.brand-zh{
+  display:block !important;
+  font-size:30px !important;
+  font-weight:700 !important;
+  letter-spacing:.05em !important;
+}
+
 .brand-en{
-  margin-top:8px;
+  display:block !important;
+  width:100% !important;
+  font-size:10px !important;
+  font-weight:600 !important;
+  letter-spacing:.72em !important;
+  padding-left:2px !important;
+  color:rgba(184,246,216,.85) !important;
+}
 
-  font-size:10px;
-
-  letter-spacing:1em;
-
-  padding-left:2px;
-
-  color:rgba(184,246,216,.85);
+@media(max-width:900px){
+  .brand-zh{font-size:22px !important;}
+  .brand-en{font-size:8px !important;letter-spacing:.68em !important;}
 }
