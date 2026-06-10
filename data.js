@@ -41,7 +41,7 @@ const PROJECTS = [
     year: '2026',
     client: 'Artist / Label',
     cover: 'assets/projects/project-02.PNG',
-    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    video: 'https://www.youtube.com/embed/yK1tvN3xrfA',
     description: 'Music video project description goes here.',
     credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name']
   },
