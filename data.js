@@ -59,12 +59,12 @@ const PROJECTS = [
   {
     slug: '',
     title: '走進·重生校舍',
-    category: 'documentary',
+    category: '紀錄片',
     year: '2024-2025',
     client: '新北市教育局',
     cover: 'assets/projects/截圖 2026-06-11 凌晨1.43.05.png',
     video: 'https://www.youtube.com/embed/ZL73vfTy1e4',
-    description: '走進·重生校舍.',
+    description: '走進·重生校舍',
     credits: ['Director｜KSW', 'Producer｜CHUN KAI', 'Camera｜CHUN KAI']
   },
   {
