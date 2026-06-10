@@ -11,7 +11,8 @@ function icon(name){
 function layout(active=''){
   document.body.classList.remove('home-page','projects-page','team-page','showreel-page','contact-page');
   document.body.classList.add((active||'site')+'-page');
-  document.body.insertAdjacentHTML('afterbegin',`<header class="header"><a class="brand" href="index.html">EXEET</a><button class="menu-toggle">☰</button><nav class="nav"><a href="projects.html">Projects</a><a href="team.html">Team</a><a href="showreel.html">Showreel</a><a href="contact.html">Contact</a></nav></header>`);
+  document.body.insertAdjacentHTML('afterbegin',`<header class="header"><a class="brand" href="index.html"><span class="brand-zh">非常口</span><span class="brand-en">EXEET</span>
+</a><button class="menu-toggle">☰</button><nav class="nav"><a href="projects.html">Projects</a><a href="team.html">Team</a><a href="showreel.html">Showreel</a><a href="contact.html">Contact</a></nav></header>`);
   document.body.insertAdjacentHTML('beforeend',`<div class="socials"><a href="${SITE.instagram}" target="_blank" aria-label="Instagram">${icon('ig')}</a><a href="mailto:${SITE.email}" aria-label="Email">${icon('mail')}</a><a href="${SITE.youtube}" target="_blank" aria-label="YouTube">${icon('yt')}</a></div>`);
   $('.menu-toggle')?.addEventListener('click',()=>$('.nav').classList.toggle('open'));
 }
