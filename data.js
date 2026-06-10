@@ -3,8 +3,8 @@
 // 圖片請放到 assets/projects 或 assets/team，然後把路徑填進 cover / image。
 
 const SITE = {
-  instagram: 'https://instagram.com/',
-  youtube: 'https://youtube.com/',
+  instagram: 'https://www.instagram.com/exeet.studio?igsh=MXRycHR4bmkwanNkaA==',
+  youtube: 'https://www.youtube.com/@ExEeT-wc4mg',
   email: 'exeet4711@gmail.tw',
   lineId: '@exeet',
   showreelUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
