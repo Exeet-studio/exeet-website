@@ -92,18 +92,92 @@ button{font:inherit}
   .brand{font-size:18px}
   .nav{position:fixed;right:18px;top:70px;display:none;flex-direction:column;gap:0;background:rgba(2,8,6,.92);border:1px solid var(--line);width:220px}
   .nav.open{display:flex}
-  .nav a{padding:18px;border-bottom:1px solid var(--line)}
+  .nav a{padding:18px;border-bottom:1px solid var(--line);font-size:15px}
   .menu-toggle{display:block}
-  .home{min-height:640px}
-  .home::before{background-size:auto 100%;background-position:center;transform:scale(1)}
-  .home::after{background:radial-gradient(circle at 50% 32%,rgba(184,246,216,.20) 0 5%,rgba(127,211,170,.08) 6% 13%,transparent 22%),radial-gradient(circle at 50% 56%,transparent 0 30%,rgba(0,0,0,.10) 46%,rgba(0,0,0,.62) 100%)}
-  .view-btn{left:50%;transform:translateX(-50%);top:auto;bottom:105px;white-space:nowrap}
-  .view-btn:hover{transform:translateX(-50%) translateY(-2px)}
-  .socials{right:22px;bottom:22px;gap:12px}
-  .socials a{width:38px;height:38px}
-  .page{padding:105px 22px 56px}
+
+  .home{
+    height:100svh;
+    min-height:680px;
+  }
+
+  /* Mobile hero: shrink the door / exit sign and keep it centered higher */
+  .home::before{
+    background-size:auto 78%;
+    background-position:center 43%;
+    transform:scale(1);
+  }
+
+  .home::after{
+    background:
+      radial-gradient(circle at 50% 30%,rgba(184,246,216,.16) 0 4%,rgba(127,211,170,.07) 5% 12%,transparent 20%),
+      radial-gradient(circle at 50% 56%,transparent 0 30%,rgba(0,0,0,.10) 46%,rgba(0,0,0,.62) 100%);
+  }
+
+  /* Put VIEW WORKS on the left of the social icons */
+  .view-btn{
+    left:22px;
+    top:auto;
+    bottom:82px;
+    width:190px;
+    height:48px;
+    padding:0 18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    white-space:nowrap;
+    font-size:12px;
+    transform:none;
+  }
+
+  .view-btn:hover{
+    transform:translateY(-2px);
+  }
+
+  .view-btn span{
+    margin-left:12px;
+  }
+
+  .socials{
+    right:22px;
+    bottom:82px;
+    gap:10px;
+  }
+
+  .socials a{width:40px;height:40px;border-radius:10px}
+  .socials svg{width:19px;height:19px}
+
+  /* Hide fixed social icons on inner pages on mobile so they don't overlap project cards */
+  body:not(.home-page) .socials{
+    display:none;
+  }
+
+  .page{padding:105px 22px 88px}
   .category-grid,.project-grid,.team-grid{grid-template-columns:1fr}
   .detail-grid{grid-template-columns:1fr}
   .section-head{display:block}
   .title{font-size:42px}
+
+  .filter{gap:12px;margin-bottom:30px}
+  .filter a{padding:13px 18px;font-size:14px}
+
+  .card-info{
+    display:flex;
+    flex-direction:column;
+    gap:12px;
+    padding:20px;
+  }
+
+  .card-info h3{
+    margin:0;
+    font-size:24px;
+    line-height:1.25;
+    letter-spacing:.12em;
+  }
+
+  .card-info .meta{
+    display:block;
+    font-size:15px;
+    line-height:1.6;
+    word-break:keep-all;
+  }
 }
