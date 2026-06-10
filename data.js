@@ -46,6 +46,17 @@ const PROJECTS = [
     credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name']
   },
   {
+    slug: 'project-002',
+    title: 'PROJECT 002',
+    category: 'mv',
+    year: '2026',
+    client: 'Artist / Label',
+    cover: 'assets/projects/project-02.PNG',
+    video: 'https://www.youtube.com/embed/yK1tvN3xrfA',
+    description: 'Music video project description goes here.',
+    credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name']
+  },
+  {
     slug: 'project-03',
     title: 'PROJECT 03',
     category: 'documentary',
