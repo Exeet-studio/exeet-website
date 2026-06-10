@@ -700,7 +700,7 @@ button{font:inherit}
   flex-direction:column !important;
   align-items:flex-start !important;
   line-height:1 !important;
-  width:max-content !important;
+  color:var(--green) !important;
 }
 
 .brand-zh{
@@ -708,20 +708,17 @@ button{font:inherit}
   font-size:30px !important;
   font-weight:700 !important;
   letter-spacing:.05em !important;
+  color:var(--green) !important;
 }
 
 .brand-en{
-  display:flex !important;
-  justify-content:space-between !important;
-  width:178px !important;
-
+  display:block !important;
   margin-top:7px !important;
-
+  padding-left:2px !important;
   font-size:10px !important;
   font-weight:600 !important;
-  letter-spacing:0 !important;
-
-  color:rgba(184,246,216,.85) !important;
+  letter-spacing:.62em !important;
+  color:var(--green) !important;
 }
 
 @media(max-width:900px){
@@ -730,12 +727,7 @@ button{font:inherit}
   }
 
   .brand-en{
-    width:132px !important;
     font-size:8px !important;
+    letter-spacing:.48em !important;
   }
-}
-
-@media(max-width:900px){
-  .brand-zh{font-size:22px !important;}
-  .brand-en{font-size:8px !important;letter-spacing:.68em !important;}
 }
