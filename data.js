@@ -5,7 +5,7 @@
 const SITE = {
   instagram: 'https://www.instagram.com/exeet.studio?igsh=MXRycHR4bmkwanNkaA==',
   youtube: 'https://www.youtube.com/@ExEeT-wc4mg',
-  email: 'exeet4711@gmail.tw',
+  email: 'exeet4711@gmail.com',
   lineId: '',
   showreelUrl: 'https://www.youtube.com/embed/PEM9ZOW5eig',
   showreelTitle: 'SHOWREEL',
