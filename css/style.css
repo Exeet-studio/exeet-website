@@ -89,22 +89,7 @@ button{font:inherit}
 
 @media(max-width:900px){
 
-  .brand{
-    align-items:center !important;
-  }
-
-  .brand-zh{
-    font-size:22px !important;
-  }
-
-  .brand-en{
-    display:block !important;
-    width:100% !important;
-    text-align:center !important;
-    padding-left:0 !important;
-    font-size:8px !important;
-    letter-spacing:.68em !important;
-    transform:translateX(-2px) !important;
+ 
 }
 }
 
