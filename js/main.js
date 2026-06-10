@@ -14,8 +14,7 @@ function layout(active=''){
 <header class="header">
 <a class="brand" href="index.html">
   <span class="brand-zh">非常口</span>
-  <span class="brand-en"><span>E</span><span>X</span><span>E</span><span>E</span><span>T</span></span>
-</a>
+  <span class="brand-en">EXEET</span></a>
 
   <button class="menu-toggle">☰</button>
 
