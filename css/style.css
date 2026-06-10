@@ -91,10 +91,13 @@ button{font:inherit}
 
   .brand{
     align-items:center !important;
+    line-height:.85 !important;
+    gap:0 !important;
   }
 
   .brand-zh{
     font-size:22px !important;
+    margin-bottom:-2px !important;
   }
 
   .brand-en{
@@ -103,7 +106,10 @@ button{font:inherit}
     text-align:center !important;
     padding-left:0 !important;
     font-size:8px !important;
-    letter-spacing:.75em !important;
+    letter-spacing:.68em !important;
+    margin-top:0 !important;
+  }
+}
   }
 
 }
