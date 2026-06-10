@@ -62,7 +62,7 @@ const PROJECTS = [
     category: 'documentary',
     year: '2026',
     client: '新北市教育局',
-    cover: 'assets/projects/project-03.jpg',
+    cover: 'assets/projects/截圖 2026-06-11 凌晨1.43.05.png',
     video: 'https://www.youtube.com/embed/ZL73vfTy1e4',
     description: '走進·重生校舍.',
     credits: ['Director｜KSW', 'Producer｜CHUN KAI', 'Camera｜CHUN KAI']
