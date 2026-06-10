@@ -17,8 +17,6 @@ const CATEGORIES = [
   { id: 'mv', label: 'MV', zh: 'MV' },
   { id: 'documentary', label: 'Documentary', zh: '紀錄片' },
   { id: 'government', label: 'Government', zh: '政府' }
-  { id: 'event', label: 'Event', zh: '活動紀錄' }
-  { id: 'social', label: 'Social', zh: '社群短影音' }
 ];
 
 const PROJECTS = [
