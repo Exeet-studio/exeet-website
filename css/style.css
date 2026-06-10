@@ -88,38 +88,72 @@ button{font:inherit}
 .contact-item:hover{border-color:var(--green2);box-shadow:0 0 28px rgba(127,211,170,.12)}
 
 @media(max-width:900px){
-  .header{height:70px;padding:0 22px}
-  .brand{font-size:18px}
-  .nav{position:fixed;right:18px;top:70px;display:none;flex-direction:column;gap:0;background:rgba(2,8,6,.92);border:1px solid var(--line);width:220px}
+  .header{
+    height:72px;
+    padding:0 22px;
+  }
+
+  .brand{
+    font-size:18px;
+    letter-spacing:.42em;
+  }
+
+  .nav{
+    position:fixed;
+    right:18px;
+    top:72px;
+    display:none;
+    flex-direction:column;
+    gap:0;
+    background:rgba(2,8,6,.94);
+    border:1px solid var(--line);
+    width:220px;
+    z-index:80;
+  }
+
   .nav.open{display:flex}
-  .nav a{padding:18px;border-bottom:1px solid var(--line);font-size:15px}
+
+  .nav a{
+    padding:18px;
+    border-bottom:1px solid var(--line);
+    font-size:15px;
+  }
+
   .menu-toggle{display:block}
 
   .home{
     height:100svh;
-    min-height:680px;
+    min-height:760px;
+    overflow:hidden;
   }
 
-  /* Mobile hero: shrink the door / exit sign and keep it centered higher */
+  /* Mobile: the hero image occupies the upper area only, so controls sit below it instead of overlaying it. */
   .home::before{
-    background-size:auto 78%;
-    background-position:center 43%;
-    transform:scale(1);
+    top:90px;
+    bottom:auto;
+    height:58svh;
+    min-height:420px;
+    background-size:auto 100%;
+    background-position:center top;
+    transform:none;
   }
 
   .home::after{
+    top:90px;
+    bottom:auto;
+    height:58svh;
+    min-height:420px;
     background:
-      radial-gradient(circle at 50% 30%,rgba(184,246,216,.16) 0 4%,rgba(127,211,170,.07) 5% 12%,transparent 20%),
-      radial-gradient(circle at 50% 56%,transparent 0 30%,rgba(0,0,0,.10) 46%,rgba(0,0,0,.62) 100%);
+      radial-gradient(circle at 50% 23%,rgba(184,246,216,.16) 0 5%,rgba(127,211,170,.08) 6% 14%,transparent 24%),
+      radial-gradient(circle at 50% 56%,transparent 0 28%,rgba(0,0,0,.10) 48%,rgba(0,0,0,.54) 100%);
   }
 
-  /* Put VIEW WORKS on the left of the social icons */
   .view-btn{
     left:22px;
-    top:auto;
-    bottom:82px;
-    width:190px;
-    height:48px;
+    top:calc(90px + 58svh + 26px);
+    bottom:auto;
+    width:205px;
+    height:50px;
     padding:0 18px;
     display:flex;
     align-items:center;
@@ -129,55 +163,125 @@ button{font:inherit}
     transform:none;
   }
 
-  .view-btn:hover{
-    transform:translateY(-2px);
-  }
+  .view-btn:hover{transform:translateY(-2px)}
 
-  .view-btn span{
-    margin-left:12px;
-  }
+  .view-btn span{margin-left:12px}
 
-  .socials{
+  .home-page .socials{
+    position:absolute;
     right:22px;
-    bottom:82px;
+    top:calc(90px + 58svh + 26px);
+    bottom:auto;
     gap:10px;
   }
 
-  .socials a{width:40px;height:40px;border-radius:10px}
-  .socials svg{width:19px;height:19px}
-
-  /* Hide fixed social icons on inner pages on mobile so they don't overlap project cards */
-  body:not(.home-page) .socials{
-    display:none;
+  .home-page .socials a{
+    width:40px;
+    height:40px;
+    border-radius:10px;
   }
 
-  .page{padding:105px 22px 88px}
-  .category-grid,.project-grid,.team-grid{grid-template-columns:1fr}
-  .detail-grid{grid-template-columns:1fr}
-  .section-head{display:block}
-  .title{font-size:42px}
+  .home-page .socials svg{
+    width:19px;
+    height:19px;
+  }
 
-  .filter{gap:12px;margin-bottom:30px}
-  .filter a{padding:13px 18px;font-size:14px}
+  /* Hide fixed social icons on all inner pages on mobile so they never cover project cards/text. */
+  body:not(.home-page) .socials{
+    display:none !important;
+  }
+
+  .page{
+    padding:112px 22px 140px;
+  }
+
+  .section-head{
+    display:block;
+    margin-bottom:34px;
+  }
+
+  .title{
+    font-size:42px;
+    line-height:1;
+  }
+
+  .filter{
+    gap:12px;
+    margin-bottom:28px;
+  }
+
+  .filter a{
+    padding:12px 15px;
+    font-size:13px;
+  }
+
+  .category-grid,
+  .project-grid,
+  .team-grid{
+    grid-template-columns:1fr;
+    gap:26px;
+  }
+
+  .category-card{
+    min-height:190px;
+  }
+
+  .detail-grid{
+    grid-template-columns:1fr;
+    gap:34px;
+  }
+
+  .thumb{
+    aspect-ratio:16/9;
+    max-height:220px;
+  }
 
   .card-info{
     display:flex;
     flex-direction:column;
-    gap:12px;
-    padding:20px;
+    gap:10px;
+    padding:16px 18px 18px;
   }
 
   .card-info h3{
     margin:0;
-    font-size:24px;
+    font-size:21px;
     line-height:1.25;
     letter-spacing:.12em;
   }
 
   .card-info .meta{
     display:block;
-    font-size:15px;
-    line-height:1.6;
+    font-size:13px;
+    line-height:1.5;
     word-break:keep-all;
+  }
+
+  .hero-media{
+    aspect-ratio:16/9;
+  }
+
+  .contact-item{
+    align-items:flex-start;
+    flex-direction:column;
+    gap:10px;
+  }
+}
+
+@media(max-width:390px){
+  .view-btn{
+    width:180px;
+    font-size:11px;
+    left:18px;
+  }
+
+  .home-page .socials{
+    right:18px;
+    gap:8px;
+  }
+
+  .home-page .socials a{
+    width:38px;
+    height:38px;
   }
 }
