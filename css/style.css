@@ -694,3 +694,173 @@ button{font:inherit}
     font-size:20px !important;
   }
 }
+
+/* =========================
+   V16 MOBILE CHROME / SAFARI STABLE FIX
+   Mobile home no longer depends on browser toolbar height.
+========================= */
+@media(max-width:900px){
+  .home{
+    height:100svh !important;
+    min-height:640px !important;
+    max-height:none !important;
+    overflow:hidden !important;
+    padding:0 !important;
+    position:relative !important;
+  }
+
+  .home::before{
+    content:"" !important;
+    position:absolute !important;
+    left:0 !important;
+    right:0 !important;
+    top:78px !important;
+    height:55svh !important;
+    min-height:345px !important;
+    max-height:470px !important;
+    inset:auto 0 auto 0 !important;
+    background-image:url('../assets/img/home-hero.png') !important;
+    background-size:auto 116% !important;
+    background-position:center center !important;
+    background-repeat:no-repeat !important;
+    transform:none !important;
+    filter:saturate(.98) contrast(1.02) brightness(.98) !important;
+    animation:heroFlicker 4.2s ease-in-out infinite !important;
+  }
+
+  .home::after{
+    content:"" !important;
+    position:absolute !important;
+    left:0 !important;
+    right:0 !important;
+    top:78px !important;
+    height:55svh !important;
+    min-height:345px !important;
+    max-height:470px !important;
+    inset:auto 0 auto 0 !important;
+    pointer-events:none !important;
+    background:
+      radial-gradient(circle at 50% 25%,rgba(184,246,216,.18) 0 5%,rgba(127,211,170,.08) 6% 15%,transparent 26%),
+      linear-gradient(180deg,rgba(0,0,0,.04),rgba(0,0,0,.20) 68%,rgba(0,0,0,.45)) !important;
+    mix-blend-mode:screen !important;
+    opacity:.62 !important;
+    animation:exitLightPulse 4.2s ease-in-out infinite !important;
+  }
+
+  .view-btn{
+    position:absolute !important;
+    left:50% !important;
+    top:calc(78px + 55svh + 18px) !important;
+    bottom:auto !important;
+    right:auto !important;
+    transform:translateX(-50%) !important;
+    width:78vw !important;
+    max-width:330px !important;
+    min-width:0 !important;
+    height:50px !important;
+    padding:0 18px !important;
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    font-size:12px !important;
+    line-height:1 !important;
+    letter-spacing:.22em !important;
+    white-space:nowrap !important;
+    z-index:10 !important;
+  }
+
+  .view-btn:hover{
+    transform:translateX(-50%) translateY(-2px) !important;
+  }
+
+  .view-btn span{
+    margin-left:14px !important;
+  }
+
+  .home-page .socials{
+    position:absolute !important;
+    left:50% !important;
+    top:calc(78px + 55svh + 86px) !important;
+    right:auto !important;
+    bottom:auto !important;
+    transform:translateX(-50%) !important;
+    display:flex !important;
+    justify-content:center !important;
+    gap:16px !important;
+    z-index:10 !important;
+  }
+
+  .home-page .socials a{
+    width:46px !important;
+    height:46px !important;
+    border-radius:12px !important;
+  }
+
+  .home-page .socials svg{
+    width:20px !important;
+    height:20px !important;
+  }
+
+  .projects-page .section-head{
+    margin-bottom:34px !important;
+    padding-bottom:28px !important;
+  }
+
+  .projects-page .section-head .title{
+    font-size:42px !important;
+    line-height:1.05 !important;
+    margin:20px 0 0 !important;
+  }
+
+  .projects-page .section-head > a.eyebrow{
+    display:block !important;
+    margin-top:22px !important;
+  }
+
+  .projects-page .filter{
+    margin-top:4px !important;
+    margin-bottom:32px !important;
+  }
+
+  .projects-page .project-grid .thumb{
+    height:138px !important;
+    max-height:138px !important;
+    min-height:138px !important;
+    flex-basis:138px !important;
+  }
+
+  .projects-page .project-grid .card-info h3{
+    font-size:20px !important;
+    line-height:1.18 !important;
+  }
+}
+
+@media(max-width:390px){
+  .home{
+    min-height:620px !important;
+  }
+
+  .home::before,
+  .home::after{
+    top:74px !important;
+    height:53svh !important;
+    min-height:325px !important;
+  }
+
+  .view-btn{
+    top:calc(74px + 53svh + 16px) !important;
+    width:80vw !important;
+    height:48px !important;
+    font-size:11px !important;
+  }
+
+  .home-page .socials{
+    top:calc(74px + 53svh + 80px) !important;
+    gap:14px !important;
+  }
+
+  .home-page .socials a{
+    width:44px !important;
+    height:44px !important;
+  }
+}
