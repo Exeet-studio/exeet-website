@@ -7,7 +7,7 @@ const SITE = {
   youtube: 'https://www.youtube.com/@ExEeT-wc4mg',
   email: 'exeet4711@gmail.tw',
   lineId: '',
-  showreelUrl: 'https://www.youtube.com/watch?v=PEM9ZOW5eig',
+  showreelUrl: 'https://www.youtube.com/embed/PEM9ZOW5eig',
   showreelTitle: 'SHOWREEL',
   showreelDescription: 'A selected collection of EXEET works.'
 };
