@@ -12,11 +12,10 @@ function layout(active=''){
   document.body.classList.remove('home-page','projects-page','team-page','showreel-page','contact-page');
   document.body.classList.add((active||'site')+'-page');document.body.insertAdjacentHTML('afterbegin',`
 <header class="header">
-
-  <a class="brand" href="index.html">
-    <span class="brand-zh">非常口</span>
-    <span class="brand-en">EXEET</span>
-  </a>
+<a class="brand" href="index.html">
+  <span class="brand-zh">非常口</span>
+  <span class="brand-en"><span>E</span><span>X</span><span>E</span><span>E</span><span>T</span></span>
+</a>
 
   <button class="menu-toggle">☰</button>
 
