@@ -40,7 +40,7 @@ const PROJECTS = [
     category: 'mv',
     year: '2026',
     client: 'Artist / Label',
-    cover: 'assets/projects/project-02.jpg',
+    cover: 'assets/projects/project-02.png',
     video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     description: 'Music video project description goes here.',
     credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name']
