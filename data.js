@@ -14,9 +14,12 @@ const SITE = {
 
 const CATEGORIES = [
   { id: 'commercial', label: 'Commercial', zh: '商業' },
-  { id: 'mv', label: 'MV', zh: 'MV' },
+  { id: 'social', label: 'Social', zh: '社群短影音' },
+  { id: 'mv', label: 'MV', zh: '音樂錄影帶' },
+  { id: 'narrative', label: 'Narrative', zh: '劇情片' },
   { id: 'documentary', label: 'Documentary', zh: '紀錄片' },
-  { id: 'government', label: 'Government', zh: '政府' }
+  { id: 'government', label: 'Government', zh: '政府標案' },
+  { id: 'event', label: 'Event', zh: '活動紀錄' }
 ];
 
 const PROJECTS = [
@@ -63,6 +66,39 @@ const PROJECTS = [
     video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
     description: 'Government project description goes here.',
     credits: ['Director｜Name', 'Producer｜Name', 'Editor｜Name']
+  },
+  {
+    slug: 'project-05',
+    title: 'PROJECT 05',
+    category: 'social',
+    year: '2026',
+    client: 'Client Name',
+    cover: 'assets/projects/project-05.jpg',
+    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    description: 'Social content project description goes here.',
+    credits: ['Director｜Name', 'Producer｜Name', 'Editor｜Name']
+  },
+  {
+    slug: 'project-06',
+    title: 'PROJECT 06',
+    category: 'narrative',
+    year: '2026',
+    client: 'Client Name',
+    cover: 'assets/projects/project-06.jpg',
+    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    description: 'Narrative project description goes here.',
+    credits: ['Director｜Name', 'Producer｜Name', 'DOP｜Name', 'Editor｜Name']
+  },
+  {
+    slug: 'project-07',
+    title: 'PROJECT 07',
+    category: 'event',
+    year: '2026',
+    client: 'Client Name',
+    cover: 'assets/projects/project-07.jpg',
+    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+    description: 'Event coverage project description goes here.',
+    credits: ['Director｜Name', 'Producer｜Name', 'Camera｜Name', 'Editor｜Name']
   }
 ];
 
