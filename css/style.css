@@ -441,3 +441,127 @@ button{font:inherit}
     height:46px;
   }
 }
+
+/* =========================
+   V13 MOBILE FINAL TWEAKS
+   ========================= */
+@media(max-width:900px){
+  /* Home: keep hero slightly larger, but move action rows below the image with clear spacing. */
+  .home::before{
+    top:86px;
+    height:59svh;
+    min-height:440px;
+    max-height:575px;
+    background-size:auto 116%;
+    background-position:center center;
+  }
+
+  .home::after{
+    top:86px;
+    height:59svh;
+    min-height:440px;
+    max-height:575px;
+  }
+
+  .view-btn{
+    left:50%;
+    right:auto;
+    top:auto;
+    bottom:100px;
+    transform:translateX(-50%);
+    width:82vw;
+    max-width:340px;
+    height:52px;
+    padding:0 18px;
+    font-size:12px;
+    letter-spacing:.22em;
+  }
+
+  .view-btn:hover{
+    transform:translateX(-50%) translateY(-2px);
+  }
+
+  .view-btn span{
+    margin-left:14px;
+  }
+
+  .home-page .socials{
+    position:absolute;
+    left:50%;
+    right:auto;
+    bottom:30px;
+    transform:translateX(-50%);
+    gap:18px;
+  }
+
+  .home-page .socials a{
+    width:48px;
+    height:48px;
+    border-radius:12px;
+  }
+
+  /* Projects mobile: make cards more compact so title/meta never feel cramped. */
+  .projects-page .page{
+    padding-top:100px;
+  }
+
+  .projects-page .section-head{
+    margin-bottom:24px;
+  }
+
+  .projects-page .filter{
+    margin-bottom:22px;
+  }
+
+  .projects-page .project-grid{
+    gap:24px;
+  }
+
+  .projects-page .project-grid .thumb{
+    height:118px !important;
+    max-height:118px !important;
+    aspect-ratio:auto !important;
+  }
+
+  .projects-page .project-grid .card-info{
+    padding:14px 18px 18px !important;
+    gap:6px;
+  }
+
+  .projects-page .project-grid .card-info h3{
+    font-size:18px !important;
+    line-height:1.15 !important;
+    letter-spacing:.14em;
+  }
+
+  .projects-page .project-grid .card-info .meta{
+    font-size:11px !important;
+    line-height:1.45 !important;
+  }
+}
+
+@media(max-width:390px){
+  .home::before,
+  .home::after{
+    top:82px;
+    height:58svh;
+    min-height:420px;
+  }
+
+  .view-btn{
+    bottom:96px;
+    width:84vw;
+    height:50px;
+    font-size:11px;
+  }
+
+  .home-page .socials{
+    bottom:28px;
+    gap:14px;
+  }
+
+  .home-page .socials a{
+    width:44px;
+    height:44px;
+  }
+}
