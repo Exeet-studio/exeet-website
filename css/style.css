@@ -732,3 +732,16 @@ button{font:inherit}
     letter-spacing:.48em !important;
   }
 }
+@media(max-width:900px){
+
+  .brand-en{
+    display:block !important;
+    width:100% !important;
+    text-align:center !important;
+    padding-left:0 !important;
+    font-size:8px !important;
+    letter-spacing:.68em !important;
+    transform:translateX(-2px) !important;
+  }
+
+}
