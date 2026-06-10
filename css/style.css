@@ -706,7 +706,7 @@ button{font:inherit}
 .brand-zh{
   display:block !important;
   font-size:30px !important;
-  font-weight:700 !important;
+  font-weight:500 !important;
   letter-spacing:.05em !important;
   color:var(--green) !important;
 }
@@ -717,7 +717,7 @@ button{font:inherit}
   padding-left:2px !important;
   font-size:12px !important;
   font-weight:600 !important;
-  letter-spacing:.99em !important;
+  letter-spacing:.90em !important;
   color:var(--green) !important;
 }
 
