@@ -30,7 +30,7 @@ const PROJECTS = [
     year: '2026',
     client: 'Client Name',
     cover: 'assets/projects/project-01.jpg',
-    video: 'https://www.youtube.com/watch?v=wbYuImxpkhM',
+    video: 'https://www.youtube.com/embed/wbYuImxpkhM',
     description: 'Project description goes here. You can edit this text in data.js.',
     credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
   },
