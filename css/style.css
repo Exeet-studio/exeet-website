@@ -101,9 +101,10 @@ button{font:inherit}
     display:block !important;
     width:100% !important;
     text-align:center !important;
-    padding-left:10 !important;
+    padding-left:0 !important;
     font-size:8px !important;
     letter-spacing:.68em !important;
+    transform:translateX(-4px) !important;
 }
 }
 
