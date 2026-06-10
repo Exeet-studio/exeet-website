@@ -715,9 +715,9 @@ button{font:inherit}
   display:block !important;
   margin-top:7px !important;
   padding-left:2px !important;
-  font-size:10px !important;
+  font-size:12px !important;
   font-weight:600 !important;
-  letter-spacing:.100em !important;
+  letter-spacing:.99em !important;
   color:var(--green) !important;
 }
 
