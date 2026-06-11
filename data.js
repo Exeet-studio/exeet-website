@@ -35,7 +35,6 @@ const PROJECTS = [
     credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
   },
   {
-  {
     slug: 'test-0w',
     title: 'PROJECT 01',
     category: 'commercial',
@@ -46,7 +45,6 @@ const PROJECTS = [
     description: 'Project description goes here. You can edit this text in data.js.',
     credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
   },
-  {
   {
     slug: 'project-01',
     title: 'PROJECT 01',
