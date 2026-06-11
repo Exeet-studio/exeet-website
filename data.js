@@ -35,15 +35,15 @@ const PROJECTS = [
     credits: ['Director｜KSW', 'Producer｜Strawberry', 'DOP｜Chun Kai', 'Editor｜KSW']
   },
   {
-    slug: 'project-01',
-    title: 'PJECT 01',
-    category: 'commercial',
+    slug: 'HennessyXO',
+    title: 'HennessyXO',
+    category: '商業廣告',
     year: '2026',
-    client: 'Client Name',
-    cover: 'assets/projects/project-01.jpg',
+    client: '軒尼詩',
+    cover: 'assets/projects/HennessyXO.jpg',
     video: 'https://www.youtube.com/embed/7veq9G78u1Y',
-    description: 'Project description goes here. You can edit this text in data.js.',
-    credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
+    description: 'HennessyXO',
+    credits: ['Director｜Zao',  'Art Director｜LYS', 'DOP｜Chun Kai', 'Editor｜Zao', 'Colorist｜Chun Kai']
   },
   {
     slug: 'test-01',
@@ -58,39 +58,6 @@ const PROJECTS = [
   },
   {
     slug: 'test-01',
-    title: 'PROJECT 01',
-    category: 'commercial',
-    year: '2026',
-    client: 'Client Name',
-    cover: 'assets/projects/project-01.jpg',
-    video: 'https://www.youtube.com/embed/wbYuImxpkhM',
-    description: 'Project description goes here. You can edit this text in data.js.',
-    credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
-  },
-  {
-    slug: 'test-0w',
-    title: 'PROJECT 01',
-    category: 'commercial',
-    year: '2026',
-    client: 'Client Name',
-    cover: 'assets/projects/project-01.jpg',
-    video: 'https://www.youtube.com/embed/wbYuImxpkhM',
-    description: 'Project description goes here. You can edit this text in data.js.',
-    credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
-  },
-  {
-    slug: 'project-01',
-    title: 'PROJECT 01',
-    category: 'commercial',
-    year: '2026',
-    client: 'Client Name',
-    cover: 'assets/projects/project-01.jpg',
-    video: 'https://www.youtube.com/shorts/7veq9G78u1Y',
-    description: 'Project description goes here. You can edit this text in data.js.',
-    credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
-  },
-  {
-    slug: 'project-01',
     title: 'PROJECT 01',
     category: 'commercial',
     year: '2026',
