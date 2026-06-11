@@ -35,7 +35,6 @@ const PROJECTS = [
     credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
   },
   {
-  {
     slug: 'project-01',
     title: 'PROJECT 01',
     category: 'commercial',
