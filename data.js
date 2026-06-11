@@ -35,7 +35,7 @@ const PROJECTS = [
     credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
   },
   {
-    slug: 'test-01',
+    slug: 'project-01',
     title: 'PJECT 01',
     category: 'commercial',
     year: '2026',
