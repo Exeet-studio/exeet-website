@@ -66,24 +66,6 @@ function initMember(){
   $('#memberDesc').textContent=m.description;
   $('#memberImage').src=m.image;
   fallbackImage($('#memberImage'));
-
-  const works = m.works || [];
-  const worksBox = $('#memberWorks');
-
-  if(worksBox){
-    worksBox.innerHTML = works.map(w => `
-      <div class="card">
-        <div class="thumb">
-          <img src="${w.image}" alt="${w.title}">
-        </div>
-        <div class="card-info">
-          <h3>${w.title}</h3>
-          <p class="muted">${w.description}</p>
-        </div>
-      </div>
-    `).join('');
-
-    $all('.thumb img').forEach(fallbackImage);
 }
 function initMember(){
   layout('team');
