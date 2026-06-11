@@ -26,7 +26,7 @@ const PROJECTS = [
 {
     slug: '南山人壽路跑形象影片',
     title: '南山人壽路跑形象影片',
-    category: '形象廣告',
+    category: 'commercial',
     year: '2026',
     client: '南山人壽、伏流創意',
     cover: 'assets/projects/南山人壽路跑形象影片.jpg',
@@ -37,7 +37,7 @@ const PROJECTS = [
   {
     slug: 'HennessyXO',
     title: 'HennessyXO',
-    category: '商業廣告',
+    category: 'commercial',
     year: '2026',
     client: '軒尼詩',
     cover: 'assets/projects/HennessyXO.jpg',
@@ -46,15 +46,15 @@ const PROJECTS = [
     credits: ['Director｜Zao',  'Art Director｜LYS', 'DOP｜Chun Kai', 'Editor｜Zao', 'Colorist｜Chun Kai']
   },
   {
-    slug: 'test-01',
-    title: 'PT 01',
+    slug: '藏富滿滿見證影片',
+    title: '藏富滿滿見證影片',
     category: 'commercial',
-    year: '2026',
-    client: 'Client Name',
-    cover: 'assets/projects/project-01.jpg',
+    year: '建案/2026',
+    client: '藏富建設',
+    cover: 'assets/projects/藏富滿滿見證影片.jpg',
     video: 'https://www.youtube.com/embed/7veq9G78u1Y',
-    description: 'Project description goes here. You can edit this text in data.js.',
-    credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
+    description: '藏富滿滿見證影片',
+    credits: ['Director｜KSW', 'DOP｜KSW', 'Gaffer｜Andy Chang', 'Editor｜KSW']
   },
   {
     slug: 'test-01',
