@@ -144,10 +144,10 @@ const TEAM = [
     description: 'Team member introduction goes here. You can edit this in data.js.'
   },
   {
-    slug: 'member-02',
-    name: 'Member Name',
-    role: 'Producer',
-    image: 'assets/team/member-02.jpg',
-    description: 'Team member introduction goes here. You can edit this in data.js.'
+    slug: 'Chun Kai',
+    name: 'Chun Kai',
+    role: 'DOP,Colorist',
+    image: 'assets/team/愷.jpg',
+    description: ''
   }
 ];
