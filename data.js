@@ -34,6 +34,15 @@ const PROJECTS = [
     description: 'Project description goes here. You can edit this text in data.js.',
     credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
   },
+  slug: '藏富滿滿見證影片',
+    title: '藏富滿滿見證影片',
+    category: '形象影片',
+    year: '2024',
+    client: '藏富建設',
+    cover: 'assets/projects/project-01.jpg',
+    video: 'https://www.youtube.com/embed/wbYuImxpkhM',
+    description: 'Project description goes here. You can edit this text in data.js.',
+    credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
   {
     slug: 'project-02',
     title: 'PROJECT 02',
