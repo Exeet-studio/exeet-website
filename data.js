@@ -144,10 +144,10 @@ const TEAM = [
     description: 'Team member introduction goes here. You can edit this in data.js.'
   },
   {
-    slug: 'Chun Kai',
-    name: 'Chun Kai',
+    slug: '范峻愷Chun Kai',
+    name: '范峻愷Chun Kai',
     role: 'DOP,Colorist',
     image: 'assets/team/愷.jpg',
-    description: ''
+    description: '超炸'
   }
 ];
