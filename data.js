@@ -24,15 +24,15 @@ const CATEGORIES = [
 
 const PROJECTS = [
 {
-    slug: 'test-01',
-    title: 'PROJECT 01',
-    category: 'commercial',
+    slug: '南山人壽路跑形象影片',
+    title: '南山人壽路跑形象影片',
+    category: '形象廣告',
     year: '2026',
-    client: 'Client Name',
-    cover: 'assets/projects/project-01.jpg',
+    client: '南山人壽、伏流創意',
+    cover: 'assets/projects/南山人壽路跑形象影片.jpg',
     video: 'https://www.youtube.com/embed/wbYuImxpkhM',
-    description: 'Project description goes here. You can edit this text in data.js.',
-    credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
+    description: '南山人壽路跑形象影片',
+    credits: ['Director｜KSW', 'Producer｜Strawberry', 'DOP｜Chun Kai', 'Editor｜KSW']
   },
   {
     slug: 'project-01',
