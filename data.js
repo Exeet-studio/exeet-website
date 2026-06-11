@@ -39,10 +39,10 @@ const PROJECTS = [
     category: '形象影片',
     year: '2024',
     client: '藏富建設',
-    cover: 'assets/projects/project-01.jpg',
-    video: 'https://www.youtube.com/embed/wbYuImxpkhM',
-    description: 'Project description goes here. You can edit this text in data.js.',
-    credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
+    cover: 'assets/projects/截圖 2026-06-11 凌晨1.43.05.png',
+    video: 'https://www.youtube.com/embed/B1fHVl_gX4k&list=PL568j8he1Rk9XiH_ZopcFa4kj04csD7Vb,
+    description: '藏富滿滿見證影片',
+    credits: ['Director｜KSW', 'DOP｜KSW','Gaffer｜Andy Chang' 'Editor｜KSW']
   {
     slug: 'project-02',
     title: 'PROJECT 02',
