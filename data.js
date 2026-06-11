@@ -150,4 +150,24 @@ const TEAM = [
     image: 'assets/team/愷.jpg',
     description: '超炸'
   }
+  {
+  slug: 'yihsuan',
+  name: 'Yi-Hsuan Liao',
+  role: 'Creative Director / Art Director',
+  image: 'assets/team/yihsuan.jpg',
+  description: 'Team member introduction goes here.',
+
+  works: [
+    {
+      title: 'ROG Luggage',
+      image: 'assets/projects/rog-luggage.jpg',
+      description: 'Art direction and visual development.'
+    },
+    {
+      title: 'Medical Train',
+      image: 'assets/projects/medical-train.jpg',
+      description: 'Set design and production design.'
+    }
+  ]
+}
 ];
