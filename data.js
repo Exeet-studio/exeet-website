@@ -40,7 +40,7 @@ const PROJECTS = [
     category: 'commercial',
     year: '2026',
     client: '軒尼詩',
-    cover: 'assets/projects/HennessyXO.jpg',
+    cover: 'assets/projects/HennessyXO.png',
     video: 'https://www.youtube.com/embed/7veq9G78u1Y',
     description: 'HennessyXO',
     credits: ['Director｜Zao',  'Art Director｜LYS', 'DOP｜Chun Kai', 'Editor｜Zao', 'Colorist｜Chun Kai']
