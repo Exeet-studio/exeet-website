@@ -149,5 +149,5 @@ const TEAM = [
     role: 'DOP,Colorist',
     image: 'assets/team/愷.jpg',
     description: '超炸'
-}
+  }
 ];
