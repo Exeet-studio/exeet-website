@@ -57,15 +57,10 @@ function initProjectDetail(){
   $('#projectInfo').innerHTML=`<p><span class="meta">Client</span><br>${p.client}</p><p><span class="meta">Year</span><br>${p.year}</p><p><span class="meta">Category</span><br>${CATEGORIES.find(c=>c.id===p.category)?.label||p.category}</p>`;
   $('#credits').innerHTML=p.credits.map(c=>`<li>${c}</li>`).join('');
 }
-function initMember(){
+function initTeam(){
   layout('team');
-  const m=TEAM.find(x=>x.slug===getParam('slug'))||TEAM[0];
-
-  $('#memberName').textContent=m.name;
-  $('#memberRole').textContent=m.role;
-  $('#memberDesc').textContent=m.description;
-  $('#memberImage').src=m.image;
-  fallbackImage($('#memberImage'));
+  $('#teamGrid').innerHTML=TEAM.map(m=>`<a class="card" href="member.html?slug=${m.slug}"><div class="thumb"><img src="${m.image}" alt="${m.name}"></div><div class="card-info"><h3>${m.name}</h3><div class="meta">${m.role}</div></div></a>`).join('');
+  $all('.thumb img').forEach(fallbackImage);
 }
 function initMember(){
   layout('team');
