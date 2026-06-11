@@ -68,15 +68,15 @@ const PROJECTS = [
     credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
   },
   {
-    slug: 'project-02',
-    title: 'PROJECT 02',
-    category: 'mv',
-    year: '2026',
-    client: 'Artist / Label',
-    cover: 'assets/projects/project-02.PNG',
-    video: 'https://www.youtube.com/embed/yK1tvN3xrfA',
-    description: 'Music video project description goes here.',
-    credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name']
+    slug: '',
+    title: '走進·重生校舍',
+    category: '紀錄片',
+    year: '2024-2025',
+    client: '新北市教育局',
+    cover: 'assets/projects/截圖 2026-06-11 凌晨1.43.05.png',
+    video: 'https://www.youtube.com/embed/ZL73vfTy1e4',
+    description: '走進·重生校舍',
+    credits: ['Director｜KSW', 'Producer｜CHUN KAI', 'Camera｜CHUN KAI']
   },
   {
     slug: 'project-002',
@@ -88,17 +88,6 @@ const PROJECTS = [
     video: 'https://www.youtube.com/embed/yK1tvN3xrfA',
     description: 'Music video project description goes here.',
     credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name']
-  },
-  {
-    slug: '',
-    title: '走進·重生校舍',
-    category: '紀錄片',
-    year: '2024-2025',
-    client: '新北市教育局',
-    cover: 'assets/projects/截圖 2026-06-11 凌晨1.43.05.png',
-    video: 'https://www.youtube.com/embed/ZL73vfTy1e4',
-    description: '走進·重生校舍',
-    credits: ['Director｜KSW', 'Producer｜CHUN KAI', 'Camera｜CHUN KAI']
   },
   {
     slug: 'project-04',
