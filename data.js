@@ -138,6 +138,27 @@ const PROJECTS = [
 const TEAM = [
 
   {
+    slug: 'Kuan-Sheng-Wang',
+    name: '渠你娘',
+    role: 'Creative Director',
+    image: 'assets/team/yihsuan.jpg',
+    description: '非常口影像製作有限公司共同創辦人<br><br>Director / DOP / Art Director',
+
+    works: [
+      {
+        title: 'ROG Luggage',
+        image: 'assets/projects/rog.jpg',
+        url: 'https://www.youtube.com/watch?v=xxxxx'
+      },
+      {
+        title: 'Medical Train',
+        image: 'assets/projects/train.jpg',
+        url: 'https://www.youtube.com/watch?v=yyyyy'
+      }
+    ]
+  },
+  
+ {
     slug: 'fan-chun-kai',
     name: '范峻愷 Fan Chun Kai',
     role: 'DOP',
