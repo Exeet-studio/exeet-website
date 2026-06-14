@@ -153,7 +153,7 @@ const TEAM = [
     {
       title: 'Medical Train',
       image: 'assets/projects/medical-train.jpg',
-      url: 'https://www.youtube.com/watch?v=yyyyy'
+      url: 'https://www.youtube.com/watch?v=A9ukncHNk1Q'
     }
   ]
 }
