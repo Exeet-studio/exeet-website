@@ -141,7 +141,7 @@ const TEAM = [
   name: '范峻愷',
   role: 'DOP',
   image: 'assets/team/愷.jpg',
-  description:'紅姦百生<br><br竹岡雙龍<br><br義大顯謨<br><br葡萄骷髏',
+  description:'紅姦百生<br><br>竹岡雙龍<br><br>義大顯謨<br><br>葡萄骷髏',
 
   works: [
     {
