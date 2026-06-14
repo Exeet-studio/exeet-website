@@ -136,18 +136,24 @@ const PROJECTS = [
 ];
 
 const TEAM = [
-  {
-    slug: 'member-01',
-    name: 'Member Name',
-    role: 'Creative Director',
-    image: 'assets/team/member-01.jpg',
-    description: 'Team member introduction goes here. You can edit this in data.js.'
-  },
-  {
-    slug: '范峻愷Chun Kai',
-    name: '范峻愷Chun Kai',
-    role: 'DOP,Colorist',
-    image: 'assets/team/愷.jpg',
-    description: '超炸'
-  }
+ {
+  slug: 'member-01',
+  name: 'Member Name',
+  role: 'Creative Director',
+  image: 'assets/team/member-01.jpg',
+  description: 'Team member introduction goes here.',
+
+  works: [
+    {
+      title: 'ROG Luggage',
+      image: 'assets/projects/rog-luggage.jpg',
+      url: 'https://www.youtube.com/watch?v=xxxxx'
+    },
+    {
+      title: 'Medical Train',
+      image: 'assets/projects/medical-train.jpg',
+      url: 'https://www.youtube.com/watch?v=yyyyy'
+    }
+  ]
+}
 ];
