@@ -137,21 +137,21 @@ const PROJECTS = [
 
 const TEAM = [
  {
-  slug: 'member-01',
-  name: 'Member Name',
-  role: 'Creative Director',
+  slug: '范峻愷',
+  name: '范峻愷',
+  role: 'DOP',
   image: 'assets/team/愷.jpg',
-  description: 'Team member introduction goes here.',
+  description: '超級跳侯竹岡雙龍.',
 
   works: [
     {
-      title: 'ROG Luggage',
+      title: 'P蘇',
       image: 'assets/projects/rog-luggage.jpg',
       url: 'https://www.youtube.com/watch?v=xxxxx'
     },
 
     {
-      title: 'Medical Train',
+      title: '禾子',
       image: 'assets/projects/medical-train.jpg',
       url: 'https://www.youtube.com/watch?v=A9ukncHNk1Q'
     }
