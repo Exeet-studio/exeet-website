@@ -141,7 +141,9 @@ const TEAM = [
   name: '范峻愷',
   role: 'DOP',
   image: 'assets/team/愷.jpg',
-  description: '超級跳侯竹岡雙龍.',
+  description:
+    '超級跳侯竹岡雙龍.',
+   哭嘍顆樓
 
   works: [
     {
