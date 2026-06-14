@@ -745,3 +745,52 @@ button{font:inherit}
   }
 
 }
+.member-works-section{
+  margin-top:80px;
+}
+
+.member-works-section .eyebrow{
+  margin-bottom:22px;
+}
+
+.member-works{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+}
+
+.member-work-card{
+  display:block;
+  border:1px solid var(--line);
+  background:rgba(255,255,255,.02);
+  overflow:hidden;
+  transition:.25s ease;
+}
+
+.member-work-card:hover{
+  transform:translateY(-3px);
+  border-color:var(--green2);
+  box-shadow:0 0 28px rgba(127,211,170,.12);
+}
+
+.member-work-card img{
+  width:100%;
+  aspect-ratio:16/10;
+  object-fit:cover;
+  display:block;
+}
+
+.member-work-card .meta{
+  padding:14px 16px 16px;
+}
+
+@media(max-width:900px){
+  .member-works-section{
+    margin-top:48px;
+  }
+
+  .member-works{
+    grid-template-columns:1fr;
+    gap:18px;
+  }
+}
