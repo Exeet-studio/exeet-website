@@ -154,7 +154,7 @@ const TEAM = [
       title: '禾子',
       image: 'assets/team/愷.jpg',
       url: 'https://www.youtube.com/watch?v=A9ukncHNk1Q'
-    }
+    },
  {
   slug: '范峻愷',
   name: '范峻愷Fan Chun Kai',
