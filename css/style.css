@@ -794,3 +794,67 @@ button{font:inherit}
     gap:18px;
   }
 }
+@media(max-width:900px){
+
+  .detail-grid{
+    display:grid !important;
+    grid-template-columns:1fr !important;
+    gap:28px !important;
+  }
+
+  #memberImage{
+    width:100% !important;
+    height:100% !important;
+    object-fit:cover !important;
+    display:block !important;
+  }
+
+  #memberDesc{
+    display:block !important;
+    position:relative !important;
+    z-index:2 !important;
+    margin:0 !important;
+  }
+
+  .member-works-section{
+    margin-top:56px !important;
+  }
+}
+/* =========================
+   TEAM MOBILE IMAGE FIX
+   ========================= */
+@media(max-width:900px){
+
+  .team-grid .card{
+    display:block !important;
+  }
+
+  .team-grid .thumb{
+    height:auto !important;
+    min-height:0 !important;
+    max-height:none !important;
+    aspect-ratio:16/9 !important;
+    overflow:hidden !important;
+  }
+
+  .team-grid .thumb img{
+    width:100% !important;
+    height:100% !important;
+    object-fit:contain !important;
+    display:block !important;
+  }
+
+  .team-grid .card-info{
+    padding:18px 20px 22px !important;
+  }
+
+  .team-grid .card-info h3{
+    margin:0 0 10px !important;
+    line-height:1.2 !important;
+  }
+
+  .team-grid .card-info .meta{
+    line-height:1.5 !important;
+  }
+
+}
