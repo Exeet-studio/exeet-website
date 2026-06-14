@@ -820,22 +820,3 @@ button{font:inherit}
     margin-top:56px !important;
   }
 }
-@media(max-width:900px){
-
-  .team-grid .card{
-    display:flex !important;
-    flex-direction:column !important;
-  }
-
-  .team-grid .card-info{
-    position:relative !important;
-    padding:18px 20px 22px !important;
-    background:rgba(2,6,5,.96) !important;
-    border-top:1px solid rgba(184,246,216,.18) !important;
-  }
-
-  .team-grid .card-info h3{
-    margin:0 0 8px !important;
-    line-height:1.2 !important;
-  }
-}
