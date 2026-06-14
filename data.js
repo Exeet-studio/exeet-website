@@ -139,10 +139,10 @@ const TEAM = [
 
   {
     slug: 'Kuan-Sheng-Wang',
-    name: '渠你娘',
+    name: '王冠紳',
     role: 'Creative Director',
     image: 'assets/team/yihsuan.jpg',
-    description: '非常口影像製作有限公司共同創辦人<br><br>Director / DOP / Art Director',
+    description: '非常口影像製作有限公司共同創辦人<br><br>Director / DOP ',
 
     works: [
       {
@@ -163,13 +163,13 @@ const TEAM = [
     name: '范峻愷 Fan Chun Kai',
     role: 'DOP',
     image: 'assets/team/愷.jpg',
-    description: '紅姦百生<br><br>竹岡雙龍<br><br>義大顯謨<br><br>葡萄骷髏',
+    description: '非常口影像製作有限公司共同創辦人<br><br>DOP<br><br>紅姦百生<br><br>竹岡雙龍<br><br>義大顯謨<br><br>葡萄骷髏',
 
     works: [
       {
         title: 'P蘇',
         image: 'assets/team/愷.jpg',
-        url: 'https://www.youtube.com/watch?v=xxxxx'
+        url: 'https://www.youtube.com/watch?v=Fios3qLinkk&list=RDFios3qLinkk&start_radio=1'
       },
       {
         title: '禾子',
