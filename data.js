@@ -140,7 +140,7 @@ const TEAM = [
   slug: 'member-01',
   name: 'Member Name',
   role: 'Creative Director',
-  image: 'assets/team/member-01.jpg',
+  image: 'assets/team/愷.jpg',
   description: 'Team member introduction goes here.',
 
   works: [
