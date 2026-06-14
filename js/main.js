@@ -64,9 +64,24 @@ function initTeam(){
 }
 function initMember(){
   layout('team');
-  const m=TEAM.find(x=>x.slug===getParam('slug'))||TEAM[0];
-  $('#memberName').textContent=m.name; $('#memberRole').textContent=m.role; $('#memberDesc').textContent=m.description;
-  $('#memberImage').src=m.image; fallbackImage($('#memberImage'));
+
+  const m = TEAM.find(x => x.slug === getParam('slug')) || TEAM[0];
+
+  $('#memberName').textContent = m.name;
+  $('#memberRole').textContent = m.role;
+  $('#memberDesc').textContent = m.description;
+  $('#memberImage').src = m.image;
+  fallbackImage($('#memberImage'));
+
+  const worksBox = $('#memberWorks');
+
+  if(worksBox && m.works){
+    worksBox.innerHTML = m.works.map(work => `
+      <a class="member-work-card" href="${work.url}" target="_blank">
+        <img src="${work.image}" alt="${work.title}">
+        <div class="meta">${work.title}</div>
+      </a>
+    `).join('');
 }
 function initShowreel(){ layout('showreel'); $('#showreelFrame').src=SITE.showreelUrl; $('#showreelTitle').textContent=SITE.showreelTitle; $('#showreelDesc').textContent=SITE.showreelDescription; }
 function initContact(){ layout('contact'); $('#contactList').innerHTML=`<a class="contact-item" href="mailto:${SITE.email}"><span>Email</span><span>${SITE.email}</span></a><a class="contact-item" href="${SITE.instagram}" target="_blank"><span>Instagram</span><span>Open →</span></a><a class="contact-item" href="${SITE.youtube}" target="_blank"><span>YouTube</span><span>Open →</span></a><div class="contact-item"><span>Line ID</span><span>${SITE.lineId}</span></div>`; }
