@@ -820,3 +820,10 @@ button{font:inherit}
     margin-top:56px !important;
   }
 }
+@media(max-width:900px){
+  .detail-grid .thumb{
+    height:auto !important;
+    aspect-ratio:4/5 !important;
+    overflow:hidden !important;
+  }
+}
