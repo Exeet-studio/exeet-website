@@ -146,13 +146,13 @@ const TEAM = [
   works: [
     {
       title: 'P蘇',
-      image: 'assets/projects/rog-luggage.jpg',
+      image: 'assets/team/愷.jpg',
       url: 'https://www.youtube.com/watch?v=xxxxx'
     },
 
     {
       title: '禾子',
-      image: 'assets/projects/medical-train.jpg',
+      image: 'assets/team/愷.jpg',
       url: 'https://www.youtube.com/watch?v=A9ukncHNk1Q'
     }
   ]
