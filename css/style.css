@@ -794,29 +794,3 @@ button{font:inherit}
     gap:18px;
   }
 }
-@media(max-width:900px){
-
-  .detail-grid{
-    display:grid !important;
-    grid-template-columns:1fr !important;
-    gap:28px !important;
-  }
-
-  #memberImage{
-    width:100% !important;
-    height:100% !important;
-    object-fit:cover !important;
-    display:block !important;
-  }
-
-  #memberDesc{
-    display:block !important;
-    position:relative !important;
-    z-index:2 !important;
-    margin:0 !important;
-  }
-
-  .member-works-section{
-    margin-top:56px !important;
-  }
-}
