@@ -136,44 +136,47 @@ const PROJECTS = [
 ];
 
 const TEAM = [
+
   {
-  slug: '幹你娘',
-  name: '范峻愷Fan Chun Kai',
-  role: 'DOP',
-  image: 'assets/team/愷.jpg',
-  description:'紅姦百生<br><br>竹岡雙龍<br><br>義大顯謨<br><br>葡萄骷髏',
+    slug: 'fan-chun-kai',
+    name: '范峻愷 Fan Chun Kai',
+    role: 'DOP',
+    image: 'assets/team/愷.jpg',
+    description: '紅姦百生<br><br>竹岡雙龍<br><br>義大顯謨<br><br>葡萄骷髏',
 
-  works: [
-    {
-      title: 'P蘇',
-      image: 'assets/team/愷.jpg',
-      url: 'https://www.youtube.com/watch?v=xxxxx'
-    },
-
-    {
-      title: '禾子',
-      image: 'assets/team/愷.jpg',
-      url: 'https://www.youtube.com/watch?v=A9ukncHNk1Q'
+    works: [
+      {
+        title: 'P蘇',
+        image: 'assets/team/愷.jpg',
+        url: 'https://www.youtube.com/watch?v=xxxxx'
+      },
+      {
+        title: '禾子',
+        image: 'assets/team/愷.jpg',
+        url: 'https://www.youtube.com/watch?v=A9ukncHNk1Q'
+      }
+    ]
   },
+
   {
-  slug: '范峻愷',
-  name: '范峻愷Fan Chun Kai',
-  role: 'DOP',
-  image: 'assets/team/愷.jpg',
-  description:'紅姦百生<br><br>竹岡雙龍<br><br>義大顯謨<br><br>葡萄骷髏',
+    slug: 'Kuan-Sheng-Wang',
+    name: '渠你娘',
+    role: 'Creative Director',
+    image: 'assets/team/yihsuan.jpg',
+    description: '非常口影像製作有限公司共同創辦人<br><br>Director / DOP / Art Director',
 
-  works: [
-    {
-      title: 'P蘇',
-      image: 'assets/team/愷.jpg',
-      url: 'https://www.youtube.com/watch?v=xxxxx'
-    },
+    works: [
+      {
+        title: 'ROG Luggage',
+        image: 'assets/projects/rog.jpg',
+        url: 'https://www.youtube.com/watch?v=xxxxx'
+      },
+      {
+        title: 'Medical Train',
+        image: 'assets/projects/train.jpg',
+        url: 'https://www.youtube.com/watch?v=yyyyy'
+      }
+    ]
+  }
 
-    {
-      title: '禾子',
-      image: 'assets/team/愷.jpg',
-      url: 'https://www.youtube.com/watch?v=A9ukncHNk1Q'
-    }
-  ]
-}
 ];
