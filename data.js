@@ -136,9 +136,28 @@ const PROJECTS = [
 ];
 
 const TEAM = [
+  {
+  slug: '幹你娘',
+  name: '范峻愷Fan Chun Kai',
+  role: 'DOP',
+  image: 'assets/team/愷.jpg',
+  description:'紅姦百生<br><br>竹岡雙龍<br><br>義大顯謨<br><br>葡萄骷髏',
+
+  works: [
+    {
+      title: 'P蘇',
+      image: 'assets/team/愷.jpg',
+      url: 'https://www.youtube.com/watch?v=xxxxx'
+    },
+
+    {
+      title: '禾子',
+      image: 'assets/team/愷.jpg',
+      url: 'https://www.youtube.com/watch?v=A9ukncHNk1Q'
+    }
  {
   slug: '范峻愷',
-  name: '范峻愷',
+  name: '范峻愷Fan Chun Kai',
   role: 'DOP',
   image: 'assets/team/愷.jpg',
   description:'紅姦百生<br><br>竹岡雙龍<br><br>義大顯謨<br><br>葡萄骷髏',
