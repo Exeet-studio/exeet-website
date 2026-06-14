@@ -141,8 +141,7 @@ const TEAM = [
   name: '誤入歧途剛剛好',
   role: '跳猴之王',
   image: 'assets/team/愷.jpg',
-  description: '竹岡雙龍義大顯謨
-    紅堅百生',
+  description: '竹岡雙龍義大顯謨紅堅百生',
 
   works: [
     {
