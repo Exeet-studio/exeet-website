@@ -60,7 +60,7 @@ button{font:inherit}
 .section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:38px;border-bottom:1px solid var(--line);padding-bottom:24px}
 .eyebrow{color:var(--green);font-size:13px;text-transform:uppercase}
 .title{font-size:clamp(36px,6vw,88px);line-height:.9;margin:16px 0 0;letter-spacing:.08em}
-.muted{color:var(--muted);line-height:1.8;letter-spacing:.05em}
+.muted{color:var(--muted);line-height:1.8;letter-spacing:.05;emwhite-space: pre-line;}
 .category-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
 .category-card{min-height:260px;border:1px solid var(--line);padding:28px;display:flex;flex-direction:column;justify-content:space-between;background:linear-gradient(180deg,rgba(184,246,216,.05),rgba(184,246,216,.015));transition:.25s}
 .category-card:hover{transform:translateY(-4px);border-color:var(--green2);box-shadow:0 0 30px rgba(127,211,170,.12)}
