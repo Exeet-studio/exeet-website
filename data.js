@@ -146,22 +146,22 @@ const TEAM = [
 
     works: [
      {
-        title: 'ROG Luggage',
+        title: '去洪幹啦',
         image: 'assets/projects/rog.jpg',
         url: 'https://www.youtube.com/watch?v=xxxxx'
       },
       {
-        title: 'ROG Luggage',
+        title: '姦殺嘴',
         image: 'assets/projects/rog.jpg',
         url: 'https://www.youtube.com/watch?v=xxxxx'
       },
       {
-        title: 'ROG Luggage',
+        title: '張bondi',
         image: 'assets/projects/rog.jpg',
         url: 'https://www.youtube.com/watch?v=xxxxx'
       },
       {
-        title: 'Medical Train',
+        title: '紫瘤泰德',
         image: 'assets/projects/train.jpg',
         url: 'https://www.youtube.com/watch?v=yyyyy'
       }
@@ -198,12 +198,12 @@ const TEAM = [
 
     works: [
       {
-        title: 'ROG Luggage',
+        title: '紅',
         image: 'assets/projects/rog.jpg',
         url: 'https://www.youtube.com/watch?v=xxxxx'
       },
       {
-        title: 'Medical Train',
+        title: '尖沙嘴',
         image: 'assets/projects/train.jpg',
         url: 'https://www.youtube.com/watch?v=yyyyy'
       }
