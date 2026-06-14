@@ -145,6 +145,16 @@ const TEAM = [
     description: '非常口影像製作有限公司共同創辦人<br><br>Director / DOP ',
 
     works: [
+     {
+        title: 'ROG Luggage',
+        image: 'assets/projects/rog.jpg',
+        url: 'https://www.youtube.com/watch?v=xxxxx'
+      },
+      {
+        title: 'ROG Luggage',
+        image: 'assets/projects/rog.jpg',
+        url: 'https://www.youtube.com/watch?v=xxxxx'
+      },
       {
         title: 'ROG Luggage',
         image: 'assets/projects/rog.jpg',
