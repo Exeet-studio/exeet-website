@@ -69,7 +69,7 @@ function initMember(){
 
   $('#memberName').textContent = m.name;
   $('#memberRole').textContent = m.role;
-  $('#memberDesc').textContent = m.description;
+  $('#memberDesc').innerHTML = m.description;
   $('#memberImage').src = m.image;
   fallbackImage($('#memberImage'));
 
