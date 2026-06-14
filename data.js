@@ -137,22 +137,23 @@ const PROJECTS = [
 
 const TEAM = [
  {
-  slug: '德德',
-  name: '誤入歧途剛剛好',
-  role: '跳猴之王',
-  image: 'assets/team/愷.jpg',
-  description: '竹岡雙龍義大顯謨紅堅百生',
+  slug: 'member-01',
+  name: 'Member Name',
+  role: 'Creative Director',
+  image: 'assets/team/member-01.jpg',
+  description: 'Team member introduction goes here.',
 
   works: [
     {
-      title: 'Dillon Jump Monkey',
-      image: 'assets/team/愷.jpg',
-      url: 'https://www.youtube.com/@pdicka082'
+      title: 'ROG Luggage',
+      image: 'assets/projects/rog-luggage.jpg',
+      url: 'https://www.youtube.com/watch?v=xxxxx'
     },
+
     {
-      title: 'Peter Dick Yu PSU,
-      image: 'assets/team/愷.jpg',
-      url: 'https://www.youtube.com/@pdicka082'
+      title: 'Medical Train',
+      image: 'assets/projects/medical-train.jpg',
+      url: 'https://www.youtube.com/watch?v=yyyyy'
     }
   ]
 }
