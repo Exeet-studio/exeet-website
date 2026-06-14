@@ -82,6 +82,7 @@ function initMember(){
         <div class="meta">${work.title}</div>
       </a>
     `).join('');
+    }
 }
 function initShowreel(){ layout('showreel'); $('#showreelFrame').src=SITE.showreelUrl; $('#showreelTitle').textContent=SITE.showreelTitle; $('#showreelDesc').textContent=SITE.showreelDescription; }
 function initContact(){ layout('contact'); $('#contactList').innerHTML=`<a class="contact-item" href="mailto:${SITE.email}"><span>Email</span><span>${SITE.email}</span></a><a class="contact-item" href="${SITE.instagram}" target="_blank"><span>Instagram</span><span>Open →</span></a><a class="contact-item" href="${SITE.youtube}" target="_blank"><span>YouTube</span><span>Open →</span></a><div class="contact-item"><span>Line ID</span><span>${SITE.lineId}</span></div>`; }
