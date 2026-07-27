@@ -132,3 +132,121 @@ function initMember() {
 }
 function initShowreel(){ layout('showreel'); $('#showreelFrame').src=SITE.showreelUrl; $('#showreelTitle').textContent=SITE.showreelTitle; $('#showreelDesc').textContent=SITE.showreelDescription; }
 function initContact(){ layout('contact'); $('#contactList').innerHTML=`<a class="contact-item" href="mailto:${SITE.email}"><span>Email</span><span>${SITE.email}</span></a><a class="contact-item" href="${SITE.instagram}" target="_blank"><span>Instagram</span><span>Open →</span></a><a class="contact-item" href="${SITE.youtube}" target="_blank"><span>YouTube</span><span>Open →</span></a><div class="contact-item"><span>Line ID</span><span>${SITE.lineId}</span></div>`; }
+function initMemberProject() {
+  const params = new URLSearchParams(window.location.search);
+
+  const memberSlug = params.get('member');
+  const workSlug = params.get('work');
+
+  const member = TEAM.find(item => item.slug === memberSlug);
+
+  const work = member?.works?.find(
+    item => item.slug === workSlug
+  );
+
+  if (!member || !work) {
+    document.querySelector('.page').innerHTML = `
+      <h1 class="title">Work Not Found</h1>
+      <a class="eyebrow" href="team.html">Back →</a>
+    `;
+    return;
+  }
+
+  document.title = `${work.title} / ${member.name} / EXEET`;
+
+  document.getElementById('memberProjectTitle').textContent =
+    work.title || '';
+
+  document.getElementById('memberProjectMeta').textContent =
+    [member.name, work.year, work.client]
+      .filter(Boolean)
+      .join(' / ');
+
+  document.getElementById('memberProjectBack').href =
+    `member.html?slug=${encodeURIComponent(member.slug)}`;
+
+  document.getElementById('memberProjectDescription').innerHTML =
+    work.description || '';
+
+  renderMemberProjectVideo(work);
+  renderMemberProjectCredits(work);
+  renderMemberProjectGallery(work);
+}
+
+function renderMemberProjectVideo(work) {
+  const section = document.getElementById(
+    'memberProjectVideoSection'
+  );
+
+  const iframe = document.getElementById(
+    'memberProjectVideo'
+  );
+
+  if (!work.video) {
+    section.style.display = 'none';
+    return;
+  }
+
+  section.style.display = '';
+  iframe.src = work.video;
+}
+
+function renderMemberProjectCredits(work) {
+  const container = document.getElementById(
+    'memberProjectCredits'
+  );
+
+  container.innerHTML = '';
+
+  if (!work.credits || work.credits.length === 0) {
+    container.style.display = 'none';
+    return;
+  }
+
+  container.style.display = '';
+
+  container.innerHTML = `
+    <div class="eyebrow">Credits</div>
+
+    <div class="member-project-credit-list">
+      ${work.credits
+        .map(credit => `<div>${credit}</div>`)
+        .join('')}
+    </div>
+  `;
+}
+
+function renderMemberProjectGallery(work) {
+  const section = document.getElementById(
+    'memberProjectGallerySection'
+  );
+
+  const container = document.getElementById(
+    'memberProjectGallery'
+  );
+
+  container.innerHTML = '';
+
+  if (!work.gallery || work.gallery.length === 0) {
+    section.style.display = 'none';
+    return;
+  }
+
+  section.style.display = '';
+
+  work.gallery.forEach(imagePath => {
+    const figure = document.createElement('figure');
+
+    figure.className = 'member-project-gallery-item';
+
+    figure.innerHTML = `
+      <img
+        src="${imagePath}"
+        alt="${work.title || 'Work Image'}"
+        loading="lazy"
+      >
+    `;
+
+    container.appendChild(figure);
+  });
+}
