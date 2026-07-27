@@ -540,6 +540,76 @@ const TEAM = [
               'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’59”.jpg',
               'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-2’50”.jpg'             
             ]
+          },
+
+          {
+            slug: 'Right Here',
+            title: 'SherryZ 鄭雙雙 × 鄭宜農 Enno Cheng〈Right Here〉',
+            image: 'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-0’27”.jpg',
+            year: '2025',
+            client: '北流五週年音樂共創計畫',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/watch?v=hmP32hirkHE&list=RDhmP32hirkHE&start_radio=1'
+            },
+
+            description:
+              '在電氣編制的襯托下，SherryZ 鄭雙雙以張力十足的嗓音，不僅展現對 R&B 轉音的駕馭，更以華語與英語交替演唱，唱出節奏分明、個性鮮明的都會女性韻味；鄭宜農則以爵士和弦鋪陳，結合溫潤細膩的臺語語感，詮釋內斂且深沉的情感層次。這首歌詮釋出兩種截然不同的女性氣質：一方憑直覺創作，展現靈魂樂的律動與當代 R&B 的前衛；另一方則以成人當代音樂的感性與哲思交織，描繪內在世界。',
+
+            credits: [
+              'Production Company',
+              '眉角映像社',
+              'Director｜Saltting',
+              'DOP｜范峻愷',
+              'B Cam｜施濬晨',
+              'GAFFER｜張恩郡'
+            ],
+
+            gallery: [
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-0’38”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-0’57”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’12”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’28”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’48”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’59”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-2’50”.jpg'             
+            ]
+          },
+
+          {
+            slug: 'Right Here',
+            title: 'SherryZ 鄭雙雙 × 鄭宜農 Enno Cheng〈Right Here〉',
+            image: 'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-0’27”.jpg',
+            year: '2025',
+            client: '北流五週年音樂共創計畫',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/watch?v=hmP32hirkHE&list=RDhmP32hirkHE&start_radio=1'
+            },
+
+            description:
+              '在電氣編制的襯托下，SherryZ 鄭雙雙以張力十足的嗓音，不僅展現對 R&B 轉音的駕馭，更以華語與英語交替演唱，唱出節奏分明、個性鮮明的都會女性韻味；鄭宜農則以爵士和弦鋪陳，結合溫潤細膩的臺語語感，詮釋內斂且深沉的情感層次。這首歌詮釋出兩種截然不同的女性氣質：一方憑直覺創作，展現靈魂樂的律動與當代 R&B 的前衛；另一方則以成人當代音樂的感性與哲思交織，描繪內在世界。',
+
+            credits: [
+              'Production Company',
+              '眉角映像社',
+              'Director｜Saltting',
+              'DOP｜范峻愷',
+              'B Cam｜施濬晨',
+              'GAFFER｜張恩郡'
+            ],
+
+            gallery: [
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-0’38”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-0’57”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’12”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’28”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’48”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’59”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-2’50”.jpg'             
+            ]
           }
 
 
