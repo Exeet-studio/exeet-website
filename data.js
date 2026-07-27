@@ -464,7 +464,7 @@ const TEAM = [
               'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0324.jpg',
               'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0325.jpg',
               'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0326.jpg'
-              
+
             ]
           }
         ]
@@ -523,12 +523,12 @@ const TEAM = [
               '',
 
             credits: [
-              'Production Company｜眉角映像社',
+              'Production Company',
               '眉角映像社',
               'Director｜Saltting',
               'DOP｜范峻愷',
               'B Cam｜施濬晨',
-              'GAFFER｜張恩郡'
+              'GAFFER｜張恩郡',
             ],
 
             gallery: [
