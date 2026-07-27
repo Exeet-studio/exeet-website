@@ -62,27 +62,73 @@ function initTeam(){
   $('#teamGrid').innerHTML=TEAM.map(m=>`<a class="card" href="member.html?slug=${m.slug}"><div class="thumb"><img src="${m.image}" alt="${m.name}"></div><div class="card-info"><h3>${m.name}</h3><div class="meta">${m.role}</div></div></a>`).join('');
   $all('.thumb img').forEach(fallbackImage);
 }
-function initMember(){
-  layout('team');
+function initMember() {
+  const params = new URLSearchParams(window.location.search);
+  const memberSlug = params.get('slug');
 
-  const m = TEAM.find(x => x.slug === getParam('slug')) || TEAM[0];
+  const member = TEAM.find(item => item.slug === memberSlug);
 
-  $('#memberName').textContent = m.name;
-  $('#memberRole').textContent = m.role;
-  $('#memberDesc').innerHTML = m.description;
-  $('#memberImage').src = m.image;
-  fallbackImage($('#memberImage'));
+  if (!member) {
+    document.querySelector('.page').innerHTML = `
+      <h1 class="title">Member Not Found</h1>
+      <a class="eyebrow" href="team.html">Back →</a>
+    `;
+    return;
+  }
 
-  const worksBox = $('#memberWorks');
+  document.title = `${member.name} / EXEET`;
 
-  if(worksBox && m.works){
-    worksBox.innerHTML = m.works.map(work => `
-      <a class="member-work-card" href="${work.url}" target="_blank">
-        <img src="${work.image}" alt="${work.title}">
-        <div class="meta">${work.title}</div>
-      </a>
-    `).join('');
-    }
+  document.getElementById('memberRole').textContent = member.role || '';
+  document.getElementById('memberName').textContent = member.name || '';
+  document.getElementById('memberImage').src = member.image || '';
+  document.getElementById('memberImage').alt = member.name || 'Member';
+  document.getElementById('memberDesc').innerHTML =
+    member.description || '';
+
+  const worksContainer = document.getElementById('memberWorks');
+  worksContainer.innerHTML = '';
+
+  if (!member.works || member.works.length === 0) {
+    worksContainer.innerHTML = `
+      <p class="muted">No selected works yet.</p>
+    `;
+    return;
+  }
+
+  member.works.forEach(work => {
+    const link = document.createElement('a');
+
+    link.className = 'member-work-card';
+
+    link.href =
+      `member-project.html?member=${encodeURIComponent(member.slug)}` +
+      `&work=${encodeURIComponent(work.slug)}`;
+
+    link.innerHTML = `
+      <div class="member-work-thumb">
+        <img
+          src="${work.image || ''}"
+          alt="${work.title || 'Selected Work'}"
+        >
+      </div>
+
+      <div class="member-work-info">
+        <h3>${work.title || ''}</h3>
+
+        ${
+          work.year || work.client
+            ? `<div class="meta">
+                ${work.year || ''}
+                ${work.year && work.client ? ' / ' : ''}
+                ${work.client || ''}
+              </div>`
+            : ''
+        }
+      </div>
+    `;
+
+    worksContainer.appendChild(link);
+  });
 }
 function initShowreel(){ layout('showreel'); $('#showreelFrame').src=SITE.showreelUrl; $('#showreelTitle').textContent=SITE.showreelTitle; $('#showreelDesc').textContent=SITE.showreelDescription; }
 function initContact(){ layout('contact'); $('#contactList').innerHTML=`<a class="contact-item" href="mailto:${SITE.email}"><span>Email</span><span>${SITE.email}</span></a><a class="contact-item" href="${SITE.instagram}" target="_blank"><span>Instagram</span><span>Open →</span></a><a class="contact-item" href="${SITE.youtube}" target="_blank"><span>YouTube</span><span>Open →</span></a><div class="contact-item"><span>Line ID</span><span>${SITE.lineId}</span></div>`; }
