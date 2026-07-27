@@ -250,57 +250,405 @@ const TEAM = [
     works: [
 
       {
+        category: 'narrative',
+
+        items: [
+
+          {
+            slug: 'LNN',
+            title: '一場年夜的剖析',
+            image: 'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-23’31”.jpg',
+            year: '2026',
+            client: '世新大學廣電系畢業製作',
+
+            media: {
+              type: 'image',
+              url: 'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-23’31”.jpg'
+            },
+
+            description:
+              '世新大學廣電系畢業製作',
+
+            credits: [
+              'Director｜李寬九',
+              'Poducer｜莊玉琳',
+              'Dop｜張恩郡',
+              'Gaffer｜胡建翔',
+              'Colorist｜范峻愷',
+            ],
+
+            gallery: [
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-1’11”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-9’07”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’03”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’30”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’34”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-14’45”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-15’23”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-18’31”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-21’58”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-22’55”.jpg'
+            ]
+          },
+
+          {
+            slug: 'dress',
+            title: '裙擺',
+            image: 'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-19’27”.jpg',
+            year: '2024',
+            client: '世新大學廣電系畢業製作',
+
+            media: {
+              type: 'image',
+              url: 'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-19’27”.jpg'
+            },
+
+            description:
+              '世新大學廣電系畢業製作',
+
+            credits: [
+              'Director｜明明',
+              'Poducer｜吳晨希',
+              'Dop｜張恩郡',
+              'Gaffer｜彭睦軒',
+              'Colorist｜彭瑋淳',
+            ],
+
+            gallery: [
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-0’21”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-1’04”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-1’15”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-4’25”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-13’59”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-14’21”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-15’23”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-16’17”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-16’33”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-17’56”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-19’32”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-20’22”.jpg'
+            ]
+          },
+
+{
+            slug: 'destroy me',
+            title: 'Destroy me',
+            image: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg',
+            year: '2020',
+            client: '16釐米底片',
+
+            media: {
+              type: 'video',
+              type: 'image',
+              url: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Director｜張恩郡',
+              'Dop｜張恩郡',
+            ],
+
+            gallery: [
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’47”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’33”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’37”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’41”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’44”.jpg'
+            ]
+          },
+
+{
+            slug: 'superman',
+            title: '甲蟲超人',
+            image: 'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0319.jpg',
+            year: '2023',
+            client: '台灣藝術大學電影系畢業製作',
+
+            media: {
+              type: 'image',
+              url: 'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0319.jpg'
+            },
+
+            description:
+              '台灣藝術大學電影系畢業製作',
+
+            credits: [
+              'Director｜劉昱均',
+              'Dop｜林立軒',
+              'Gaffer｜張恩郡'
+            ],
+
+            gallery: [
+             'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0317.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0318.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0320.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0321.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0322.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0323.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0324.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0325.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0326.jpg'
+
+            ]
+          }
+        ]
+      },
+
+       {
+        category: 'mv',
+
+        items: [
+
+          {
+            slug: 'line',
+            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
+            image: 'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-0 screenshot.png',
+            year: '2021',
+            client: 'ZEALOTS ENTERTAINMENT',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/watch?v=ZVkFtNRa8oA&list=RDZVkFtNRa8oA&start_radio=1'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Director｜張恩郡',
+              'DOP｜林立軒，張恩郡',
+              'GAFFER｜古乃元',
+            ],
+
+            gallery: [
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-0 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-3 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-30 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 1-5 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 1-43 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 1-57 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 2-6 screenshot.png'
+            ]
+          },
+
+          {
+            slug: 'Foggy',
+            title: '林沛蕎 Lulu Lin《霧．忘我Foggy paradox 》Official Music Video',
+            image: 'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-0’13”.jpg',
+            year: '2024',
+            client: '林沛蕎',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/watch?v=PEM9ZOW5eig&list=RDPEM9ZOW5eig&start_radio=1'
+            },
+
+            description:
+              'MV概念以夢為主軸，模糊、神秘又清晰，導演將世界觀設定是一個大意識體，而Deja Vu代表意識連結點，在時間軸上的某一刻人與人意識會相連，入境夢中探索進入潛意識挖掘，就像走進一個迴圈，永遠都是冰山一角，看不完也看不清，好似水中倒影，琉璃波光卻感受不了平靜，只有光影總是真實，追尋光影繞著，又回到原地，而旅程的意義，只是等待真實的他，將這張臉填滿，用Deja vu滿足期望預知未來的潛意識。',
+
+            credits: [
+              'Production Company｜',
+              '非常口影像製作有限公司',
+              'Director｜KSW',
+              'DOP｜范峻愷',
+              'GAFFER｜張恩郡'
+            ],
+
+            gallery: [
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-0’33”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-0’56”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-1’17”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-1’34”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-1’56”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-3’02”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-3’05”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-3’59”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-4’03”.jpg'
+            ]
+          },
+
+          {
+            slug: 'Right Here',
+            title: 'SherryZ 鄭雙雙 × 鄭宜農 Enno Cheng〈Right Here〉',
+            image: 'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-0’27”.jpg',
+            year: '2025',
+            client: '北流五週年音樂共創計畫',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/watch?v=hmP32hirkHE&list=RDhmP32hirkHE&start_radio=1'
+            },
+
+            description:
+              '在電氣編制的襯托下，SherryZ 鄭雙雙以張力十足的嗓音，不僅展現對 R&B 轉音的駕馭，更以華語與英語交替演唱，唱出節奏分明、個性鮮明的都會女性韻味；鄭宜農則以爵士和弦鋪陳，結合溫潤細膩的臺語語感，詮釋內斂且深沉的情感層次。這首歌詮釋出兩種截然不同的女性氣質：一方憑直覺創作，展現靈魂樂的律動與當代 R&B 的前衛；另一方則以成人當代音樂的感性與哲思交織，描繪內在世界。',
+
+            credits: [
+              'Production Company｜',
+              '眉角映像社',
+              'Director｜Saltting',
+              'DOP｜范峻愷',
+              'B Cam｜施濬晨',
+              'GAFFER｜張恩郡'
+            ],
+
+            gallery: [
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-0’38”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-0’57”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’12”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’28”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’48”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’59”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-2’50”.jpg'             
+            ]
+          },
+
+          {
+            slug: 'fearless',
+            title: '慣性成癮 Inertial Addiction - 餘生 Fearless feat.ann.dj0nt（Official Music Video）',
+            image: 'assets/team/張恩ㄐㄩ/餘生/IMG_0280.jpg',
+            year: '2022',
+            client: '慣性成癮',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/watch?v=bZ4pPWiDIM0&list=RDbZ4pPWiDIM0&start_radio=1'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Director｜Lusha Wang',
+              'DOP｜范峻愷',
+              'GAFFER｜張恩郡'
+            ],
+
+            gallery: [
+              'assets/team/張恩ㄐㄩ/餘生/IMG_0274.jpg',
+              'assets/team/張恩ㄐㄩ/餘生/IMG_0275.jpg',
+              'assets/team/張恩ㄐㄩ/餘生/IMG_0277.jpg',
+              'assets/team/張恩ㄐㄩ/餘生/IMG_0278.jpg',
+              'assets/team/張恩ㄐㄩ/餘生/IMG_0279.jpg',
+              'assets/team/張恩ㄐㄩ/餘生/IMG_0281.jpg',
+              'assets/team/張恩ㄐㄩ/餘生/IMG_0282.jpg',
+              'assets/team/張恩ㄐㄩ/餘生/IMG_0283.jpg'
+              
+            ]
+          }
+
+
+        ]
+      },
+
+      {
         category: 'commercial',
 
         items: [
 
           {
-            slug: 'p-su',
-            title: 'P蘇',
-            image: 'assets/team/愷.jpg',
+            slug: 'line',
+            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
+            image: 'assets/projects/rog.jpg',
             year: '2026',
-            client: '',
+            client: 'Client Name',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/Fios3qLinkk'
+              url: 'https://www.youtube.com/embed/影片ID'
             },
 
             description:
-              '這裡輸入 P蘇 的作品介紹，以及范峻愷負責的攝影內容。',
+              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
 
             credits: [
-              'DOP｜范峻愷'
+              'Director｜王冠紳',
+              'DOP｜王冠紳'
             ],
 
             gallery: [
-              'assets/team/works/p-su-01.jpg',
-              'assets/team/works/p-su-02.jpg'
+              'assets/team/works/qu-hong-gan-la-01.jpg',
+              'assets/team/works/qu-hong-gan-la-02.jpg'
             ]
           },
 
-
           {
-            slug: 'he-zi',
-            title: '禾子',
-            image: 'assets/team/愷.jpg',
+            slug: 'line',
+            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
+            image: 'assets/projects/rog.jpg',
             year: '2026',
-            client: '',
+            client: 'Client Name',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/A9ukncHNk1Q'
+              url: 'https://www.youtube.com/embed/影片ID'
             },
 
             description:
-              '這裡輸入禾子的作品介紹。',
+              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
 
             credits: [
-              'DOP｜范峻愷'
+              'Director｜王冠紳',
+              'DOP｜王冠紳'
             ],
 
             gallery: [
-              'assets/team/愷.jpg'
+              'assets/team/works/qu-hong-gan-la-01.jpg',
+              'assets/team/works/qu-hong-gan-la-02.jpg'
+            ]
+          },
+
+          {
+            slug: 'line',
+            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
+            image: 'assets/projects/rog.jpg',
+            year: '2026',
+            client: 'Client Name',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/影片ID'
+            },
+
+            description:
+              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+
+            credits: [
+              'Director｜王冠紳',
+              'DOP｜王冠紳'
+            ],
+
+            gallery: [
+              'assets/team/works/qu-hong-gan-la-01.jpg',
+              'assets/team/works/qu-hong-gan-la-02.jpg'
+            ]
+          },
+
+          {
+            slug: 'line',
+            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
+            image: 'assets/projects/rog.jpg',
+            year: '2026',
+            client: 'Client Name',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/影片ID'
+            },
+
+            description:
+              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+
+            credits: [
+              'Director｜王冠紳',
+              'DOP｜王冠紳'
+            ],
+
+            gallery: [
+              'assets/team/works/qu-hong-gan-la-01.jpg',
+              'assets/team/works/qu-hong-gan-la-02.jpg'
             ]
           }
 
