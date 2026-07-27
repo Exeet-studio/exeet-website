@@ -2,98 +2,80 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>Project / EXEET</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Project / EXEET</title>
 
-    <link rel="stylesheet" href="css/style.css?v=15">
+  <link rel="stylesheet" href="css/style.css?v=15">
 </head>
 
 <body>
 
-    <main class="page detail">
+  <main class="page detail">
 
-        <div class="section-head">
+    <div class="section-head">
+      <div>
+        <div id="projectMeta" class="eyebrow"></div>
+        <h1 id="projectTitle" class="title"></h1>
+      </div>
 
-            <div>
-                <div id="projectMeta" class="eyebrow"></div>
-                <h1 id="projectTitle" class="title"></h1>
-            </div>
+      <a class="eyebrow" href="projects.html">Back →</a>
+    </div>
 
-            <a class="eyebrow" href="projects.html">Back →</a>
+    <div id="projectVideoSection" class="hero-media" hidden>
+      <iframe
+        id="projectVideo"
+        allowfullscreen>
+      </iframe>
+    </div>
 
+    <div id="projectImageSection" class="hero-media" hidden>
+      <img
+        id="projectImage"
+        src=""
+        alt="">
+    </div>
+
+    <div class="detail-grid">
+
+      <div>
+        <div class="eyebrow">Description</div>
+        <p id="projectDesc" class="muted"></p>
+      </div>
+
+      <div>
+        <div class="eyebrow">Project Info</div>
+        <div id="projectInfo" class="muted"></div>
+
+        <div
+          id="projectCredits"
+          style="margin-top:28px">
         </div>
+      </div>
 
+    </div>
 
-        <div class="hero-media">
+    <section
+      id="projectGallerySection"
+      style="margin-top:80px;display:none">
 
-            <iframe
-                id="projectVideo"
-                allowfullscreen
-                style="display:none">
-            </iframe>
+      <div class="eyebrow">Gallery</div>
 
-            <img
-                id="projectImage"
-                style="display:none;width:100%;height:auto;border-radius:12px;">
+      <div
+        id="projectGallery"
+        class="member-project-gallery">
+      </div>
 
-        </div>
+    </section>
 
+  </main>
 
-        <div class="detail-grid">
+  <script src="data.js"></script>
+  <script src="js/main.js"></script>
 
-            <div>
-
-                <div class="eyebrow">
-                    Description
-                </div>
-
-                <p id="projectDesc" class="muted"></p>
-
-            </div>
-
-            <div>
-
-                <div class="eyebrow">
-                    Project Info
-                </div>
-
-                <div id="projectInfo" class="muted"></div>
-
-                <div class="eyebrow" style="margin-top:28px">
-                    Credits
-                </div>
-
-                <ul id="credits" class="credits"></ul>
-
-            </div>
-
-        </div>
-
-
-        <section
-            id="gallerySection"
-            style="margin-top:80px;display:none;">
-
-            <div class="eyebrow">
-                Gallery
-            </div>
-
-            <div
-                id="galleryGrid"
-                class="gallery-grid">
-            </div>
-
-        </section>
-
-    </main>
-
-    <script src="data.js"></script>
-    <script src="js/main.js"></script>
-
-    <script>
-        initProjectDetail()
-    </script>
+  <script>
+    initProjectDetail()
+  </script>
 
 </body>
 
