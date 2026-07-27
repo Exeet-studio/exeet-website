@@ -23,17 +23,31 @@ const CATEGORIES = [
 ];
 
 const PROJECTS = [
-{
+  {
     slug: '南山人壽路跑形象影片',
     title: '南山人壽路跑形象影片',
     category: 'commercial',
     year: '2026',
     client: '南山人壽、伏流創意',
     cover: 'assets/projects/南山人壽路跑形象影片.jpg',
-    video: 'https://www.youtube.com/embed/wbYuImxpkhM',
+
+    media: {
+      type: 'video',
+      url: 'https://www.youtube.com/embed/wbYuImxpkhM'
+    },
+
     description: '南山人壽路跑形象影片',
-    credits: ['Director｜KSW', 'Producer｜Strawberry', 'DOP｜Chun Kai', 'Editor｜KSW']
+
+    credits: [
+      'Director｜KSW',
+      'Producer｜Strawberry',
+      'DOP｜Chun Kai',
+      'Editor｜KSW'
+    ],
+
+    gallery: []
   },
+
   {
     slug: 'HennessyXO',
     title: 'HennessyXO',
@@ -41,10 +55,25 @@ const PROJECTS = [
     year: '2026',
     client: '軒尼詩',
     cover: 'assets/projects/HennessyXO.png',
-    video: 'https://www.youtube.com/embed/7veq9G78u1Y',
+
+    media: {
+      type: 'video',
+      url: 'https://www.youtube.com/embed/7veq9G78u1Y'
+    },
+
     description: 'HennessyXO',
-    credits: ['Director｜Zao',  'Art Director｜LYS', 'DOP｜Chun Kai', 'Editor｜Zao', 'Colorist｜Chun Kai']
+
+    credits: [
+      'Director｜Zao',
+      'Art Director｜LYS',
+      'DOP｜Chun Kai',
+      'Editor｜Zao',
+      'Colorist｜Chun Kai'
+    ],
+
+    gallery: []
   },
+
   {
     slug: '藏富滿滿見證影片',
     title: '藏富滿滿見證影片',
@@ -52,10 +81,24 @@ const PROJECTS = [
     year: '建案/2026',
     client: '藏富建設',
     cover: 'assets/projects/藏富滿滿見證影片.jpg',
-    video: 'https://www.youtube.com/embed/7veq9G78u1Y',
+
+    media: {
+      type: 'video',
+      url: 'https://www.youtube.com/embed/7veq9G78u1Y'
+    },
+
     description: '藏富滿滿見證影片',
-    credits: ['Director｜KSW', 'DOP｜KSW', 'Gaffer｜Andy Chang', 'Editor｜KSW']
+
+    credits: [
+      'Director｜KSW',
+      'DOP｜KSW',
+      'Gaffer｜Andy Chang',
+      'Editor｜KSW'
+    ],
+
+    gallery: []
   },
+
   {
     slug: 'test-01',
     title: 'PROJECT 01',
@@ -63,21 +106,49 @@ const PROJECTS = [
     year: '2026',
     client: 'Client Name',
     cover: 'assets/projects/project-01.jpg',
-    video: 'https://www.youtube.com/embed/wbYuImxpkhM',
+
+    media: {
+      type: 'video',
+      url: 'https://www.youtube.com/embed/wbYuImxpkhM'
+    },
+
     description: 'Project description goes here. You can edit this text in data.js.',
-    credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name', 'DOP｜Name', 'Editor｜Name']
+
+    credits: [
+      'Director｜Name',
+      'Producer｜Name',
+      'Art Director｜Name',
+      'DOP｜Name',
+      'Editor｜Name'
+    ],
+
+    gallery: []
   },
+
   {
-    slug: '',
+    slug: '走進重生校舍',
     title: '走進·重生校舍',
     category: '紀錄片',
     year: '2024-2025',
     client: '新北市教育局',
     cover: 'assets/projects/截圖 2026-06-11 凌晨1.43.05.png',
-    video: 'https://www.youtube.com/embed/ZL73vfTy1e4',
+
+    media: {
+      type: 'video',
+      url: 'https://www.youtube.com/embed/ZL73vfTy1e4'
+    },
+
     description: '走進·重生校舍',
-    credits: ['Director｜KSW', 'Producer｜CHUN KAI', 'Camera｜CHUN KAI']
+
+    credits: [
+      'Director｜KSW',
+      'Producer｜CHUN KAI',
+      'Camera｜CHUN KAI'
+    ],
+
+    gallery: []
   },
+
   {
     slug: 'project-002',
     title: 'PROJECT 002',
@@ -85,10 +156,23 @@ const PROJECTS = [
     year: '2026',
     client: 'Artist / Label',
     cover: 'assets/projects/project-02.PNG',
-    video: 'https://www.youtube.com/embed/yK1tvN3xrfA',
+
+    media: {
+      type: 'video',
+      url: 'https://www.youtube.com/embed/yK1tvN3xrfA'
+    },
+
     description: 'Music video project description goes here.',
-    credits: ['Director｜Name', 'Producer｜Name', 'Art Director｜Name']
+
+    credits: [
+      'Director｜Name',
+      'Producer｜Name',
+      'Art Director｜Name'
+    ],
+
+    gallery: []
   },
+
   {
     slug: 'project-04',
     title: 'PROJECT 04',
@@ -96,10 +180,23 @@ const PROJECTS = [
     year: '2026',
     client: 'Government Project',
     cover: 'assets/projects/project-04.jpg',
-    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+
+    media: {
+      type: 'video',
+      url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    },
+
     description: 'Government project description goes here.',
-    credits: ['Director｜Name', 'Producer｜Name', 'Editor｜Name']
+
+    credits: [
+      'Director｜Name',
+      'Producer｜Name',
+      'Editor｜Name'
+    ],
+
+    gallery: []
   },
+
   {
     slug: 'project-05',
     title: 'PROJECT 05',
@@ -107,10 +204,23 @@ const PROJECTS = [
     year: '2026',
     client: 'Client Name',
     cover: 'assets/projects/project-05.jpg',
-    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+
+    media: {
+      type: 'video',
+      url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    },
+
     description: 'Social content project description goes here.',
-    credits: ['Director｜Name', 'Producer｜Name', 'Editor｜Name']
+
+    credits: [
+      'Director｜Name',
+      'Producer｜Name',
+      'Editor｜Name'
+    ],
+
+    gallery: []
   },
+
   {
     slug: 'project-06',
     title: 'PROJECT 06',
@@ -118,10 +228,24 @@ const PROJECTS = [
     year: '2026',
     client: 'Client Name',
     cover: 'assets/projects/project-06.jpg',
-    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+
+    media: {
+      type: 'video',
+      url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    },
+
     description: 'Narrative project description goes here.',
-    credits: ['Director｜Name', 'Producer｜Name', 'DOP｜Name', 'Editor｜Name']
+
+    credits: [
+      'Director｜Name',
+      'Producer｜Name',
+      'DOP｜Name',
+      'Editor｜Name'
+    ],
+
+    gallery: []
   },
+
   {
     slug: 'project-07',
     title: 'PROJECT 07',
@@ -129,9 +253,22 @@ const PROJECTS = [
     year: '2026',
     client: 'Client Name',
     cover: 'assets/projects/project-07.jpg',
-    video: 'https://www.youtube.com/embed/dQw4w9WgXcQ',
+
+    media: {
+      type: 'video',
+      url: 'https://www.youtube.com/embed/dQw4w9WgXcQ'
+    },
+
     description: 'Event coverage project description goes here.',
-    credits: ['Director｜Name', 'Producer｜Name', 'Camera｜Name', 'Editor｜Name']
+
+    credits: [
+      'Director｜Name',
+      'Producer｜Name',
+      'Camera｜Name',
+      'Editor｜Name'
+    ],
+
+    gallery: []
   }
 ];
 
