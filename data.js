@@ -431,6 +431,36 @@ const TEAM = [
               'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’41”.jpg',
               'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’44”.jpg'
             ]
+          },
+
+{
+            slug: 'destroy me',
+            title: 'Destroy me',
+            image: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg',
+            year: '2020',
+            client: '16釐米底片',
+
+            media: {
+              type: 'video',
+              type: 'image',
+              url: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Director｜張恩郡',
+              'Dop｜張恩郡',
+            ],
+
+            gallery: [
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’47”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’33”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’37”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’41”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’44”.jpg'
+            ]
           }
         ]
       },
