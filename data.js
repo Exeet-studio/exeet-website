@@ -247,7 +247,7 @@ const TEAM = [
           'DOP｜范峻愷'
         ],
 
-        gallery: []
+        gallery: ['assets/team/愷.jpg']
       }
     ]
   },
