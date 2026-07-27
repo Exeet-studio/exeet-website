@@ -508,37 +508,38 @@ const TEAM = [
           },
 
           {
-            slug: 'Right Here',
-            title: 'SherryZ 鄭雙雙 × 鄭宜農 Enno Cheng〈Right Here〉',
-            image: 'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-0’27”.jpg',
-            year: '2025',
-            client: '北流五週年音樂共創計畫',
+            slug: 'Foggy',
+            title: '林沛蕎 Lulu Lin《霧．忘我Foggy paradox 》Official Music Video',
+            image: 'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-0’13”.jpg',
+            year: '2024',
+            client: '林沛蕎',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/watch?v=hmP32hirkHE&list=RDhmP32hirkHE&start_radio=1'
+              url: 'https://www.youtube.com/embed/watch?v=PEM9ZOW5eig&list=RDPEM9ZOW5eig&start_radio=1'
             },
 
             description:
-              '在電氣編制的襯托下，SherryZ 鄭雙雙以張力十足的嗓音，不僅展現對 R&B 轉音的駕馭，更以華語與英語交替演唱，唱出節奏分明、個性鮮明的都會女性韻味；鄭宜農則以爵士和弦鋪陳，結合溫潤細膩的臺語語感，詮釋內斂且深沉的情感層次。這首歌詮釋出兩種截然不同的女性氣質：一方憑直覺創作，展現靈魂樂的律動與當代 R&B 的前衛；另一方則以成人當代音樂的感性與哲思交織，描繪內在世界。',
+              'MV概念以夢為主軸，模糊、神秘又清晰，導演將世界觀設定是一個大意識體，而Deja Vu代表意識連結點，在時間軸上的某一刻人與人意識會相連，入境夢中探索進入潛意識挖掘，就像走進一個迴圈，永遠都是冰山一角，看不完也看不清，好似水中倒影，琉璃波光卻感受不了平靜，只有光影總是真實，追尋光影繞著，又回到原地，而旅程的意義，只是等待真實的他，將這張臉填滿，用Deja vu滿足期望預知未來的潛意識。',
 
             credits: [
-              'Production Company',
-              '眉角映像社',
-              'Director｜Saltting',
+              'Production Company｜',
+              '非常口影像製作有限公司',
+              'Director｜KSW',
               'DOP｜范峻愷',
-              'B Cam｜施濬晨',
               'GAFFER｜張恩郡'
             ],
 
             gallery: [
-              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-0’38”.jpg',
-              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-0’57”.jpg',
-              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’12”.jpg',
-              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’28”.jpg',
-              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’48”.jpg',
-              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’59”.jpg',
-              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-2’50”.jpg'             
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-0’33”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-0’56”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-1’17”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-1’34”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-1’56”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-3’02”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-3’05”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-3’59”.jpg',
+              'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-4’03”.jpg'
             ]
           },
 
@@ -558,7 +559,7 @@ const TEAM = [
               '在電氣編制的襯托下，SherryZ 鄭雙雙以張力十足的嗓音，不僅展現對 R&B 轉音的駕馭，更以華語與英語交替演唱，唱出節奏分明、個性鮮明的都會女性韻味；鄭宜農則以爵士和弦鋪陳，結合溫潤細膩的臺語語感，詮釋內斂且深沉的情感層次。這首歌詮釋出兩種截然不同的女性氣質：一方憑直覺創作，展現靈魂樂的律動與當代 R&B 的前衛；另一方則以成人當代音樂的感性與哲思交織，描繪內在世界。',
 
             credits: [
-              'Production Company',
+              'Production Company｜',
               '眉角映像社',
               'Director｜Saltting',
               'DOP｜范峻愷',
