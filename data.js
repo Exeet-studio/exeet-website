@@ -45,7 +45,8 @@ const PROJECTS = [
       'Editor｜KSW'
     ],
 
-    gallery: []
+    gallery: ['assets/projects/南山人壽路跑形象影片.jpg',
+             'assets/projects/南山人壽路跑形象影片.jpg']
   },
 
   {
