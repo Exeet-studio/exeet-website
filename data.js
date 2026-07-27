@@ -253,11 +253,11 @@ const TEAM = [
   },
 
   {
-    slug: 'qu-ni-niang',
-    name: '渠你娘',
-    role: 'Creative Director',
+    slug: 'En-Chun-Chang',
+    name: '張恩郡',
+    role: 'Dop / Gaffer',
     image: 'assets/team/yihsuan.jpg',
-    description: '非常口影像製作有限公司共同創辦人<br><br>Director / DOP / Art Director',
+    description: '<br><br>DOP / Gaffer',
 
     works: [
       {
