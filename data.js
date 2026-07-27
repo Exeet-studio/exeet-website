@@ -155,7 +155,7 @@ const TEAM = [
     image: 'assets/team/yihsuan.jpg',
 
     description:
-      '<br><br><br><br><br><br>非常口影像製作有限公司共同創辦人<br><br>' +
+      '非常口影像製作有限公司共同創辦人<br><br>' +
       'Director / DOP',
 
     works: [
@@ -239,9 +239,8 @@ const TEAM = [
     role: 'DOP / Colorist',
     image: 'assets/team/范峻愷頭貼.jpg',
 
-    description:
-      '<br><br>' +
-      '<br><br><br><br><br><br>非常口影像製作有限公司共同創辦人<br><br>' +
+    description: +
+      '非常口影像製作有限公司共同創辦人<br><br>' +
       'DOP<br><br>' +
       '紅姦百生<br><br>' +
       '竹岡雙龍<br><br>' +
@@ -315,7 +314,7 @@ const TEAM = [
   {
     slug: 'En-Chun-Chang',
     name: '張恩郡',
-    role: '<br><br><br><br><br><br>DOP / Gaffer',
+    role: 'DOP / Gaffer',
     image: 'assets/team/張恩郡頭貼.jpg',
 
     description:
