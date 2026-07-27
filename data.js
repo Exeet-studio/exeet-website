@@ -441,11 +441,11 @@ const TEAM = [
         items: [
 
           {
-            slug: 'qu-hong-gan-la',
-            title: '去洪幹啦',
+            slug: 'line',
+            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
             image: 'assets/projects/rog.jpg',
-            year: '2026',
-            client: 'Client Name',
+            year: '2021',
+            client: 'ZEALOTS ENTERTAINMENT',
 
             media: {
               type: 'video',
@@ -475,8 +475,8 @@ const TEAM = [
         items: [
 
           {
-            slug: 'qu-hong-gan-la',
-            title: '去洪幹啦',
+            slug: 'line',
+            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
             image: 'assets/projects/rog.jpg',
             year: '2026',
             client: 'Client Name',
