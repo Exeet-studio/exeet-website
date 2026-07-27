@@ -323,16 +323,16 @@ const TEAM = [
     works: [
 
       {
-        category: 'commercial',
+        category: 'Narrative',
 
         items: [
 
           {
-            slug: 'hong',
-            title: '紅-攝影',
+            slug: 'LNN',
+            title: '一場年夜的剖析',
             image: 'assets/projects/rog.jpg',
             year: '2026',
-            client: '',
+            client: '禮官九',
 
             media: {
               type: 'image',
