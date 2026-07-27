@@ -135,6 +135,17 @@ const PROJECTS = [
   }
 ];
 
+const WORK_CATEGORIES = {
+  commercial: 'Commercial',
+  mv: 'Music Video',
+  narrative: 'Narrative',
+  documentary: 'Documentary',
+  shortfilm: 'Short Film',
+  fashion: 'Fashion',
+  experimental: 'Experimental'
+};
+
+
 const TEAM = [
 
   {
@@ -142,146 +153,209 @@ const TEAM = [
     name: '王冠紳',
     role: 'Creative Director',
     image: 'assets/team/yihsuan.jpg',
-    description: '非常口影像製作有限公司共同創辦人<br><br>Director / DOP',
+
+    description:
+      '非常口影像製作有限公司共同創辦人<br><br>' +
+      'Director / DOP',
 
     works: [
+
       {
-        slug: 'qu-hong-gan-la',
-        title: '去洪幹啦',
-        image: 'assets/projects/rog.jpg',
-        year: '2026',
-        client: 'Client Name',
+        category: 'commercial',
 
-        media: {
-          type: 'video',
-          url: 'https://www.youtube.com/embed/影片ID'
-        },
+        items: [
 
-        description: '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+          {
+            slug: 'qu-hong-gan-la',
+            title: '去洪幹啦',
+            image: 'assets/projects/rog.jpg',
+            year: '2026',
+            client: 'Client Name',
 
-        credits: [
-          'Director｜王冠紳',
-          'DOP｜王冠紳'
-        ],
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/影片ID'
+            },
 
-        gallery: [
-          'assets/team/works/qu-hong-gan-la-01.jpg',
-          'assets/team/works/qu-hong-gan-la-02.jpg'
+            description:
+              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+
+            credits: [
+              'Director｜王冠紳',
+              'DOP｜王冠紳'
+            ],
+
+            gallery: [
+              'assets/team/works/qu-hong-gan-la-01.jpg',
+              'assets/team/works/qu-hong-gan-la-02.jpg'
+            ]
+          }
+
         ]
       },
 
+
       {
-        slug: 'jian-sha-zui',
-        title: '姦殺嘴',
-        image: 'assets/projects/rog.jpg',
-        year: '2025',
-        client: '',
+        category: 'narrative',
 
-        media: {
-          type: 'image',
-          url: 'assets/team/works/jian-sha-zui-cover.jpg'
-        },
+        items: [
 
-        description: '這個作品不能公開影片，因此只放作品敘述和截圖。',
+          {
+            slug: 'jian-sha-zui',
+            title: '姦殺嘴',
+            image: 'assets/projects/rog.jpg',
+            year: '2025',
+            client: '',
 
-        credits: [
-          'Director｜王冠紳'
-        ],
+            media: {
+              type: 'image',
+              url: 'assets/team/works/jian-sha-zui-cover.jpg'
+            },
 
-        gallery: [
-          'assets/team/works/jian-sha-zui-01.jpg',
-          'assets/team/works/jian-sha-zui-02.jpg',
-          'assets/team/works/jian-sha-zui-03.jpg'
+            description:
+              '這個作品不能公開影片，因此只放作品敘述和截圖。',
+
+            credits: [
+              'Director｜王冠紳'
+            ],
+
+            gallery: [
+              'assets/team/works/jian-sha-zui-01.jpg',
+              'assets/team/works/jian-sha-zui-02.jpg',
+              'assets/team/works/jian-sha-zui-03.jpg'
+            ]
+          }
+
         ]
       }
+
     ]
   },
+
 
   {
     slug: 'fan-chun-kai',
     name: '范峻愷 Fan Chun Kai',
     role: 'DOP / Colorist',
     image: 'assets/team/范峻愷頭貼.jpg',
-    description: '<br><br>非常口影像製作有限公司共同創辦人<br><br>DOP<br><br>紅姦百生<br><br>竹岡雙龍<br><br>義大顯謨<br><br>葡萄骷髏',
+
+    description:
+      '<br><br>' +
+      '非常口影像製作有限公司共同創辦人<br><br>' +
+      'DOP<br><br>' +
+      '紅姦百生<br><br>' +
+      '竹岡雙龍<br><br>' +
+      '義大顯謨<br><br>' +
+      '葡萄骷髏',
 
     works: [
+
       {
-        slug: 'p-su',
-        title: 'P蘇',
-        image: 'assets/team/愷.jpg',
-        year: '2026',
-        client: '',
+        category: 'commercial',
 
-        media: {
-          type: 'video',
-          url: 'https://www.youtube.com/embed/Fios3qLinkk'
-        },
+        items: [
 
-        description: '這裡輸入 P蘇 的作品介紹，以及范峻愷負責的攝影內容。',
+          {
+            slug: 'p-su',
+            title: 'P蘇',
+            image: 'assets/team/愷.jpg',
+            year: '2026',
+            client: '',
 
-        credits: [
-          'DOP｜范峻愷'
-        ],
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/Fios3qLinkk'
+            },
 
-        gallery: [
-          'assets/team/works/p-su-01.jpg',
-          'assets/team/works/p-su-02.jpg'
+            description:
+              '這裡輸入 P蘇 的作品介紹，以及范峻愷負責的攝影內容。',
+
+            credits: [
+              'DOP｜范峻愷'
+            ],
+
+            gallery: [
+              'assets/team/works/p-su-01.jpg',
+              'assets/team/works/p-su-02.jpg'
+            ]
+          },
+
+
+          {
+            slug: 'he-zi',
+            title: '禾子',
+            image: 'assets/team/愷.jpg',
+            year: '2026',
+            client: '',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/A9ukncHNk1Q'
+            },
+
+            description:
+              '這裡輸入禾子的作品介紹。',
+
+            credits: [
+              'DOP｜范峻愷'
+            ],
+
+            gallery: [
+              'assets/team/愷.jpg'
+            ]
+          }
+
         ]
-      },
-
-      {
-        slug: 'he-zi',
-        title: '禾子',
-        image: 'assets/team/愷.jpg',
-        year: '2026',
-        client: '',
-
-        media: {
-          type: 'video',
-          url: 'https://www.youtube.com/embed/A9ukncHNk1Q'
-        },
-
-        description: '這裡輸入禾子的作品介紹。',
-
-        credits: [
-          'DOP｜范峻愷'
-        ],
-
-        gallery: ['assets/team/愷.jpg']
       }
+
     ]
   },
+
 
   {
     slug: 'En-Chun-Chang',
     name: '張恩郡',
-    role: 'Dop / Gaffer',
+    role: 'DOP / Gaffer',
     image: 'assets/team/張恩郡頭貼.jpg',
-    description: '<br><br>DOP / Gaffer',
+
+    description:
+      '<br><br>' +
+      'DOP / Gaffer',
 
     works: [
+
       {
-        slug: 'hong',
-        title: '紅',
-        image: 'assets/projects/rog.jpg',
-        year: '2026',
-        client: '',
+        category: 'commercial',
 
-        media: {
-          type: 'image',
-          url: 'assets/team/works/hong-cover.jpg'
-        },
+        items: [
 
-        description: '作品介紹。',
+          {
+            slug: 'hong',
+            title: '紅',
+            image: 'assets/projects/rog.jpg',
+            year: '2026',
+            client: '',
 
-        credits: [
-          'Creative Director｜渠你娘'
-        ],
+            media: {
+              type: 'image',
+              url: 'assets/team/works/hong-cover.jpg'
+            },
 
-        gallery: [
-          'assets/team/works/hong-01.jpg'
+            description:
+              '作品介紹。',
+
+            credits: [
+              'Creative Director｜渠你娘'
+            ],
+
+            gallery: [
+              'assets/team/works/hong-01.jpg'
+            ]
+          }
+
         ]
       }
+
     ]
   }
 
