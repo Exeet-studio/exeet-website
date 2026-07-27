@@ -1057,3 +1057,40 @@ button{font:inherit}
   }
 
 }
+/* =========================
+   MEMBER DESCRIPTION FIX
+   ========================= */
+
+#memberDesc {
+  margin: 0;
+  min-width: 0;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  line-height: 1.8;
+}
+
+.detail-grid {
+  align-items: start;
+}
+
+.detail-grid > * {
+  min-width: 0;
+}
+
+@media (max-width: 768px) {
+  .detail-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  #memberDesc {
+    width: 100%;
+    max-width: none;
+    font-size: 14px;
+    line-height: 1.9;
+    overflow: visible;
+  }
+}
