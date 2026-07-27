@@ -436,15 +436,12 @@ const TEAM = [
 {
             slug: 'superman',
             title: '甲蟲超人',
-            image: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg',
             image: 'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0319.jpg',
             year: '2023',
             client: '台灣藝術大學電影系畢業製作',
 
             media: {
-              type: 'video',
               type: 'image',
-              url: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg',
               url: 'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0319.jpg'
             },
 
@@ -454,7 +451,7 @@ const TEAM = [
             credits: [
               'Director｜劉昱均',
               'Dop｜林立軒',
-              'Gaffer｜張恩郡',
+              'Gaffer｜張恩郡'
             ],
 
             gallery: [
