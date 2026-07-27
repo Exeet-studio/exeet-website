@@ -149,7 +149,8 @@ const PROJECTS = [
       'Camera｜CHUN KAI'
     ],
 
-    gallery: []
+    gallery: ['assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-0’21”.jpg',
+             'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-0’21”.jpg']
   },
 
   {
