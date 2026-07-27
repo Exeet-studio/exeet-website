@@ -411,7 +411,7 @@ const TEAM = [
             client: '16釐米底片',
 
             media: {
-              type: 'video',
+              type: 'image',
               url: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg'
             },
 
