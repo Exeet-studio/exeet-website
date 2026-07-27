@@ -480,7 +480,7 @@ const TEAM = [
       },
 
        {
-        category: 'Music Video',
+        category: 'mv',
 
         items: [
 
@@ -518,6 +518,30 @@ const TEAM = [
 
         ]
       },
+
+      {
+            slug: 'he-zi',
+            title: '禾子',
+            image: 'assets/team/愷.jpg',
+            year: '2026',
+            client: '',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/A9ukncHNk1Q'
+            },
+
+            description:
+              '這裡輸入禾子的作品介紹。',
+
+            credits: [
+              'DOP｜范峻愷'
+            ],
+
+            gallery: [
+              'assets/team/愷.jpg'
+            ]
+          },
 
       {
         category: 'commercial',
