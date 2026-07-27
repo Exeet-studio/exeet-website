@@ -434,11 +434,11 @@ const TEAM = [
           },
 
 {
-            slug: 'destroy me',
-            title: 'Destroy me',
+            slug: 'superman',
+            title: '甲蟲超人',
             image: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg',
-            year: '2020',
-            client: '16釐米底片',
+            year: '2023',
+            client: '台灣藝術大學電影系畢業製作',
 
             media: {
               type: 'video',
@@ -450,8 +450,9 @@ const TEAM = [
               '',
 
             credits: [
-              'Director｜張恩郡',
-              'Dop｜張恩郡',
+              'Director｜劉昱均',
+              'Dop｜林立軒',
+              'Gaffer｜張恩郡',
             ],
 
             gallery: [
