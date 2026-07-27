@@ -191,10 +191,10 @@ const TEAM = [
 
   {
     slug: 'En-Chun-Chang',
-    name: '渠你娘',
+    name: '張恩郡',
     role: 'Creative Director',
     image: 'assets/team/yihsuan.jpg',
-    description: '非常口影像製作有限公司共同創辦人<br><br>Director / DOP / Art Director',
+    description: '<br><br>DOP / Gaffer',
 
     works: [
       {
