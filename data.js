@@ -411,8 +411,8 @@ const TEAM = [
             client: '16釐米底片',
 
             media: {
-              type: 'image',
-              url: 'assets/team/works/hong-cover.jpg'
+              type: 'video',
+              url: 'ahttps://www.youtube.com/watch/embed/8IpB2EaRtcQ'
             },
 
             description:
