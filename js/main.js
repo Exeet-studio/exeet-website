@@ -461,63 +461,73 @@ function initProjectDetail() {
 
   }
 
-  // ========= Gallery =========
+ // ========= Gallery =========
 
-  const gallerySection =
-    document.getElementById(
-      'projectGallerySection'
-    );
+const gallerySection = document.getElementById(
+  'projectGallerySection'
+);
 
-  const gallery =
-    document.getElementById(
-      'projectGallery'
-    );
+const galleryContainer = document.getElementById(
+  'projectGallery'
+);
 
-  if (
-    gallerySection &&
-    gallery
-  ) {
+if (gallerySection && galleryContainer) {
+  galleryContainer.innerHTML = '';
 
-    gallery.innerHTML = '';
+  const galleryImages = Array.isArray(project.gallery)
+    ? project.gallery
+    : [];
 
-    if (
-      project.gallery &&
-      project.gallery.length
-    ) {
+  console.log('目前作品：', project.title);
+  console.log('Gallery 圖片：', galleryImages);
 
-      gallerySection.style.display = '';
+  if (galleryImages.length > 0) {
+    // 強制解除隱藏
+    gallerySection.hidden = false;
+    gallerySection.style.display = 'block';
 
-      project.gallery.forEach(img => {
+    galleryImages.forEach((imagePath, index) => {
+      const figure = document.createElement('figure');
 
-        const figure =
-          document.createElement('figure');
+      figure.className = 'member-project-gallery-item';
 
-        figure.className =
-          'member-project-gallery-item';
+      const image = document.createElement('img');
+
+      image.src = imagePath;
+      image.alt = `${project.title || 'Project'} ${index + 1}`;
+      image.loading = 'lazy';
+
+      image.onload = function () {
+        console.log('圖片載入成功：', imagePath);
+      };
+
+      image.onerror = function () {
+        console.error('圖片載入失敗：', imagePath);
 
         figure.innerHTML = `
-          <img
-            src="${img}"
-            alt="${project.title}"
-            loading="lazy">
+          <div style="
+            min-height:200px;
+            padding:30px;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            border:1px solid rgba(184,246,216,.22);
+            color:rgba(184,246,216,.65);
+            text-align:center;
+          ">
+            Image not found:<br>
+            ${imagePath}
+          </div>
         `;
+      };
 
-        gallery.appendChild(figure);
-
-      });
-
-      $all(
-        '#projectGallery img'
-      ).forEach(fallbackImage);
-
-    } else {
-
-      gallerySection.style.display =
-        'none';
-
-    }
-
+      figure.appendChild(image);
+      galleryContainer.appendChild(figure);
+    });
+  } else {
+    gallerySection.style.display = 'none';
   }
+}
 
 }
 
