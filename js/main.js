@@ -78,14 +78,24 @@ function initMember() {
 
   document.title = `${member.name} / EXEET`;
 
-  document.getElementById('memberRole').textContent = member.role || '';
-  document.getElementById('memberName').textContent = member.name || '';
-  document.getElementById('memberImage').src = member.image || '';
-  document.getElementById('memberImage').alt = member.name || 'Member';
+  document.getElementById('memberRole').textContent =
+    member.role || '';
+
+  document.getElementById('memberName').textContent =
+    member.name || '';
+
+  document.getElementById('memberImage').src =
+    member.image || '';
+
+  document.getElementById('memberImage').alt =
+    member.name || 'Member';
+
   document.getElementById('memberDesc').innerHTML =
     member.description || '';
 
-  const worksContainer = document.getElementById('memberWorks');
+  const worksContainer =
+    document.getElementById('memberWorks');
+
   worksContainer.innerHTML = '';
 
   if (!member.works || member.works.length === 0) {
@@ -95,39 +105,72 @@ function initMember() {
     return;
   }
 
-  member.works.forEach(work => {
-    const link = document.createElement('a');
+  member.works.forEach(group => {
+    if (!group.items || group.items.length === 0) {
+      return;
+    }
 
-    link.className = 'member-work-card';
+    const categorySection =
+      document.createElement('section');
 
-    link.href =
-      `member-project.html?member=${encodeURIComponent(member.slug)}` +
-      `&work=${encodeURIComponent(work.slug)}`;
+    categorySection.className =
+      'member-work-category';
 
-    link.innerHTML = `
-      <div class="member-work-thumb">
-        <img
-          src="${work.image || ''}"
-          alt="${work.title || 'Selected Work'}"
-        >
-      </div>
+    const categoryTitle =
+      document.createElement('div');
 
-      <div class="member-work-info">
-        <h3>${work.title || ''}</h3>
+    categoryTitle.className =
+      'member-work-category-title';
 
-        ${
-          work.year || work.client
-            ? `<div class="meta">
-                ${work.year || ''}
-                ${work.year && work.client ? ' / ' : ''}
-                ${work.client || ''}
-              </div>`
-            : ''
-        }
-      </div>
-    `;
+    categoryTitle.textContent =
+      group.category || '';
 
-    worksContainer.appendChild(link);
+    const categoryGrid =
+      document.createElement('div');
+
+    categoryGrid.className =
+      'member-work-category-grid';
+
+    group.items.forEach(work => {
+      const link = document.createElement('a');
+
+      link.className = 'member-work-card';
+
+      link.href =
+        `member-project.html?member=${encodeURIComponent(member.slug)}` +
+        `&work=${encodeURIComponent(work.slug)}`;
+
+      link.innerHTML = `
+        <div class="member-work-thumb">
+          <img
+            src="${work.image || ''}"
+            alt="${work.title || 'Selected Work'}"
+          >
+        </div>
+
+        <div class="member-work-info">
+          <h3>${work.title || ''}</h3>
+
+          ${
+            work.year || work.client
+              ? `
+                <div class="meta">
+                  ${work.year || ''}
+                  ${work.year && work.client ? ' / ' : ''}
+                  ${work.client || ''}
+                </div>
+              `
+              : ''
+          }
+        </div>
+      `;
+
+      categoryGrid.appendChild(link);
+    });
+
+    categorySection.appendChild(categoryTitle);
+    categorySection.appendChild(categoryGrid);
+    worksContainer.appendChild(categorySection);
   });
 }
 function initShowreel(){ layout('showreel'); $('#showreelFrame').src=SITE.showreelUrl; $('#showreelTitle').textContent=SITE.showreelTitle; $('#showreelDesc').textContent=SITE.showreelDescription; }
