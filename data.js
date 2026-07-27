@@ -480,7 +480,7 @@ const TEAM = [
       },
 
        {
-        category: 'mv',
+        category: 'Music Video',
 
         items: [
 
@@ -518,7 +518,7 @@ const TEAM = [
 
         ]
       },
-      
+
       {
         category: 'commercial',
 
