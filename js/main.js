@@ -168,7 +168,7 @@ function initMemberProject() {
   document.getElementById('memberProjectDescription').innerHTML =
     work.description || '';
 
-  renderMemberProjectVideo(work);
+  renderMemberProjectMedia(work);
   renderMemberProjectCredits(work);
   renderMemberProjectGallery(work);
 }
