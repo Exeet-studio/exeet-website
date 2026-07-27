@@ -449,7 +449,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed.watch?v=ZVkFtNRa8oA&list=RDZVkFtNRa8oA&start_radio=1'
+              url: 'https://www.youtube.com/embed/watch?v=ZVkFtNRa8oA&list=RDZVkFtNRa8oA&start_radio=1'
             },
 
             description:
