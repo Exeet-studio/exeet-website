@@ -602,7 +602,6 @@ const TEAM = [
             gallery: [
               'assets/team/張恩ㄐㄩ/餘生/IMG_0274.jpg',
               'assets/team/張恩ㄐㄩ/餘生/IMG_0275.jpg',
-              'assets/team/張恩ㄐㄩ/餘生/IMG_0276.jpg',
               'assets/team/張恩ㄐㄩ/餘生/IMG_0277.jpg',
               'assets/team/張恩ㄐㄩ/餘生/IMG_0278.jpg',
               'assets/team/張恩ㄐㄩ/餘生/IMG_0279.jpg',
