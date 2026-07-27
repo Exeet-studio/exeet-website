@@ -453,11 +453,12 @@ const TEAM = [
             },
 
             description:
-              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+              '',
 
             credits: [
-              'Director｜王冠紳',
-              'DOP｜王冠紳'
+              'Director｜張恩郡',
+              'DOP｜林立軒，張恩郡',
+              'GAFFER｜古乃元',
             ],
 
             gallery: [
