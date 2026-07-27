@@ -436,18 +436,18 @@ const TEAM = [
 {
             slug: 'superman',
             title: '甲蟲超人',
-            image: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg',
+            image: 'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0319.jpg',
             year: '2023',
             client: '台灣藝術大學電影系畢業製作',
 
             media: {
               type: 'video',
               type: 'image',
-              url: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg'
+              url: 'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0319.jpg'
             },
 
             description:
-              '',
+              '台灣藝術大學電影系畢業製作',
 
             credits: [
               'Director｜劉昱均',
@@ -456,11 +456,16 @@ const TEAM = [
             ],
 
             gallery: [
-              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’47”.jpg',
-              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’33”.jpg',
-              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’37”.jpg',
-              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’41”.jpg',
-              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’44”.jpg'
+             'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0317.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0318.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0320.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0321.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0322.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0323.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0324.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0325.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0326.jpg',
+              
             ]
           }
         ]
