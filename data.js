@@ -645,6 +645,84 @@ const TEAM = [
               'assets/team/works/qu-hong-gan-la-01.jpg',
               'assets/team/works/qu-hong-gan-la-02.jpg'
             ]
+          },
+
+          {
+            slug: 'line',
+            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
+            image: 'assets/projects/rog.jpg',
+            year: '2026',
+            client: 'Client Name',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/影片ID'
+            },
+
+            description:
+              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+
+            credits: [
+              'Director｜王冠紳',
+              'DOP｜王冠紳'
+            ],
+
+            gallery: [
+              'assets/team/works/qu-hong-gan-la-01.jpg',
+              'assets/team/works/qu-hong-gan-la-02.jpg'
+            ]
+          },
+
+          {
+            slug: 'line',
+            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
+            image: 'assets/projects/rog.jpg',
+            year: '2026',
+            client: 'Client Name',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/影片ID'
+            },
+
+            description:
+              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+
+            credits: [
+              'Director｜王冠紳',
+              'DOP｜王冠紳'
+            ],
+
+            gallery: [
+              'assets/team/works/qu-hong-gan-la-01.jpg',
+              'assets/team/works/qu-hong-gan-la-02.jpg'
+            ]
+          },
+
+          {
+            slug: 'line',
+            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
+            image: 'assets/projects/rog.jpg',
+            year: '2026',
+            client: 'Client Name',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/影片ID'
+            },
+
+            description:
+              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+
+            credits: [
+              'Director｜王冠紳',
+              'DOP｜王冠紳'
+            ],
+
+            gallery: [
+              'assets/team/works/qu-hong-gan-la-01.jpg',
+              'assets/team/works/qu-hong-gan-la-02.jpg'
+            ]
           }
 
         ]
