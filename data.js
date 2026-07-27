@@ -406,17 +406,17 @@ const TEAM = [
 {
             slug: 'destroy me',
             title: 'Destroy me',
-            image: 'assets/projects/rog.jpg',
+            image: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg',
             year: '2020',
             client: '16釐米底片',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/watch/embed/8IpB2EaRtcQ'
+              url: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg'
             },
 
             description:
-              '作品介紹。',
+              '',
 
             credits: [
               'Director｜張恩郡',
@@ -424,7 +424,11 @@ const TEAM = [
             ],
 
             gallery: [
-              'assets/team/works/hong-01.jpg'
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’47”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’33”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’37”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’41”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’44”.jpg'
             ]
           }
         ]
