@@ -436,6 +436,7 @@ const TEAM = [
 {
             slug: 'superman',
             title: '甲蟲超人',
+            image: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg',
             image: 'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0319.jpg',
             year: '2023',
             client: '台灣藝術大學電影系畢業製作',
@@ -443,10 +444,12 @@ const TEAM = [
             media: {
               type: 'video',
               type: 'image',
+              url: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg'
               url: 'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0319.jpg'
             },
 
             description:
+              '',
               '台灣藝術大學電影系畢業製作',
 
             credits: [
@@ -456,6 +459,11 @@ const TEAM = [
             ],
 
             gallery: [
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’47”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’33”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’37”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’41”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’44”.jpg'
              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0317.jpg',
               'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0318.jpg',
               'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0320.jpg',
@@ -471,7 +479,120 @@ const TEAM = [
         ]
       },
 
-       
+       {
+        category: 'Music Video',
+
+        items: [
+
+          {
+            slug: 'line',
+            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
+            image: 'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-0 screenshot.png',
+            year: '2021',
+            client: 'ZEALOTS ENTERTAINMENT',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/watch?v=ZVkFtNRa8oA&list=RDZVkFtNRa8oA&start_radio=1'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Director｜張恩郡',
+              'DOP｜林立軒，張恩郡',
+              'GAFFER｜古乃元',
+            ],
+
+            gallery: [
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-0 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-3 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-30 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 1-5 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 1-43 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 1-57 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 2-6 screenshot.png'
+            ]
+          },
+
+          {
+            slug: 'superman',
+            title: '甲蟲超人',
+            image: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg',
+            image: 'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0319.jpg',
+            year: '2023',
+            client: '台灣藝術大學電影系畢業製作',
+
+            media: {
+              type: 'video',
+              type: 'image',
+              url: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg'
+              url: 'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0319.jpg'
+            },
+
+            description:
+              '',
+              '台灣藝術大學電影系畢業製作',
+
+            credits: [
+              'Director｜劉昱均',
+              'Dop｜林立軒',
+              'Gaffer｜張恩郡',
+            ],
+
+            gallery: [
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’47”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’33”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’37”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’41”.jpg',
+              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’44”.jpg'
+             'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0317.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0318.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0320.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0321.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0322.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0323.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0324.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0325.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0326.jpg',
+              
+            ]
+          },
+
+        ]
+      },
+
+      {
+        category: 'commercial',
+
+        items: [
+
+          {
+            slug: 'line',
+            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
+            image: 'assets/projects/rog.jpg',
+            year: '2026',
+            client: 'Client Name',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/影片ID'
+            },
+
+            description:
+              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+
+            credits: [
+              'Director｜王冠紳',
+              'DOP｜王冠紳'
+            ],
+
+            gallery: [
+              'assets/team/works/qu-hong-gan-la-01.jpg',
+              'assets/team/works/qu-hong-gan-la-02.jpg'
+            ]
+          }
 
         ]
       }
