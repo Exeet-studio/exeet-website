@@ -351,7 +351,6 @@ const TEAM = [
             ],
 
             gallery: [
-              'assets/team/works/hong-01.jpg'
               'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-1’11”.jpg',
               'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-9’07”.jpg',
               'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’03”.jpg',
