@@ -340,7 +340,7 @@ const TEAM = [
             },
 
             description:
-              '作品介紹。',
+              '世新大學廣電系畢業製作',
 
             credits: [
               'Director｜李寬九',
@@ -367,17 +367,17 @@ const TEAM = [
           {
             slug: 'dress',
             title: '裙擺',
-            image: 'assets/projects/rog.jpg',
+            image: 'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-19’27”.jpg',
             year: '2024',
             client: '世新大學廣電系畢業製作',
 
             media: {
               type: 'image',
-              url: 'assets/team/works/hong-cover.jpg'
+              url: 'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-19’27”.jpg'
             },
 
             description:
-              '作品介紹。',
+              '世新大學廣電系畢業製作',
 
             credits: [
               'Director｜明明',
@@ -388,7 +388,18 @@ const TEAM = [
             ],
 
             gallery: [
-              'assets/team/works/hong-01.jpg'
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-0’21”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-1’04”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-1’15”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-4’25”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-13’59”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-14’21”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-15’23”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-16’17”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-16’33”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-17’56”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-19’32”.jpg',
+              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-20’22”.jpg'
             ]
           },
           
