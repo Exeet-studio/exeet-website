@@ -318,7 +318,6 @@ const TEAM = [
     image: 'assets/team/張恩郡頭貼.jpg',
 
     description:
-      '<br><br>' +
       'DOP / Gaffer',
 
     works: [
