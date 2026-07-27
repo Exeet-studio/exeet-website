@@ -523,7 +523,7 @@ const TEAM = [
               '',
 
             credits: [
-              'Production Company｜眉角映像社',
+              'Production Company｜<br><br>眉角映像社',
               'Director｜Saltting',
               'DOP｜范峻愷',
               'B Cam｜施濬晨',
