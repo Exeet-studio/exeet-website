@@ -512,6 +512,41 @@ const TEAM = [
       },
 
       {
+            slug: 'line',
+            title: 'SherryZ 鄭雙雙 × 鄭宜農 Enno Cheng〈Right Here〉',
+            image: 'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-0 screenshot.png',
+            year: '2025',
+            client: '北流五週年音樂共創計畫',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/watch?v=hmP32hirkHE&list=RDhmP32hirkHE&start_radio=1'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Director｜張恩郡',
+              'DOP｜林立軒，張恩郡',
+              'GAFFER｜古乃元',
+            ],
+
+            gallery: [
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-0 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-3 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-30 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 1-5 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 1-43 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 1-57 screenshot.png',
+              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 2-6 screenshot.png'
+            ]
+          }
+
+        ]
+      },
+  
+      {
         category: 'commercial',
 
         items: [
