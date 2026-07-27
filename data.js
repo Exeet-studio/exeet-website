@@ -329,7 +329,7 @@ const TEAM = [
 
           {
             slug: 'hong',
-            title: '紅',
+            title: '紅-攝影',
             image: 'assets/projects/rog.jpg',
             year: '2026',
             client: '',
