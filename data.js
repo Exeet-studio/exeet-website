@@ -190,7 +190,7 @@ const TEAM = [
   },
 
   {
-    slug: 'Kuan-Sheng-Wang',
+    slug: 'En-Chun-Chang',
     name: '渠你娘',
     role: 'Creative Director',
     image: 'assets/team/yihsuan.jpg',
