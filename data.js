@@ -443,7 +443,7 @@ const TEAM = [
           {
             slug: 'line',
             title: 'HAND X Zhen Li【平行線】(Official Music Video )',
-            image: 'assets/projects/rog.jpg',
+            image: 'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-0 screenshot.png',
             year: '2021',
             client: 'ZEALOTS ENTERTAINMENT',
 
