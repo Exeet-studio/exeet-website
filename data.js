@@ -343,11 +343,11 @@ const TEAM = [
               '作品介紹。',
 
             credits: [
-              'Director｜李寬九'
-              'Poducer｜莊玉琳'
-              'Dop｜張恩郡'
-              'Gaffer｜胡健翔'
-              'Colorist｜范峻愷'
+              'Director｜李寬九',
+              'Poducer｜莊玉琳',
+              'Dop｜張恩郡',
+              'Gaffer｜胡健翔',
+              'Colorist｜范峻愷',
             ],
 
             gallery: [
