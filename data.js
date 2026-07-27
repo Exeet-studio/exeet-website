@@ -72,8 +72,8 @@ const PROJECTS = [
       'Colorist｜Chun Kai'
     ],
 
-    gallery: ['assets/projects/南山人壽路跑形象影片.jpg',
-             'assets/projects/南山人壽路跑形象影片.jpg']
+    gallery: ['assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-0’21”.jpg',
+             'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-0’21”.jpg']
   },
 
   {
