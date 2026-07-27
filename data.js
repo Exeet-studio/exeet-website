@@ -330,13 +330,13 @@ const TEAM = [
           {
             slug: 'LNN',
             title: '一場年夜的剖析',
-            image: 'assets/projects/rog.jpg',
+            image: 'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-23’31”.jpg',
             year: '2026',
             client: '世新大學廣電系畢業製作',
 
             media: {
               type: 'image',
-              url: 'assets/team/works/hong-cover.jpg'
+              url: 'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-23’31”.jpg'
             },
 
             description:
@@ -352,14 +352,24 @@ const TEAM = [
 
             gallery: [
               'assets/team/works/hong-01.jpg'
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-1’11”.jpg'
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-9’07”.jpg'
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’03”.jpg'
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’30”.jpg'
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’34”.jpg'
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-14’45”.jpg' 
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-15’23”.jpg'
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-18’31”.jpg'
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-21’58”.jpg'
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-22’55”.jpg'
             ]
           },
 
           {
-            slug: 'LNN',
-            title: '一場年夜的剖析',
+            slug: 'dress',
+            title: '裙擺',
             image: 'assets/projects/rog.jpg',
-            year: '2026',
+            year: '2024',
             client: '世新大學廣電系畢業製作',
 
             media: {
@@ -371,11 +381,11 @@ const TEAM = [
               '作品介紹。',
 
             credits: [
-              'Director｜李寬九',
-              'Poducer｜莊玉琳',
+              'Director｜明明',
+              'Poducer｜吳晨希',
               'Dop｜張恩郡',
-              'Gaffer｜胡建翔',
-              'Colorist｜范峻愷',
+              'Gaffer｜彭睦軒',
+              'Colorist｜彭瑋淳',
             ],
 
             gallery: [
@@ -384,11 +394,11 @@ const TEAM = [
           },
           
 {
-            slug: 'LNN',
-            title: '一場年夜的剖析',
+            slug: 'destroy me',
+            title: 'Destroy me',
             image: 'assets/projects/rog.jpg',
-            year: '2026',
-            client: '世新大學廣電系畢業製作',
+            year: '2020',
+            client: '16釐米底片',
 
             media: {
               type: 'image',
@@ -399,11 +409,8 @@ const TEAM = [
               '作品介紹。',
 
             credits: [
-              'Director｜李寬九',
-              'Poducer｜莊玉琳',
+              'Director｜張恩郡',
               'Dop｜張恩郡',
-              'Gaffer｜胡建翔',
-              'Colorist｜范峻愷',
             ],
 
             gallery: [
