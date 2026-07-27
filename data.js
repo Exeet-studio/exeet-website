@@ -528,7 +528,7 @@ const TEAM = [
               'Director｜Saltting',
               'DOP｜范峻愷',
               'B Cam｜施濬晨',
-              'GAFFER｜張恩郡',
+              'GAFFER｜張恩郡'
             ],
 
             gallery: [
@@ -538,7 +538,7 @@ const TEAM = [
               'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’28”.jpg',
               'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’48”.jpg',
               'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’59”.jpg',
-              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-2’50”.jpg',             
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-2’50”.jpg'             
             ]
           }
 
