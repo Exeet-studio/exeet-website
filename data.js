@@ -155,7 +155,7 @@ const TEAM = [
     image: 'assets/team/yihsuan.jpg',
 
     description:
-      '非常口影像製作有限公司共同創辦人<br><br>' +
+      '<br><br><br><br><br><br>非常口影像製作有限公司共同創辦人<br><br>' +
       'Director / DOP',
 
     works: [
@@ -315,7 +315,7 @@ const TEAM = [
   {
     slug: 'En-Chun-Chang',
     name: '張恩郡',
-    role: 'DOP / Gaffer',
+    role: '<br><br><br><br><br><br>DOP / Gaffer',
     image: 'assets/team/張恩郡頭貼.jpg',
 
     description:
