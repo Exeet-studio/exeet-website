@@ -508,34 +508,36 @@ const TEAM = [
           },
 
           {
-            slug: 'line',
-            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
-            image: 'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-0 screenshot.png',
-            year: '2021',
-            client: 'ZEALOTS ENTERTAINMENT',
+            slug: 'Right Here',
+            title: 'SherryZ 鄭雙雙 × 鄭宜農 Enno Cheng〈Right Here〉',
+            image: 'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-0’27”.jpg',
+            year: '2025',
+            client: '北流五週年音樂共創計畫',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/watch?v=ZVkFtNRa8oA&list=RDZVkFtNRa8oA&start_radio=1'
+              url: 'https://www.youtube.com/embed/watch?v=hmP32hirkHE&list=RDhmP32hirkHE&start_radio=1'
             },
 
             description:
               '',
 
             credits: [
-              'Director｜張恩郡',
-              'DOP｜林立軒，張恩郡',
-              'GAFFER｜古乃元',
+              'Production Company｜眉角映像社',
+              'Director｜Saltting',
+              'DOP｜范峻愷',
+              'B Cam｜施濬晨',
+              'GAFFER｜張恩郡',
             ],
 
             gallery: [
-              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-0 screenshot.png',
-              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-3 screenshot.png',
-              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-30 screenshot.png',
-              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 1-5 screenshot.png',
-              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 1-43 screenshot.png',
-              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 1-57 screenshot.png',
-              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 2-6 screenshot.png'
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-0’38”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-0’57”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’12”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’28”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’48”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-1’59”.jpg',
+              'assets/team/張恩ㄐㄩ/right here/VS--YouTube-53SherryZEnnoChengRightHere-YouTube-2’50”.jpg',             
             ]
           }
 
