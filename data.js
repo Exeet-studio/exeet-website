@@ -151,12 +151,19 @@ const TEAM = [
         image: 'assets/projects/rog.jpg',
         year: '2026',
         client: 'Client Name',
-        video: 'https://www.youtube.com/embed/影片ID',
+
+        media: {
+          type: 'video',
+          url: 'https://www.youtube.com/embed/影片ID'
+        },
+
         description: '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+
         credits: [
           'Director｜王冠紳',
           'DOP｜王冠紳'
         ],
+
         gallery: [
           'assets/team/works/qu-hong-gan-la-01.jpg',
           'assets/team/works/qu-hong-gan-la-02.jpg'
@@ -169,11 +176,18 @@ const TEAM = [
         image: 'assets/projects/rog.jpg',
         year: '2025',
         client: '',
-        video: '',
+
+        media: {
+          type: 'image',
+          url: 'assets/team/works/jian-sha-zui-cover.jpg'
+        },
+
         description: '這個作品不能公開影片，因此只放作品敘述和截圖。',
+
         credits: [
           'Director｜王冠紳'
         ],
+
         gallery: [
           'assets/team/works/jian-sha-zui-01.jpg',
           'assets/team/works/jian-sha-zui-02.jpg',
@@ -197,11 +211,18 @@ const TEAM = [
         image: 'assets/team/愷.jpg',
         year: '2026',
         client: '',
-        video: 'https://www.youtube.com/embed/Fios3qLinkk',
+
+        media: {
+          type: 'video',
+          url: 'https://www.youtube.com/embed/Fios3qLinkk'
+        },
+
         description: '這裡輸入 P蘇 的作品介紹，以及范峻愷負責的攝影內容。',
+
         credits: [
           'DOP｜范峻愷'
         ],
+
         gallery: [
           'assets/team/works/p-su-01.jpg',
           'assets/team/works/p-su-02.jpg'
@@ -214,11 +235,18 @@ const TEAM = [
         image: 'assets/team/愷.jpg',
         year: '2026',
         client: '',
-        video: 'https://www.youtube.com/embed/A9ukncHNk1Q',
+
+        media: {
+          type: 'video',
+          url: 'https://www.youtube.com/embed/A9ukncHNk1Q'
+        },
+
         description: '這裡輸入禾子的作品介紹。',
+
         credits: [
           'DOP｜范峻愷'
         ],
+
         gallery: []
       }
     ]
@@ -238,11 +266,18 @@ const TEAM = [
         image: 'assets/projects/rog.jpg',
         year: '2026',
         client: '',
-        video: '',
+
+        media: {
+          type: 'image',
+          url: 'assets/team/works/hong-cover.jpg'
+        },
+
         description: '作品介紹。',
+
         credits: [
           'Creative Director｜渠你娘'
         ],
+
         gallery: [
           'assets/team/works/hong-01.jpg'
         ]
