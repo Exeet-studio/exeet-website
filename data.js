@@ -353,6 +353,34 @@ const TEAM = [
             gallery: [
               'assets/team/works/hong-01.jpg'
             ]
+          },
+
+          {
+            slug: 'LNN',
+            title: '一場年夜的剖析',
+            image: 'assets/projects/rog.jpg',
+            year: '2026',
+            client: '世新大學廣電系畢業製作',
+
+            media: {
+              type: 'image',
+              url: 'assets/team/works/hong-cover.jpg'
+            },
+
+            description:
+              '作品介紹。',
+
+            credits: [
+              'Director｜李寬九',
+              'Poducer｜莊玉琳',
+              'Dop｜張恩郡',
+              'Gaffer｜胡建翔',
+              'Colorist｜范峻愷',
+            ],
+
+            gallery: [
+              'assets/team/works/hong-01.jpg'
+            ]
           }
 
         ]
