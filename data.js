@@ -472,7 +472,7 @@ const TEAM = [
               'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0323.jpg',
               'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0324.jpg',
               'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0325.jpg',
-              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0326.jpg',
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0326.jpg'
               
             ]
           }
@@ -555,8 +555,7 @@ const TEAM = [
               'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0323.jpg',
               'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0324.jpg',
               'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0325.jpg',
-              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0326.jpg',
-              
+              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0326.jpg'
             ]
           },
 
