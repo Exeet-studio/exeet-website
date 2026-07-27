@@ -239,7 +239,7 @@ const TEAM = [
     role: 'DOP / Colorist',
     image: 'assets/team/范峻愷頭貼.jpg',
 
-    description: +
+    description: 
       '非常口影像製作有限公司共同創辦人<br><br>' +
       'DOP<br><br>' +
       '紅姦百生<br><br>' +
@@ -323,7 +323,7 @@ const TEAM = [
     works: [
 
       {
-        category: 'Narrative',
+        category: 'narrative',
 
         items: [
 
@@ -444,7 +444,7 @@ const TEAM = [
             media: {
               type: 'video',
               type: 'image',
-              url: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg'
+              url: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg',
               url: 'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0319.jpg'
             },
 
@@ -474,7 +474,7 @@ const TEAM = [
       },
 
        {
-        category: 'Music Video',
+        category: 'mv',
 
         items: [
 
