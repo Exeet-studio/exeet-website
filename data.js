@@ -352,15 +352,15 @@ const TEAM = [
 
             gallery: [
               'assets/team/works/hong-01.jpg'
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-1’11”.jpg'
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-9’07”.jpg'
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’03”.jpg'
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’30”.jpg'
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’34”.jpg'
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-14’45”.jpg' 
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-15’23”.jpg'
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-18’31”.jpg'
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-21’58”.jpg'
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-1’11”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-9’07”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’03”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’30”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’34”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-14’45”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-15’23”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-18’31”.jpg',
+              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-21’58”.jpg',
               'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-22’55”.jpg'
             ]
           },
