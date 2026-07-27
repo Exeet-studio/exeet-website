@@ -201,7 +201,7 @@ const TEAM = [
     slug: 'fan-chun-kai',
     name: '范峻愷 Fan Chun Kai',
     role: 'DOP',
-    image: 'assets/team/刀盾.jpeg',
+    image: 'assets/team/范峻愷頭貼.jpg',
     description: '<br><br>非常口影像製作有限公司共同創辦人<br><br>DOP<br><br>紅姦百生<br><br>竹岡雙龍<br><br>義大顯謨<br><br>葡萄骷髏',
 
     works: [
