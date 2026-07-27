@@ -256,7 +256,7 @@ const TEAM = [
     slug: 'En-Chun-Chang',
     name: '張恩郡',
     role: 'Dop / Gaffer',
-    image: 'assets/team/張恩郡.JPEG',
+    image: 'assets/team/張恩郡頭貼.JPEG',
     description: '<br><br>DOP / Gaffer',
 
     works: [
