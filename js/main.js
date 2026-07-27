@@ -173,22 +173,51 @@ function initMemberProject() {
   renderMemberProjectGallery(work);
 }
 
-function renderMemberProjectVideo(work) {
-  const section = document.getElementById(
+function renderMemberProjectMedia(work) {
+  const videoSection = document.getElementById(
     'memberProjectVideoSection'
   );
 
-  const iframe = document.getElementById(
+  const videoIframe = document.getElementById(
     'memberProjectVideo'
   );
 
-  if (!work.video) {
-    section.style.display = 'none';
+  const imageSection = document.getElementById(
+    'memberProjectImageSection'
+  );
+
+  const imageElement = document.getElementById(
+    'memberProjectImage'
+  );
+
+  videoSection.hidden = true;
+  imageSection.hidden = true;
+
+  videoIframe.src = '';
+  imageElement.src = '';
+  imageElement.alt = '';
+
+  if (!work.media) {
     return;
   }
 
-  section.style.display = '';
-  iframe.src = work.video;
+  if (
+    work.media.type === 'video' &&
+    work.media.url
+  ) {
+    videoSection.hidden = false;
+    videoIframe.src = work.media.url;
+    return;
+  }
+
+  if (
+    work.media.type === 'image' &&
+    work.media.url
+  ) {
+    imageSection.hidden = false;
+    imageElement.src = work.media.url;
+    imageElement.alt = work.title || 'Work Image';
+  }
 }
 
 function renderMemberProjectCredits(work) {
