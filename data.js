@@ -409,8 +409,8 @@ const TEAM = [
 
             credits: [
               'Director｜謝銘鏗',
-              'Dop｜范峻愷'
-              'Colorist｜范峻愷',
+              'Dop｜范峻愷',
+              'Colorist｜范峻愷'
             ],
 
             gallery: [
