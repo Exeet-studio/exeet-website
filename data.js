@@ -430,11 +430,11 @@ const TEAM = [
             title: '阿海',
             image: 'assets/team/愷/啊海/《阿海》_ 正式預告 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 0-15 screenshot.png',
             year: '2022',
-            client: '世新大學廣電系畢業製作',
+            client: '國立臺灣藝術大學廣電系畢業製作',
 
             media: {
-              type: 'video',
-              url: 'https://www.youtube.com/embed/watch?v=TEVe1246RGM'
+              type: 'image',
+              url: 'assets/team/愷/啊海/《阿海》_ 正式預告 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 0-15 screenshot.png'
             },
 
             description:
