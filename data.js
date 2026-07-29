@@ -383,10 +383,7 @@ const TEAM = [
     description: 
       '非常口影像製作有限公司共同創辦人<br><br>' +
       'DOP<br><br>' +
-      '紅姦百生<br><br>' +
-      '竹岡雙龍<br><br>' +
-      '義大顯謨<br><br>' +
-      '葡萄骷髏',
+      'Colorist',
 
     works: [
 
@@ -396,39 +393,35 @@ const TEAM = [
         items: [
 
           {
-            slug: 'LNN',
-            title: '一場年夜的剖析',
-            image: 'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-23’31”.jpg',
-            year: '2026',
-            client: '世新大學廣電系畢業製作',
+            slug: 'alive',
+            title: '萬能修理舖',
+            image: 'assets/team/愷/修理舖/第二屆校園鑫馬獎：萬能修理舖 Make me feel alive 4-44 screenshot.png',
+            year: '2022',
+            client: '國立臺灣藝術大學廣電系畢業製作',
 
             media: {
               type: 'image',
-              url: 'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-23’31”.jpg'
+              url: 'assets/team/愷/修理舖/第二屆校園鑫馬獎：萬能修理舖 Make me feel alive 4-44 screenshot.png'
             },
 
             description:
-              '世新大學廣電系畢業製作',
+              '國立臺灣藝術大學廣電系畢業製作',
 
             credits: [
-              'Director｜李寬九',
-              'Poducer｜莊玉琳',
-              'Dop｜張恩郡',
-              'Gaffer｜胡建翔',
+              'Director｜謝銘鏗',
+              'Dop｜范峻愷'
               'Colorist｜范峻愷',
             ],
 
             gallery: [
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-1’11”.jpg',
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-9’07”.jpg',
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’03”.jpg',
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’30”.jpg',
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-12’34”.jpg',
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-14’45”.jpg',
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-15’23”.jpg',
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-18’31”.jpg',
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-21’58”.jpg',
-              'assets/team/張恩ㄐㄩ/年夜/VS--YouTube-53-YouTube-22’55”.jpg'
+              'assets/team/愷/修理舖/第二屆校園鑫馬獎：萬能修理舖 Make me feel alive 3-59 screenshot.png',
+              'assets/team/愷/修理舖/第二屆校園鑫馬獎：萬能修理舖 Make me feel alive 5-22 screenshot.png',
+              'assets/team/愷/修理舖/第二屆校園鑫馬獎：萬能修理舖 Make me feel alive 5-53 screenshot.png',
+              'assets/team/愷/修理舖/第二屆校園鑫馬獎：萬能修理舖 Make me feel alive 7-6 screenshot.png',
+              'assets/team/愷/修理舖/第二屆校園鑫馬獎：萬能修理舖 Make me feel alive 11-51 screenshot.png',
+              'assets/team/愷/修理舖/第二屆校園鑫馬獎：萬能修理舖 Make me feel alive 12-43 screenshot.png',
+              'assets/team/愷/修理舖/第二屆校園鑫馬獎：萬能修理舖 Make me feel alive 12-56 screenshot.png',
+              'assets/team/愷/修理舖/第二屆校園鑫馬獎：萬能修理舖 Make me feel alive 17-16 screenshot.png'
             ]
           },
 
