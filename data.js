@@ -426,106 +426,36 @@ const TEAM = [
           },
 
           {
-            slug: 'dress',
-            title: '裙擺',
-            image: 'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-19’27”.jpg',
-            year: '2024',
+            slug: 'ahai',
+            title: '阿海',
+            image: 'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 25-25 screenshot.png',
+            year: '2022',
             client: '世新大學廣電系畢業製作',
 
             media: {
               type: 'image',
-              url: 'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-19’27”.jpg'
+              url: 'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 25-25 screenshot.png'
             },
 
             description:
               '世新大學廣電系畢業製作',
 
             credits: [
-              'Director｜明明',
-              'Poducer｜吳晨希',
-              'Dop｜張恩郡',
-              'Gaffer｜彭睦軒',
-              'Colorist｜彭瑋淳',
+              'Director｜張兆翔',
+              'Dop｜范峻愷',
+              'Art Designer｜廖宜宣',
+              'Colorist｜彭瑋淳'
             ],
 
             gallery: [
-              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-0’21”.jpg',
-              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-1’04”.jpg',
-              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-1’15”.jpg',
-              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-4’25”.jpg',
-              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-13’59”.jpg',
-              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-14’21”.jpg',
-              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-15’23”.jpg',
-              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-16’17”.jpg',
-              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-16’33”.jpg',
-              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-17’56”.jpg',
-              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-19’32”.jpg',
-              'assets/team/張恩ㄐㄩ/裙擺/VS--YouTube-53rollcard-YouTube-20’22”.jpg'
-            ]
-          },
-
-{
-            slug: 'destroy me',
-            title: 'Destroy me',
-            image: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg',
-            year: '2020',
-            client: '16釐米底片',
-
-            media: {
-              type: 'video',
-              type: 'image',
-              url: 'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’10”.jpg'
-            },
-
-            description:
-              '',
-
-            credits: [
-              'Director｜張恩郡',
-              'Dop｜張恩郡',
-            ],
-
-            gallery: [
-              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-0’47”.jpg',
-              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’33”.jpg',
-              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’37”.jpg',
-              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’41”.jpg',
-              'assets/team/張恩ㄐㄩ/destroy me/VS--YouTube-53DestroyMe2-YouTube-1’44”.jpg'
-            ]
-          },
-
-{
-            slug: 'superman',
-            title: '甲蟲超人',
-            image: 'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0319.jpg',
-            year: '2023',
-            client: '台灣藝術大學電影系畢業製作',
-
-            media: {
-              type: 'image',
-              url: 'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0319.jpg'
-            },
-
-            description:
-              '台灣藝術大學電影系畢業製作',
-
-            credits: [
-              'Director｜劉昱均',
-              'Dop｜林立軒',
-              'Gaffer｜張恩郡'
-            ],
-
-            gallery: [
-             'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0317.jpg',
-              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0318.jpg',
-              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0320.jpg',
-              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0321.jpg',
-              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0322.jpg',
-              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0323.jpg',
-              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0324.jpg',
-              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0325.jpg',
-              'assets/team/張恩ㄐㄩ/甲蟲超人/IMG_0326.jpg'
-
+              'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 2-4 screenshot.png',
+              'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 6-42 screenshot.png',
+              'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 8-30 screenshot.png',
+              'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 11-5 screenshot.png',
+              'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 12-14 screenshot.png',
+              'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 13-4 screenshot.png',
+              'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 15-3 screenshot.png',
+              'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 17-23 screenshot.png'
             ]
           }
         ]
