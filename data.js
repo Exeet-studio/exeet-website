@@ -428,17 +428,17 @@ const TEAM = [
           {
             slug: 'ahai',
             title: '阿海',
-            image: 'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 25-25 screenshot.png',
+            image: 'assets/team/愷/啊海/《阿海》_ 正式預告 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 0-15 screenshot.png',
             year: '2022',
             client: '世新大學廣電系畢業製作',
 
             media: {
-              type: 'image',
-              url: 'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 25-25 screenshot.png'
+              type: 'video',
+              url: 'https://www.youtube.com/embed/watch?v=TEVe1246RGM'
             },
 
             description:
-              '世新大學廣電系畢業製作',
+              '國立臺灣藝術大學廣電系畢業製作',
 
             credits: [
               'Director｜張兆翔',
@@ -448,10 +448,10 @@ const TEAM = [
             ],
 
             gallery: [
-              'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 2-4 screenshot.png',
+              'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 11-5 screenshot.png',
               'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 6-42 screenshot.png',
               'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 8-30 screenshot.png',
-              'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 11-5 screenshot.png',
+              'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 2-4 screenshot.png',
               'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 12-14 screenshot.png',
               'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 13-4 screenshot.png',
               'assets/team/愷/啊海/《阿海》 _ 國立臺灣藝術大學廣播電視學系日間部107級畢業製作 15-3 screenshot.png',
