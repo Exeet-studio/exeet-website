@@ -467,34 +467,36 @@ const TEAM = [
         items: [
 
           {
-            slug: 'line',
-            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
-            image: 'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-0 screenshot.png',
-            year: '2021',
-            client: 'ZEALOTS ENTERTAINMENT',
+            slug: 'your voice',
+            title: '你說話的聲音好細 (Official Music Video) )',
+            image: 'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-0’06”.jpg',
+            year: '2025',
+            client: 'JOYCE 就以斯',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/watch?v=ZVkFtNRa8oA&list=RDZVkFtNRa8oA&start_radio=1'
+              url: 'https://www.youtube.com/embed/watch?v=Fios3qLinkk&list=RDFios3qLinkk&start_radio=1'
             },
 
             description:
               '',
 
             credits: [
-              'Director｜張恩郡',
-              'DOP｜林立軒，張恩郡',
-              'GAFFER｜古乃元',
+              'Director｜saltting',
+              'DOP｜范峻愷',
+              'Producer｜Strawberry',
             ],
 
             gallery: [
-              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-0 screenshot.png',
-              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-3 screenshot.png',
-              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 0-30 screenshot.png',
-              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 1-5 screenshot.png',
-              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 1-43 screenshot.png',
-              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 1-57 screenshot.png',
-              'assets/team/張恩ㄐㄩ/平行線/HAND X Zhen Li【平行線】(Official Music Video ) 2-6 screenshot.png'
+              'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-0’23”.jpg',
+              'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-1’42”.jpg',
+               'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-2’25”.jpg',
+               'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-3’18”.jpg',
+               'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-3’56”.jpg',
+               'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-4’00”.jpg',
+               'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-4’40”.jpg',
+               'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-4’45”.jpg',
+               'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-5’26”.jpg'
             ]
           },
 
