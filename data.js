@@ -475,7 +475,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/watch?v=Fios3qLinkk&list=RDFios3qLinkk&start_radio=1'
+              url: 'https://www.youtube.com/embed/Fios3qLinkk&list=RDFios3qLinkk&start_radio=1'
             },
 
             description:
@@ -508,7 +508,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/watch?v=hmP32hirkHE&list=RDhmP32hirkHE&start_radio=1'
+              url: 'https://www.youtube.com/embed/hmP32hirkHE&list=RDhmP32hirkHE&start_radio=1'
             },
 
             description:
@@ -543,7 +543,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/watch?v=PEM9ZOW5eig&list=RDPEM9ZOW5eig&start_radio=1'
+              url: 'https://www.youtube.com/embed/PEM9ZOW5eig&list=RDPEM9ZOW5eig&start_radio=1'
             },
 
             description:
@@ -579,7 +579,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/watch?v=9eoRMHQ2dyA&list=RD9eoRMHQ2dyA&start_radio=1'
+              url: 'https://www.youtube.com/embed/9eoRMHQ2dyA&list=RD9eoRMHQ2dyA&start_radio=1'
             },
 
             description:
@@ -620,7 +620,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/watch?v=wbYuImxpkhM'
+              url: 'https://www.youtube.com/embed/wbYuImxpkhM'
             },
 
             description:
@@ -646,7 +646,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/watch?v=zr90Aa_sqN8'
+              url: 'https://www.youtube.com/embed/zr90Aa_sqN8'
             },
 
             description:
@@ -672,7 +672,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/watch?v=pe4pCwBKa3E'
+              url: 'https://www.youtube.com/embed/pe4pCwBKa3E'
             },
 
             description:
