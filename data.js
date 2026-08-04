@@ -690,28 +690,27 @@ const TEAM = [
           },
 
           {
-            slug: 'line',
-            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
-            image: 'assets/projects/rog.jpg',
-            year: '2026',
-            client: 'Client Name',
+            slug: 'on',
+            title: 'ON乳清X江坤宇',
+            image: 'assets/team/愷/商案/ON乳清X江坤宇 Final大檔 0-13 screenshot.png',
+            year: '2024',
+            client: '',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/影片ID'
+              url: 'https://www.youtube.com/embed/CVQj8wR2BcQ'
             },
 
             description:
-              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+              '',
 
             credits: [
-              'Director｜王冠紳',
+              'Director｜鑿',
               'DOP｜王冠紳'
+              'Gaffer｜范峻愷
             ],
 
             gallery: [
-              'assets/team/works/qu-hong-gan-la-01.jpg',
-              'assets/team/works/qu-hong-gan-la-02.jpg'
             ]
           }
 
