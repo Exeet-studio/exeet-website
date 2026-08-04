@@ -602,9 +602,9 @@ const TEAM = [
               'assets/team/愷/你給過/VS--YouTube-65WhoCares-OfficialMusicVideo-YouTube-3’18” (1).jpg',
               'assets/team/愷/你給過/VS--YouTube-65WhoCares-OfficialMusicVideo-YouTube-4’35”.jpg'
             ]
-          },
-
-         
+          }
+        ]
+      }, 
 
       {
         category: 'commercial',
