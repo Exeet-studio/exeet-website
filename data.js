@@ -475,7 +475,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/Fios3qLinkk&list=RDFios3qLinkk&start_radio=1'
+              url: 'https://www.youtube.com/embed/Fios3qLinkk'
             },
 
             description:
