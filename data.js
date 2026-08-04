@@ -604,43 +604,7 @@ const TEAM = [
             ]
           },
 
-          {
-            slug: 'fearless',
-            title: '慣性成癮 Inertial Addiction - 餘生 Fearless feat.ann.dj0nt（Official Music Video）',
-            image: 'assets/team/張恩ㄐㄩ/餘生/IMG_0280.jpg',
-            year: '2022',
-            client: '慣性成癮',
-
-            media: {
-              type: 'video',
-              url: 'https://www.youtube.com/embed/watch?v=bZ4pPWiDIM0&list=RDbZ4pPWiDIM0&start_radio=1'
-            },
-
-            description:
-              '',
-
-            credits: [
-              'Director｜Lusha Wang',
-              'DOP｜范峻愷',
-              'GAFFER｜張恩郡'
-            ],
-
-            gallery: [
-              'assets/team/張恩ㄐㄩ/餘生/IMG_0274.jpg',
-              'assets/team/張恩ㄐㄩ/餘生/IMG_0275.jpg',
-              'assets/team/張恩ㄐㄩ/餘生/IMG_0277.jpg',
-              'assets/team/張恩ㄐㄩ/餘生/IMG_0278.jpg',
-              'assets/team/張恩ㄐㄩ/餘生/IMG_0279.jpg',
-              'assets/team/張恩ㄐㄩ/餘生/IMG_0281.jpg',
-              'assets/team/張恩ㄐㄩ/餘生/IMG_0282.jpg',
-              'assets/team/張恩ㄐㄩ/餘生/IMG_0283.jpg'
-              
-            ]
-          }
-
-
-        ]
-      },
+         
 
       {
         category: 'commercial',
