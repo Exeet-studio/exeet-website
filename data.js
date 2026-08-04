@@ -707,7 +707,7 @@ const TEAM = [
             credits: [
               'Director｜鑿',
               'DOP｜王冠紳',
-              'Gaffer｜范峻愷
+              'Gaffer｜范峻愷'
             ],
 
             gallery: [
