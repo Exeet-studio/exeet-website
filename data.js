@@ -664,7 +664,7 @@ const TEAM = [
           },
 
           {
-            slug: 'cpsh2',
+            slug: 'cpshh',
             title: '2025誠品生活週年慶｜ Let's Go!氣場全開｜氣場低迷篇10s',
             image: 'assets/team/愷/商案/VS--YouTube-692025LetsGo10s-YouTube-0’04” (2).jpg',
             year: '2025',
