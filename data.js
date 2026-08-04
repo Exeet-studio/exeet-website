@@ -612,28 +612,28 @@ const TEAM = [
         items: [
 
           {
-            slug: 'line',
-            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
-            image: 'assets/projects/rog.jpg',
+            slug: 'NSRUN',
+            title: '2026 NSRUN南山人壽半程馬拉松 | 形象影片',
+            image: 'assets/team/愷/商案/VS--YouTube-692026NSRUN-YouTube-0’25”.jpg',
             year: '2026',
-            client: 'Client Name',
+            client: '南山人壽',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/影片ID'
+              url: 'https://www.youtube.com/embed/watch?v=wbYuImxpkhM'
             },
 
             description:
               '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
 
             credits: [
+              'Production Company｜',
+              '伏流創意',
               'Director｜王冠紳',
-              'DOP｜王冠紳'
+              'DOP｜范峻愷'
             ],
 
             gallery: [
-              'assets/team/works/qu-hong-gan-la-01.jpg',
-              'assets/team/works/qu-hong-gan-la-02.jpg'
             ]
           },
 
