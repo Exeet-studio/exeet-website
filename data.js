@@ -508,7 +508,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/hmP32hirkHE&list=RDhmP32hirkHE&start_radio=1'
+              url: 'https://www.youtube.com/embed/hmP32hirkHE'
             },
 
             description:
@@ -543,7 +543,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/PEM9ZOW5eig&list=RDPEM9ZOW5eig&start_radio=1'
+              url: 'https://www.youtube.com/embed/PEM9ZOW5eig'
             },
 
             description:
@@ -571,7 +571,7 @@ const TEAM = [
           },
 
           {
-            slug: 'Right Here',
+            slug: 'happpy',
             title: '你給過我的快樂 (Official Music Video)',
             image: 'assets/team/愷/你給過/VS--YouTube-65WhoCares-OfficialMusicVideo-YouTube-0’04”.jpg',
             year: '2022',
@@ -579,7 +579,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/9eoRMHQ2dyA&list=RD9eoRMHQ2dyA&start_radio=1'
+              url: 'https://www.youtube.com/embed/9eoRMHQ2dyA'
             },
 
             description:
