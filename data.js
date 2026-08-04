@@ -624,7 +624,7 @@ const TEAM = [
             },
 
             description:
-              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+              '',
 
             credits: [
               'Production Company｜',
@@ -638,54 +638,54 @@ const TEAM = [
           },
 
           {
-            slug: 'line',
-            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
-            image: 'assets/projects/rog.jpg',
-            year: '2026',
-            client: 'Client Name',
+            slug: 'cpsh',
+            title: '2025誠品生活週年慶｜Let's Go!氣場全開｜氣場全開篇10s',
+            image: 'assets/team/愷/商案/VS--YouTube-692025LetsGo10s-YouTube-0’00”.jpg',
+            year: '2025',
+            client: '',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/影片ID'
+              url: 'https://www.youtube.com/embed/watch?v=zr90Aa_sqN8'
             },
 
             description:
-              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+              '',
 
             credits: [
+              'Production Company｜',
+              '非常口影像製作有限公司',
               'Director｜王冠紳',
-              'DOP｜王冠紳'
+              'DOP｜范峻愷'
             ],
 
             gallery: [
-              'assets/team/works/qu-hong-gan-la-01.jpg',
-              'assets/team/works/qu-hong-gan-la-02.jpg'
             ]
           },
 
           {
-            slug: 'line',
-            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
-            image: 'assets/projects/rog.jpg',
-            year: '2026',
-            client: 'Client Name',
+            slug: 'cpsh2',
+            title: '2025誠品生活週年慶｜ Let's Go!氣場全開｜氣場低迷篇10s',
+            image: 'assets/team/愷/商案/VS--YouTube-692025LetsGo10s-YouTube-0’04” (2).jpg',
+            year: '2025',
+            client: '',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/影片ID'
+              url: 'https://www.youtube.com/embed/watch?v=pe4pCwBKa3E'
             },
 
             description:
-              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+              '',
 
             credits: [
+              'Production Company｜',
+              '非常口影像製作有限公司',
               'Director｜王冠紳',
-              'DOP｜王冠紳'
+              'DOP｜范峻愷'
             ],
 
             gallery: [
-              'assets/team/works/qu-hong-gan-la-01.jpg',
-              'assets/team/works/qu-hong-gan-la-02.jpg'
             ]
           },
 
