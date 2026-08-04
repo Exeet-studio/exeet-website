@@ -715,24 +715,23 @@ const TEAM = [
           },
 
           {
-            slug: 'on',
-            title: 'ON乳清X江坤宇',
-            image: 'assets/team/愷/商案/ON乳清X江坤宇 Final大檔 0-13 screenshot.png',
-            year: '2024',
+            slug: 'tb1',
+            title: '第二屆金牌創世代 決賽精彩回顧',
+            image: 'assets/team/愷/商案/VS--YouTube-69-YouTube-1’59”.jpg',
+            year: '2023',
             client: '',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/CVQj8wR2BcQ'
+              url: 'https://www.youtube.com/embed/MJhRUDXABO4'
             },
 
             description:
               '',
 
             credits: [
-              'Director｜鑿',
-              'DOP｜王冠紳',
-              'Gaffer｜范峻愷'
+              'Director｜王冠紳',
+              'DOP｜王冠紳,范峻愷'
             ],
 
             gallery: [
@@ -740,24 +739,23 @@ const TEAM = [
           },
 
           {
-            slug: 'on',
-            title: 'ON乳清X江坤宇',
-            image: 'assets/team/愷/商案/ON乳清X江坤宇 Final大檔 0-13 screenshot.png',
+            slug: 'tb2',
+            title: '𝟮𝟬𝟮𝟰第三屆金牌創世代｜複賽花絮',
+            image: 'assets/team/愷/商案/VS--YouTube-692024-YouTube-0’12”.jpg',
             year: '2024',
             client: '',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/CVQj8wR2BcQ'
+              url: 'https://www.youtube.com/embed/LNK_49FrjnU'
             },
 
             description:
               '',
 
             credits: [
-              'Director｜鑿',
-              'DOP｜王冠紳',
-              'Gaffer｜范峻愷'
+               'Director｜王冠紳',
+              'DOP｜王冠紳,范峻愷'
             ],
 
             gallery: [
@@ -765,24 +763,23 @@ const TEAM = [
           },
 
           {
-            slug: 'on',
-            title: 'ON乳清X江坤宇',
-            image: 'assets/team/愷/商案/ON乳清X江坤宇 Final大檔 0-13 screenshot.png',
+            slug: 'tb3',
+            title: '𝟮𝟬𝟮𝟰第三屆金牌創世代｜總決賽精彩花絮',
+            image: 'assets/team/愷/商案/VS--YouTube-69-YouTube-1’32”.jpg',
             year: '2024',
             client: '',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/CVQj8wR2BcQ'
+              url: 'https://www.youtube.com/embed/HoM83LGROgs'
             },
 
             description:
               '',
 
             credits: [
-              'Director｜鑿',
-              'DOP｜王冠紳',
-              'Gaffer｜范峻愷'
+               'Director｜王冠紳',
+              'DOP｜王冠紳,范峻愷'
             ],
 
             gallery: [
