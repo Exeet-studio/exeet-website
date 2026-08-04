@@ -712,8 +712,82 @@ const TEAM = [
 
             gallery: [
             ]
-          }
+          },
 
+          {
+            slug: 'on',
+            title: 'ON乳清X江坤宇',
+            image: 'assets/team/愷/商案/ON乳清X江坤宇 Final大檔 0-13 screenshot.png',
+            year: '2024',
+            client: '',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/CVQj8wR2BcQ'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Director｜鑿',
+              'DOP｜王冠紳',
+              'Gaffer｜范峻愷'
+            ],
+
+            gallery: [
+            ]
+          },
+
+          {
+            slug: 'on',
+            title: 'ON乳清X江坤宇',
+            image: 'assets/team/愷/商案/ON乳清X江坤宇 Final大檔 0-13 screenshot.png',
+            year: '2024',
+            client: '',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/CVQj8wR2BcQ'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Director｜鑿',
+              'DOP｜王冠紳',
+              'Gaffer｜范峻愷'
+            ],
+
+            gallery: [
+            ]
+          },
+
+          {
+            slug: 'on',
+            title: 'ON乳清X江坤宇',
+            image: 'assets/team/愷/商案/ON乳清X江坤宇 Final大檔 0-13 screenshot.png',
+            year: '2024',
+            client: '',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/CVQj8wR2BcQ'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Director｜鑿',
+              'DOP｜王冠紳',
+              'Gaffer｜范峻愷'
+            ],
+
+            gallery: [
+            ]
+          }
         ]
       }
 
