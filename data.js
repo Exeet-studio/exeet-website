@@ -293,7 +293,7 @@ const TEAM = [
     slug: 'Kuan-Sheng-Wang',
     name: '王冠紳',
     role: 'Creative Director',
-    image: 'assets/team/yihsuan.jpg',
+    image: 'assets/team/刀盾.jpeg',
 
     description:
       '非常口影像製作有限公司共同創辦人<br><br>' +
@@ -315,15 +315,15 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/影片ID'
+              url: 'https://www.youtube.com/embed/A0Bnt7J7tEE'
             },
 
             description:
-              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+              '幹你媽逼',
 
             credits: [
               'Director｜王冠紳',
-              'DOP｜王冠紳'
+              'DOP｜王家瑋'
             ],
 
             gallery: [
