@@ -319,7 +319,7 @@ const TEAM = [
             },
 
             description:
-              '幹你媽逼',
+              '晉百鬆bar',
 
             credits: [
               'Director｜王冠紳',
