@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/chunkai",
+      "destination": "/member.html?slug=fan-chun-kai"
+    }
+  ]
+}
