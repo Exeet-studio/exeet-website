@@ -920,6 +920,48 @@ const TEAM = [
             ]
           }
         ]
+      },
+
+      {
+        category: 'Documantary',
+
+        items: [
+          
+{
+            slug: 'your voice',
+            title: '洪言翔《 我在海邊那天遇見了答案》 Official Music Video ',
+            image: 'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-1’54”.jpg',
+            year: '2026',
+            client: '洪言翔',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/4Odh94hZtFU'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Production Company｜',
+              '途遇影像工作室',
+              'Director｜Doz',
+              'Producer｜郭宥',
+              'DOP｜范峻愷'
+            ],
+
+            gallery: [
+              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-0’07”.jpg',
+              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-0’20”.jpg',
+              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-0’58”.jpg',
+              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-1’54”.jpg',
+              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-1’30” (1).jpg',
+              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-1’43”.jpg',
+              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-1’51”.jpg',
+              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-2’19” (1).jpg'
+            ]
+          }
+        ]
       }
 
     ]
