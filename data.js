@@ -1400,40 +1400,6 @@ const TEAM = [
           }
 
           ]
-          },
-
-           {
-        category: 'Documantary',
-
-        items: [
-
-          {
-            slug: 'cpsh2026',
-            title: '2026誠品生活週年慶｜UNLOCK 快樂行動',
-            image: 'assets/team/愷/誠品2026/Still 2026-10-02 143049_1.1.6.jpg',
-            year: '2026',
-            client: '誠品生活',
-
-            media: {
-              type: 'video',
-              url: 'https://www.youtube.com/embed/FXJ8gAyKaG0'
-            },
-
-            description:
-              '',
-
-            credits: [
-              'Production Company｜',
-              '非常口影像製作有限公司',
-              'Director｜王冠紳',
-              'PRODUCER｜陳秉億',
-              'DOP｜范峻愷',
-              'GAFFER｜張恩郡',
-              'ART DESIGNER｜郭姸希'
-            ],
-
-            gallery: [
-            ]
           }
 
     ]
