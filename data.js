@@ -570,6 +570,41 @@ const TEAM = [
           },
 
           {
+            slug: 'such a vibe',
+            title: 'PNC-【Such a Vibe】Official Music Video',
+            image: 'assets/team/愷/such a vibe/VS--YouTube-639PNC-SuchaVibeOfficialMusicVideo-YouTube-3’27”.jpg',
+            year: '2025',
+            client: '',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/Wv6kwXmDL48'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Production Company｜',
+              'Inndose Production',
+              'Director｜TAo',
+              'DOP｜Chou low',
+              'B Cam｜范峻愷',
+              'GAFFER｜張恩郡'
+            ],
+
+            gallery: [
+              'assets/team/愷/such a vibe/VS--YouTube-639PNC-SuchaVibeOfficialMusicVideo-YouTube-0’11”.jpg',
+              'assets/team/愷/such a vibe/VS--YouTube-639PNC-SuchaVibeOfficialMusicVideo-YouTube-0’32”.jpg',
+              'assets/team/愷/such a vibe/VS--YouTube-639PNC-SuchaVibeOfficialMusicVideo-YouTube-0’59”.jpg',
+              'assets/team/愷/such a vibe/VS--YouTube-639PNC-SuchaVibeOfficialMusicVideo-YouTube-1’24”.jpg',
+              'assets/team/愷/such a vibe/VS--YouTube-639PNC-SuchaVibeOfficialMusicVideo-YouTube-1’36”.jpg',
+              'assets/team/愷/such a vibe/VS--YouTube-639PNC-SuchaVibeOfficialMusicVideo-YouTube-2’04”.jpg',
+              'assets/team/愷/such a vibe/VS--YouTube-639PNC-SuchaVibeOfficialMusicVideo-YouTube-2’36”.jpg'             
+            ]
+          },
+          
+          {
             slug: 'Foggy',
             title: '林沛蕎 Lulu Lin《霧．忘我Foggy paradox 》Official Music Video',
             image: 'assets/team/張恩ㄐㄩ/霧忘我/VS--YouTube-53LuluLinFoggyparadoxOfficialMusicVideo-YouTube-0’13”.jpg',
