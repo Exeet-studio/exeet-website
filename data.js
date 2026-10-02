@@ -929,14 +929,14 @@ const TEAM = [
           
 {
             slug: 'lslh',
-            title: '洪言翔《 我在海邊那天遇見了答案》 Official Music Video ',
+            title: '走進·重生校舍',
             image: 'assets/team/愷/重生校舍/VS--YouTube-639-YouTube-0’33”.jpg',
             year: '2024',
             client: '新北市政府教育局',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/ZL73vfTy1e4&t=115s'
+              url: 'https://www.youtube.com/embed/L73vfTy1e4&t=115s'
             },
 
             description:
