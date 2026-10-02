@@ -1192,7 +1192,7 @@ const TEAM = [
           },
 
           {
-            slug: 'cpsh',
+            slug: 'cpsh2025',
             title: '2025誠品生活週年慶｜Let’s Go!氣場全開｜氣場全開篇10s',
             image: 'assets/team/愷/商案/VS--YouTube-692025LetsGo10s-YouTube-0’00”.jpg',
             year: '2025',
@@ -1218,7 +1218,7 @@ const TEAM = [
           },
 
           {
-            slug: 'line',
+            slug: 'karencici',
             title: '操你媽逼殃',
             image: 'assets/projects/rog.jpg',
             year: '2026',
