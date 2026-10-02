@@ -1225,7 +1225,7 @@ const TEAM = [
             client: 'Client Name',
 
             media: {
-              type: 'video',
+              type: 'instagram',
               url: 'https://www.instagram.com/reel/DGQYZFov7O7/embed/'
             },
 
