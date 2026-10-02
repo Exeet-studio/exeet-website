@@ -415,6 +415,14 @@ function initProjectDetail() {
       }
 
       if (
+  project.media.type === 'instagram' &&
+  project.media.url
+) {
+  videoSection.hidden = false;
+  videoIframe.src = project.media.url;
+}
+      
+      if (
         project.media.type === 'image' &&
         project.media.url
       ) {
