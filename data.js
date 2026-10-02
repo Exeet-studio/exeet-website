@@ -630,8 +630,10 @@ const TEAM = [
               'Production Company｜',
               '非常口影像製作有限公司',
               'Director｜王冠紳',
+              'PRODUCER｜陳秉億',
               'DOP｜范峻愷',
               'GAFFER｜張恩郡'
+              'ART DESIGHER｜郭研希',
             ],
 
             gallery: [
@@ -1131,23 +1133,56 @@ const TEAM = [
         items: [
 
           {
-            slug: 'line',
-            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
-            image: 'assets/projects/rog.jpg',
+            slug: 'cpsh2026',
+            title: '2026誠品生活週年慶｜UNLOCK 快樂行動',
+            image: 'assets/team/愷/誠品2026/Still 2026-10-02 143049_1.1.6.jpg',
             year: '2026',
-            client: 'Client Name',
+            client: '誠品生活',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/影片ID'
+              url: 'https://www.youtube.com/embed/FXJ8gAyKaG0'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Production Company｜',
+              '非常口影像製作有限公司',
+              'Director｜王冠紳',
+              'PRODUCER｜陳秉億',
+              'DOP｜范峻愷',
+              'GAFFER｜張恩郡'
+              'ART DESIGHER｜郭研希'
+            ],
+
+            gallery: [
+            ]
+          },
+
+          {
+            slug: 'steel',
+            title: '2025 全球極限體能鋼鐵大賽',
+            image: 'assets/team/張恩ㄐㄩ/VS--YouTube-6392025-YouTube-0’11”.jpg',
+            year: '2025',
+            client: '台中市政府',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/WAI1kzaoPdM'
             },
 
             description:
               '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
 
             credits: [
+              'Production Company｜',
+              '伏流創意',
               'Director｜王冠紳',
-              'DOP｜王冠紳'
+              'PRODUCER｜陳秉億',
+              'DOP｜張恩郡',
+              'GAFFER｜古乃元'
             ],
 
             gallery: [
@@ -1157,50 +1192,30 @@ const TEAM = [
           },
 
           {
-            slug: 'line',
-            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
-            image: 'assets/projects/rog.jpg',
-            year: '2026',
-            client: 'Client Name',
+            slug: 'cpsh',
+            title: '2025誠品生活週年慶｜Let’s Go!氣場全開｜氣場全開篇10s',
+            image: 'assets/team/愷/商案/VS--YouTube-692025LetsGo10s-YouTube-0’00”.jpg',
+            year: '2025',
+            client: '',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/影片ID'
+              url: 'https://www.youtube.com/embed/zr90Aa_sqN8'
             },
 
             description:
-              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+              '',
 
             credits: [
+              'Production Company｜',
+              '非常口影像製作有限公司',
               'Director｜王冠紳',
-              'DOP｜王冠紳'
+              'DOP｜范峻愷'
             ],
 
             gallery: [
-              'assets/team/works/qu-hong-gan-la-01.jpg',
-              'assets/team/works/qu-hong-gan-la-02.jpg'
             ]
           },
-
-          {
-            slug: 'line',
-            title: 'HAND X Zhen Li【平行線】(Official Music Video )',
-            image: 'assets/projects/rog.jpg',
-            year: '2026',
-            client: 'Client Name',
-
-            media: {
-              type: 'video',
-              url: 'https://www.youtube.com/embed/影片ID'
-            },
-
-            description:
-              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
-
-            credits: [
-              'Director｜王冠紳',
-              'DOP｜王冠紳'
-            ],
 
             gallery: [
               'assets/team/works/qu-hong-gan-la-01.jpg',
