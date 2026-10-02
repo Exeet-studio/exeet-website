@@ -918,15 +918,26 @@ function renderMemberProjectMedia(work) {
     return;
   }
 
-  if (
-    work.media.type === 'video' &&
-    work.media.url
-  ) {
-    videoSection.hidden = false;
-    videoIframe.src = work.media.url;
+  15:29 范峻愷 if (
+  (work.media.type === 'video' ||
+   work.media.type === 'instagram') &&
+  work.media.url
+) {
+  videoSection.hidden = false;
+  videoIframe.src = work.media.url;
 
-    return;
-  }
+  return;
+}
+15:32 范峻愷 if (
+  (work.media.type === 'video' ||
+   work.media.type === 'instagram') &&
+  work.media.url
+) {
+  videoSection.hidden = false;
+  videoIframe.src = work.media.url;
+
+  return;
+}
 
   if (
     work.media.type === 'image' &&
