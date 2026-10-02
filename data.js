@@ -465,7 +465,42 @@ const TEAM = [
         category: 'mv',
 
         items: [
+          
+{
+            slug: 'your voice',
+            title: '洪言翔《 我在海邊那天遇見了答案》 Official Music Video ',
+            image: 'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-0’06”.jpg',
+            year: '2026',
+            client: '洪言翔',
 
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/4Odh94hZtFU'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Production Company｜',
+              '途遇影像工作室',
+              'Director｜Doz'
+              'Producer｜郭宥',
+              'DOP｜范峻愷',
+            ],
+
+            gallery: [
+              'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-0’23”.jpg',
+              'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-1’42”.jpg',
+               'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-2’25”.jpg',
+               'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-3’18”.jpg',
+               'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-3’56”.jpg',
+               'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-4’40”.jpg',
+               'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-4’45”.jpg',
+               'assets/team/愷/你說話/VS--YouTube-65JOYCE-OfficialMusicVideo-YouTube-5’26”.jpg'
+            ]
+          },
+          
           {
             slug: 'your voice',
             title: '你說話的聲音好細 (Official Music Video) ',
@@ -1219,10 +1254,10 @@ const TEAM = [
 
           {
             slug: 'karencici',
-            title: '操你媽逼殃',
-            image: 'assets/team/張恩ㄐㄩ/IMG_0386.PNG',
+            title: 'wazaiii x Karencici',
+            image: 'assets/team/張恩ㄐㄩ/three_photos_16x9.jpg',
             year: '2026',
-            client: 'Client Name',
+            client: 'wazaiii',
 
             media: {
               type: 'instagram',
@@ -1230,19 +1265,70 @@ const TEAM = [
             },
 
             description:
-              '這裡填寫這支作品的介紹與王冠紳在作品中負責的內容。',
+              '',
 
             credits: [
-              'Director｜王冠紳',
-              'DOP｜王冠紳'
+              'Director｜林哲甫',
+              'DOP｜余勛凱',
+              'GAFFER｜張恩郡'
             ],
 
             gallery: [
-              'assets/team/works/qu-hong-gan-la-01.jpg',
-              'assets/team/works/qu-hong-gan-la-02.jpg'
             ]
-          }
+          },
 
+          {
+            slug: 'EVERICH',
+            title: '藏富建設 EVERICH 為您遮風避雨 | 形象影片',
+            image: 'assets/team/張恩ㄐㄩ/IMG_0065.jpg',
+            year: '2024',
+            client: '',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/yEXlyzie-rc'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Production Company｜',
+              '非常口影像製作有限公司',
+              'Director｜王冠紳',
+              'DOP｜王冠紳',
+              'GAFFER｜張恩郡'
+            ],
+
+            gallery: [
+            ]
+          },
+
+          {
+            slug: 'zwt',
+            title: 'wazaiii x 曾莞婷',
+            image: 'assets/team/張恩ㄐㄩ/three_photos_16x9_set3.jpg',
+            year: '2024',
+            client: '',
+
+            media: {
+              type: 'video',
+              url: 'https://www.instagram.com/reel/DGQYZFov7O7/embed/'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Director｜林哲甫',
+              'DOP｜王冠紳',
+              'GAFFER｜張恩郡'
+            ],
+
+            gallery: [
+            ]
+          },
+          
         ]
       }
 
