@@ -946,7 +946,7 @@ const TEAM = [
               'Production Company｜',
               '非常口影像製作有限公司',
               'Director｜王冠紳',
-              'DOP｜范峻愷
+              'DOP｜范峻愷'
             ],
 
             gallery: [
