@@ -1226,7 +1226,7 @@ const TEAM = [
 
             media: {
               type: 'instagram',
-              url: 'https://www.instagram.com/reel/DGQYZFov7O7/embed/'
+              url: 'https://www.instagram.com/reel/DIoTzB8T04b/embed/'
             },
 
             description:
