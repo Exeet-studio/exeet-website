@@ -936,7 +936,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/L73vfTy1e4&t=115s'
+              url: 'https://www.youtube.com/embed/L73vfTy1e4'
             },
 
             description:
