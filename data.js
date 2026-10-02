@@ -1217,12 +1217,6 @@ const TEAM = [
             ]
           },
 
-            gallery: [
-              'assets/team/works/qu-hong-gan-la-01.jpg',
-              'assets/team/works/qu-hong-gan-la-02.jpg'
-            ]
-          },
-
           {
             slug: 'line',
             title: 'HAND X Zhen Li【平行線】(Official Music Video )',
