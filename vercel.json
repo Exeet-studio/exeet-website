@@ -1,20 +1,4 @@
- {
-  "rewrites": [
-    {
-      "source": "/chunkai",
-      "destination": "/member.html?slug=fan-chun-kai"
-    },
-    {
-      "source": "/enchun",
-      "destination": "/member.html?slug=En-Chun-Chang"
-    },
-    {
-      "source": "/kuanshen",
-      "destination": "/member.html?slug=Kuan-Sheng-Wang"
-    }
-  ]
-}
-18:44 范峻愷 {
+{
   "redirects": [
     {
       "source": "/chunkai",
