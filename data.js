@@ -1397,6 +1397,9 @@ const TEAM = [
 
             gallery: [
             ]
+          }
+
+          ]
           },
 
            {
