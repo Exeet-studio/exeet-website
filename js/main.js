@@ -926,8 +926,13 @@ function renderMemberProjectMedia(work) {
   videoSection.hidden = false;
   videoIframe.src = work.media.url;
 
-  return;
+  if (work.media.type === 'instagram') {
+    videoSection.classList.add('instagram-media');
+  } else {
+    videoSection.classList.remove('instagram-media');
+  }
 
+  return;
 }
 
   if (
