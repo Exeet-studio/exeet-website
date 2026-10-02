@@ -1220,7 +1220,7 @@ const TEAM = [
           {
             slug: 'karencici',
             title: '操你媽逼殃',
-            image: 'assets/projects/rog.jpg',
+            image: 'assets/team/張恩ㄐㄩ/IMG_0386.PNG',
             year: '2026',
             client: 'Client Name',
 
