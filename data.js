@@ -574,7 +574,7 @@ const TEAM = [
             title: 'PNC-【Such a Vibe】Official Music Video',
             image: 'assets/team/愷/such a vibe/VS--YouTube-639PNC-SuchaVibeOfficialMusicVideo-YouTube-3’27”.jpg',
             year: '2025',
-            client: '',
+            client: 'PNC',
 
             media: {
               type: 'video',
@@ -603,7 +603,40 @@ const TEAM = [
               'assets/team/愷/such a vibe/VS--YouTube-639PNC-SuchaVibeOfficialMusicVideo-YouTube-2’36”.jpg'             
             ]
           },
-          
+
+          {
+            slug: '３３３',
+            title: '4MG ZL7 & 4MG Billy - 333 [Official Video] ',
+            image: 'assets/team/愷/333/VS--YouTube-4MGZL74MGBilly-333OfficialVideo-YouTube-0’13”.jpg',
+            year: '2024',
+            client: '4MG ZL7 & 4MG Billy',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/nbA_MkcmOW4'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Director｜saltting',
+              'DOP｜范峻愷',
+              'Producer｜Strawberry',
+            ],
+
+            gallery: [
+              'assets/team/愷/333/VS--YouTube-4MGZL74MGBilly-333OfficialVideo-YouTube-0’37”.jpg',
+              'assets/team/愷/333/VS--YouTube-4MGZL74MGBilly-333OfficialVideo-YouTube-1’18”.jpg',
+              'assets/team/愷/333/VS--YouTube-4MGZL74MGBilly-333OfficialVideo-YouTube-1’33”.jpg',
+              'assets/team/愷/333/VS--YouTube-4MGZL74MGBilly-333OfficialVideo-YouTube-1’46”.jpg',
+              'assets/team/愷/333/VS--YouTube-4MGZL74MGBilly-333OfficialVideo-YouTube-3’08”.jpg',
+              'assets/team/愷/333/VS--YouTube-4MGZL74MGBilly-333OfficialVideo-YouTube-3’14”.jpg',
+              'assets/team/愷/333/VS--YouTube-4MGZL74MGBilly-333OfficialVideo-YouTube-3’25”.jpg',
+              'assets/team/愷/333/VS--YouTube-4MGZL74MGBilly-333OfficialVideo-YouTube-3’26”.jpg'
+            ]
+          },
+
           {
             slug: 'Foggy',
             title: '林沛蕎 Lulu Lin《霧．忘我Foggy paradox 》Official Music Video',
@@ -741,7 +774,7 @@ const TEAM = [
             title: '2025誠品生活週年慶｜Let’s Go!氣場全開｜氣場全開篇10s',
             image: 'assets/team/愷/商案/VS--YouTube-692025LetsGo10s-YouTube-0’00”.jpg',
             year: '2025',
-            client: '',
+            client: '誠品生活',
 
             media: {
               type: 'video',
@@ -767,7 +800,7 @@ const TEAM = [
             title: '2025誠品生活週年慶｜ Let‘s Go!氣場全開｜氣場低迷篇10s',
             image: 'assets/team/愷/商案/VS--YouTube-692025LetsGo10s-YouTube-0’04” (2).jpg',
             year: '2025',
-            client: '',
+            client: '誠品生活',
 
             media: {
               type: 'video',
@@ -793,7 +826,7 @@ const TEAM = [
             title: 'ON乳清X江坤宇',
             image: 'assets/team/愷/商案/ON乳清X江坤宇 Final大檔 0-13 screenshot.png',
             year: '2024',
-            client: '',
+            client: 'ON乳清',
 
             media: {
               type: 'video',
@@ -818,7 +851,7 @@ const TEAM = [
             title: '第二屆金牌創世代 決賽精彩回顧',
             image: 'assets/team/愷/商案/VS--YouTube-69-YouTube-1’59”.jpg',
             year: '2023',
-            client: '',
+            client: '金牌啤酒',
 
             media: {
               type: 'video',
@@ -842,7 +875,7 @@ const TEAM = [
             title: '𝟮𝟬𝟮𝟰第三屆金牌創世代｜複賽花絮',
             image: 'assets/team/愷/商案/VS--YouTube-692024-YouTube-0’12”.jpg',
             year: '2024',
-            client: '',
+            client: '金牌啤酒',
 
             media: {
               type: 'video',
@@ -866,7 +899,7 @@ const TEAM = [
             title: '𝟮𝟬𝟮𝟰第三屆金牌創世代｜總決賽精彩花絮',
             image: 'assets/team/愷/商案/VS--YouTube-69-YouTube-1’32”.jpg',
             year: '2024',
-            client: '',
+            client: '金牌啤酒',
 
             media: {
               type: 'video',
@@ -1266,7 +1299,7 @@ const TEAM = [
             title: '2025誠品生活週年慶｜Let’s Go!氣場全開｜氣場全開篇10s',
             image: 'assets/team/愷/商案/VS--YouTube-692025LetsGo10s-YouTube-0’00”.jpg',
             year: '2025',
-            client: '',
+            client: '誠品生活',
 
             media: {
               type: 'video',
