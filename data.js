@@ -159,11 +159,11 @@ const PROJECTS = [
     category: 'mv',
     year: '2026',
     client: 'Artist / Label',
-    cover: 'assets/projects/project-02.PNG',
+    cover: '',
 
     media: {
       type: 'video',
-      url: 'https://www.youtube.com/embed/yK1tvN3xrfA'
+      url: ''
     },
 
     description: 'Music video project description goes here.',
@@ -293,7 +293,7 @@ const TEAM = [
     slug: 'Kuan-Sheng-Wang',
     name: '王冠紳',
     role: 'Creative Director',
-    image: 'assets/team/刀盾.jpeg',
+    image: 'assets/team/森/IMG_5310.jpg',
 
     description:
       '非常口影像製作有限公司共同創辦人<br><br>' +
@@ -308,14 +308,14 @@ const TEAM = [
 
           {
             slug: 'qu-hong-gan-la',
-            title: '去洪幹啦',
+            title: '',
             image: 'assets/projects/rog.jpg',
             year: '2026',
             client: 'Client Name',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/A0Bnt7J7tEE'
+              url: ''
             },
 
             description:
@@ -323,12 +323,12 @@ const TEAM = [
 
             credits: [
               'Director｜王冠紳',
-              'DOP｜王家瑋'
+              'DOP｜'
             ],
 
             gallery: [
-              'assets/team/works/qu-hong-gan-la-01.jpg',
-              'assets/team/works/qu-hong-gan-la-02.jpg'
+              '',
+              ''
             ]
           }
 
@@ -343,7 +343,7 @@ const TEAM = [
 
           {
             slug: 'jian-sha-zui',
-            title: '姦殺嘴',
+            title: '',
             image: 'assets/projects/rog.jpg',
             year: '2025',
             client: '',
