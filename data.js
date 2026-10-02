@@ -928,15 +928,15 @@ const TEAM = [
         items: [
           
 {
-            slug: 'your voice',
+            slug: 'lslh',
             title: '洪言翔《 我在海邊那天遇見了答案》 Official Music Video ',
-            image: 'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-1’54”.jpg',
-            year: '2026',
-            client: '洪言翔',
+            image: 'assets/team/愷/重生校舍/VS--YouTube-639-YouTube-0’33”.jpg',
+            year: '2024',
+            client: '新北市政府教育局',
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/4Odh94hZtFU'
+              url: 'https://www.youtube.com/embed/ZL73vfTy1e4&t=115s'
             },
 
             description:
@@ -944,21 +944,20 @@ const TEAM = [
 
             credits: [
               'Production Company｜',
-              '途遇影像工作室',
-              'Director｜Doz',
-              'Producer｜郭宥',
-              'DOP｜范峻愷'
+              '非常口影像製作有限公司',
+              'Director｜王冠紳',
+              'DOP｜范峻愷
             ],
 
             gallery: [
-              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-0’07”.jpg',
-              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-0’20”.jpg',
-              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-0’58”.jpg',
-              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-1’54”.jpg',
-              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-1’30” (1).jpg',
-              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-1’43”.jpg',
-              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-1’51”.jpg',
-              'assets/team/愷/我在海邊/VS--YouTube-639OfficialMusicVideoSingHomAnswersbythesea-YouTube-2’19” (1).jpg'
+              'assets/team/愷/重生校舍/VS--YouTube-639-YouTube-0’08”.jpg',
+              'assets/team/愷/重生校舍/VS--YouTube-639-YouTube-0’31”.jpg',
+              'assets/team/愷/重生校舍/VS--YouTube-639-YouTube-0’53”.jpg',
+              'assets/team/愷/重生校舍/VS--YouTube-639-YouTube-1’26”.jpg',
+              'assets/team/愷/重生校舍/VS--YouTube-639-YouTube-1’27”.jpg',
+              'assets/team/愷/重生校舍/VS--YouTube-639-YouTube-1’30”.jpg',
+              'assets/team/愷/重生校舍/VS--YouTube-639-YouTube-1’46”.jpg',
+              'assets/team/愷/重生校舍/VS--YouTube-639-YouTube-4’21”.jpg',
             ]
           }
         ]
