@@ -998,7 +998,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/watch?v=PEM9ZOW5eig&list=RDPEM9ZOW5eig&start_radio=1'
+              url: 'https://www.youtube.com/embed/PEM9ZOW5eig'
             },
 
             description:
@@ -1034,7 +1034,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/watch?v=hmP32hirkHE&list=RDhmP32hirkHE&start_radio=1'
+              url: 'https://www.youtube.com/embed/hmP32hirkHE'
             },
 
             description:
@@ -1069,7 +1069,7 @@ const TEAM = [
 
             media: {
               type: 'video',
-              url: 'https://www.youtube.com/embed/watch?v=bZ4pPWiDIM0&list=RDbZ4pPWiDIM0&start_radio=1'
+              url: 'https://www.youtube.com/embed/bZ4pPWiDIM0'
             },
 
             description:
