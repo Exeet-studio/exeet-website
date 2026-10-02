@@ -632,7 +632,7 @@ const TEAM = [
               'Director｜王冠紳',
               'PRODUCER｜陳秉億',
               'DOP｜范峻愷',
-              'GAFFER｜張恩郡'
+              'GAFFER｜張恩郡',
               'ART DESIGNER｜郭姸希',
             ],
 
