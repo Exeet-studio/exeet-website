@@ -484,7 +484,7 @@ const TEAM = [
             credits: [
               'Production Company｜',
               '途遇影像工作室',
-              'Director｜Doz'
+              'Director｜Doz',
               'Producer｜郭宥',
               'DOP｜范峻愷',
             ],
@@ -1309,10 +1309,10 @@ const TEAM = [
             title: 'wazaiii x 曾莞婷',
             image: 'assets/team/張恩ㄐㄩ/three_photos_16x9_set3.jpg',
             year: '2024',
-            client: '',
+            client: 'wazaiii',
 
             media: {
-              type: 'video',
+              type: 'instagram',
               url: 'https://www.instagram.com/reel/DGQYZFov7O7/embed/'
             },
 
