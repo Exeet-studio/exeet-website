@@ -468,8 +468,8 @@ const TEAM = [
 
           {
             slug: 'perfect landing',
-            title: '你說話的聲音好細 (Official Music Video) ',
-            image: '乱彈阿翔 Luantan Ascent × 法蘭 Fran〈完美落地 Perfect Landing〉',
+            title: '乱彈阿翔 Luantan Ascent × 法蘭 Fran〈完美落地 Perfect Landing〉',
+            image: 'assets/team/愷/完美落地截圖/Still 2026-11-19 164038_1.1.6.jpg',
             year: '2026',
             client: '臺北流行音樂中心',
 
