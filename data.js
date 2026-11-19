@@ -465,6 +465,43 @@ const TEAM = [
         category: 'mv',
 
         items: [
+
+          {
+            slug: 'perfect landing',
+            title: '你說話的聲音好細 (Official Music Video) ',
+            image: '乱彈阿翔 Luantan Ascent × 法蘭 Fran〈完美落地 Perfect Landing〉',
+            year: '2026',
+            client: '臺北流行音樂中心',
+
+            media: {
+              type: 'video',
+              url: 'https://www.youtube.com/embed/aIb6gPDvjjA'
+            },
+
+            description:
+              '',
+
+            credits: [
+              'Production Company｜',
+              'Lambda浪打',
+              'Producer｜郭宥',
+              'Director｜Saltting',
+              'DOP｜范峻愷',
+              'B Cam｜施濬晨',
+              'GAFFER｜張恩郡'
+            ],
+
+            gallery: [
+              'assets/team/愷/完美落地截圖/Still 2026-11-19 164038_1.1.3.jpg',
+              'assets/team/愷/完美落地截圖/Still 2026-11-19 164038_1.1.5.jpg',
+               'assets/team/愷/完美落地截圖/Still 2026-11-19 164038_1.1.9.jpg',
+               'assets/team/愷/完美落地截圖/Still 2026-11-19 164038_1.1.11.jpg',
+               'assets/team/愷/完美落地截圖/Still 2026-11-19 164038_1.1.4.jpg',
+               'assets/team/愷/完美落地截圖/Still 2026-11-19 164038_1.1.8.jpg',
+               'assets/team/愷/完美落地截圖/Still 2026-11-19 164038_1.1.2.jpg',
+               'assets/team/愷/完美落地截圖/Still 2026-11-19 164038_1.1.13.jpg'
+            ]
+          },
           
 {
             slug: 'your voice',
